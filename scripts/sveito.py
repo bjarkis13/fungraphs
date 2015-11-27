@@ -20,7 +20,7 @@ def convertDict():
 	f = codecs.open('breytingar.txt', 'r', encoding='iso-8859-15')
 	for i in f:
 		i = i.split()
-		if i[0] in dic: print '{} is already in dic!!'.format(i[0])
+		if i[0] in dic: print('{} is already in dic!!'.format(i[0]))
 
 		dic[i[0]] = i[1]
 
@@ -32,7 +32,7 @@ def convertDict():
 
 def printdic(dic):
 	for i in dic:
-		print '{}: {}'.format(i, dic[i])
+		print('{}: {}'.format(i, dic[i]))
 
 
 if __name__ == '__main__':
