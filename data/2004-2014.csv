@@ -1,196 +1,194 @@
-"Mannfjöldi eftir sveitarfélagi, kyni og aldri 1. desember 1997-2014"
-
-"Sveitarfélag";"Aldur";"2004 Alls";"2005 Alls";"2006 Alls";"2007 Alls";"2008 Alls";"2009 Alls";"2010 Alls";"2011 Alls";"2012 Alls";"2013 Alls";"2014 Alls"
-"Alls";"Alls";293291;299404;307261;312872;319756;317593;318236;319412;321585;325449;328910
-"Reykjavík";"Alls";113730;114800;116446;117721;119848;118427;118908;118785;119632;121116;121814
-"Kópavogur";"Alls";25784;26468;27536;28561;29957;30314;30697;31139;31676;32303;33095
-"Seltjarnarnes";"Alls";4547;4461;4467;4428;4410;4406;4327;4304;4332;4376;4415
-"Garğabær";"Alls";9036;9423;9529;9913;10358;10587;10895;11270;11450;14137;14450
-"Hafnarfjörğur";"Alls";21942;22451;23674;24839;25837;25872;26045;26434;26763;27325;27818
-"Sveitarfélagiğ Álftanes";"Alls";2024;2183;2278;2361;2510;2524;2479;2412;2417;-;-
-"Mosfellsbær";"Alls";6782;7157;7501;8147;8469;8527;8631;8822;8950;9084;9296
-"Kjalarneshreppur";"Alls";-;-;-;-;-;-;-;-;-;-;-
-"Kjósarhreppur";"Alls";145;162;181;191;196;195;204;219;204;219;216
-"Reykjanesbær";"Alls";10954;11346;11928;13256;14208;14081;13933;14156;14233;14524;14918
-"Grindavíkurbær";"Alls";2479;2624;2697;2760;2849;2841;2821;2827;2850;2889;2977
-"Sandgerği";"Alls";1398;1535;1663;1723;1750;1711;1677;1664;1579;1602;1586
-"Sveitarfélagiğ Garğur";"Alls";1322;1376;1486;1451;1542;1520;1456;1484;1428;1412;1432
-"Sveitarfélagiğ Vogar";"Alls";939;1018;1106;1225;1215;1195;1165;1130;1106;1128;1109
-"Akranes";"Alls";5655;5782;5955;6345;6630;6555;6600;6586;6636;6697;6753
-"Hvalfjarğarstrandarhreppur";"Alls";147;147;-;-;-;-;-;-;-;-;-
-"Skilmannahreppur";"Alls";167;214;-;-;-;-;-;-;-;-;-
-"Innri-Akraneshreppur";"Alls";117;113;-;-;-;-;-;-;-;-;-
-"Leirár- og Melahreppur";"Alls";130;129;-;-;-;-;-;-;-;-;-
-"Andakílshreppur";"Alls";-;-;-;-;-;-;-;-;-;-;-
-"Skorradalshreppur";"Alls";64;64;56;60;53;61;57;66;57;58;61
-"Lundarreykjadalshreppur";"Alls";-;-;-;-;-;-;-;-;-;-;-
-"Reykholtsdalshreppur";"Alls";-;-;-;-;-;-;-;-;-;-;-
-"Hálsahreppur";"Alls";-;-;-;-;-;-;-;-;-;-;-
-"Borgarfjarğarsveit";"Alls";670;732;-;-;-;-;-;-;-;-;-
-"Hvalfjarğarsveit";"Alls";-;-;616;683;641;626;617;624;602;619;633
-"Hvítársíğuhreppur";"Alls";84;83;-;-;-;-;-;-;-;-;-
-"Şverárhlíğarhreppur";"Alls";-;-;-;-;-;-;-;-;-;-;-
-"Borgarhreppur";"Alls";-;-;-;-;-;-;-;-;-;-;-
-"Álftaneshreppur";"Alls";-;-;-;-;-;-;-;-;-;-;-
-"Borgarbyggğ";"Alls";2593;2708;3713;3742;3747;3543;3484;3478;3482;3532;3542
-"Kolbeinsstağahreppur";"Alls";100;102;-;-;-;-;-;-;-;-;-
-"Grundarfjarğarbær";"Alls";938;974;954;918;921;910;903;904;904;873;897
-"Helgafellssveit";"Alls";47;55;58;58;59;64;61;57;58;54;53
-"Stykkishólmur";"Alls";1137;1165;1149;1103;1108;1090;1103;1111;1113;1099;1106
-"Skógarstrandarhreppur";"Alls";-;-;-;-;-;-;-;-;-;-;-
-"Eyja- og Miklaholtshreppur";"Alls";141;137;140;130;132;139;135;131;156;149;147
-"Snæfellsbær";"Alls";1717;1743;1702;1703;1717;1701;1724;1735;1716;1681;1680
-"Saurbæjarhreppur";"Alls";80;77;-;-;-;-;-;-;-;-;-
-"Dalabyggğ";"Alls";631;638;682;710;712;696;687;684;664;674;677
-"Bolungarvík";"Alls";934;918;905;904;962;968;887;890;924;949;927
-"Ísafjarğarbær";"Alls";4131;4109;4098;3963;3968;3897;3816;3758;3744;3654;3623
-"Reykhólahreppur";"Alls";260;255;251;266;279;292;278;270;279;274;269
-"Tálknafjarğarhreppur";"Alls";326;297;292;290;302;297;304;279;293;297;306
-"Vesturbyggğ";"Alls";1020;965;937;920;901;938;891;905;935;952;997
-"Súğavíkurhreppur";"Alls";235;235;229;214;215;205;194;182;179;204;206
-"Árneshreppur";"Alls";57;50;50;48;49;50;52;52;54;51;54
-"Kaldrananeshreppur";"Alls";117;112;101;102;110;114;106;105;100;104;109
-"Hólmavíkurhreppur (fyrir 2002)";"Alls";-;-;-;-;-;-;-;-;-;-;-
-"Kirkjubólshreppur";"Alls";-;-;-;-;-;-;-;-;-;-;-
-"Bæjarhreppur (Strandasıslu)";"Alls";103;105;100;102;98;96;100;100;-;-;-
-"Broddaneshreppur";"Alls";53;53;-;-;-;-;-;-;-;-;-
-"Hólmavíkurhreppur (eftir 2001)";"Alls";462;447;-;-;-;-;-;-;-;-;-
-"Strandabyggğ";"Alls";-;-;507;500;490;506;501;515;517;505;473
-"Siglufjörğur";"Alls";1386;1352;-;-;-;-;-;-;-;-;-
-"Sauğárkrókur";"Alls";-;-;-;-;-;-;-;-;-;-;-
-"Sveitarfélagiğ Skagafjörğur";"Alls";4141;4110;4078;4027;4077;4137;4100;4024;4007;3972;3908
-"Stağarhreppur (V-Húnavatnssıslu)";"Alls";-;-;-;-;-;-;-;-;-;-;-
-"Fremri-Torfustağahreppur";"Alls";-;-;-;-;-;-;-;-;-;-;-
-"Ytri-Torfustağahreppur";"Alls";-;-;-;-;-;-;-;-;-;-;-
-"Hvammstangahreppur";"Alls";-;-;-;-;-;-;-;-;-;-;-
-"Kirkjuhvammshreppur";"Alls";-;-;-;-;-;-;-;-;-;-;-
-"Şverárhreppur";"Alls";-;-;-;-;-;-;-;-;-;-;-
-"Şorkelshólshreppur";"Alls";-;-;-;-;-;-;-;-;-;-;-
-"Húnaşing vestra";"Alls";1175;1173;1167;1150;1142;1122;1120;1086;1174;1171;1169
-"Áshreppur";"Alls";73;66;-;-;-;-;-;-;-;-;-
-"Sveinsstağahreppur";"Alls";93;92;-;-;-;-;-;-;-;-;-
-"Torfalækjarhreppur";"Alls";92;92;-;-;-;-;-;-;-;-;-
-"Blönduóssbær";"Alls";917;903;892;895;908;879;900;880;873;888;859
-"Svínavatnshreppur";"Alls";116;106;-;-;-;-;-;-;-;-;-
-"Bólstağarhlíğarhreppur";"Alls";113;115;-;-;-;-;-;-;-;-;-
-"Engihlíğarhreppur";"Alls";-;-;-;-;-;-;-;-;-;-;-
-"Vindhælishreppur";"Alls";-;-;-;-;-;-;-;-;-;-;-
-"Sveitarfélagiğ Skagaströnd";"Alls";562;545;534;526;523;519;531;506;508;496;490
-"Skagahreppur";"Alls";-;-;-;-;-;-;-;-;-;-;-
-"Skagabyggğ";"Alls";101;99;96;106;102;106;105;104;100;98;99
-"Húnavatnshreppur";"Alls";-;-;463;451;426;433;419;413;404;411;416
-"Skefilsstağahreppur";"Alls";-;-;-;-;-;-;-;-;-;-;-
-"Skarğshreppur";"Alls";-;-;-;-;-;-;-;-;-;-;-
-"Stağarhreppur (Skagafjarğarsıslu)";"Alls";-;-;-;-;-;-;-;-;-;-;-
-"Seyluhreppur";"Alls";-;-;-;-;-;-;-;-;-;-;-
-"Lıtingsstağahreppur";"Alls";-;-;-;-;-;-;-;-;-;-;-
-"Akrahreppur";"Alls";215;225;222;204;217;208;205;197;195;208;195
-"Rípurhreppur";"Alls";-;-;-;-;-;-;-;-;-;-;-
-"Viğvíkurhreppur";"Alls";-;-;-;-;-;-;-;-;-;-;-
-"Hólahreppur";"Alls";-;-;-;-;-;-;-;-;-;-;-
-"Hofshreppur (Skagafjarğarsıslu)";"Alls";-;-;-;-;-;-;-;-;-;-;-
-"Fljótahreppur";"Alls";-;-;-;-;-;-;-;-;-;-;-
-"Akureyri";"Alls";16450;16736;16822;17253;17522;17563;17728;17869;17956;18073;18195
-"Norğurşing";"Alls";2426;2373;3023;2970;2998;2929;2917;2880;2863;2826;2806
-"Ólafsfjarğarbær";"Alls";980;946;-;-;-;-;-;-;-;-;-
-"Fjallabyggğ";"Alls";-;-;2261;2188;2129;2082;2037;2050;2013;2016;2041
-"Dalvík";"Alls";-;-;-;-;-;-;-;-;-;-;-
-"Dalvíkurbyggğ";"Alls";1946;1927;1966;1951;1942;1951;1958;1914;1859;1862;1857
-"Grímseyjarhreppur";"Alls";92;102;99;103;92;-;-;-;-;-;-
-"Svarfağardalshreppur";"Alls";-;-;-;-;-;-;-;-;-;-;-
-"Hríseyjarhreppur";"Alls";-;-;-;-;-;-;-;-;-;-;-
-"Árskógshreppur";"Alls";-;-;-;-;-;-;-;-;-;-;-
-"Arnarneshreppur";"Alls";183;174;176;171;178;177;-;-;-;-;-
-"Skriğuhreppur";"Alls";-;-;-;-;-;-;-;-;-;-;-
-"Öxnadalshreppur";"Alls";-;-;-;-;-;-;-;-;-;-;-
-"Glæsibæjarhreppur";"Alls";-;-;-;-;-;-;-;-;-;-;-
-"Eyjafjarğarsveit";"Alls";993;978;998;1009;1040;1030;1029;1034;1017;1024;1035
-"Hörgárbyggğ";"Alls";390;399;411;416;415;429;-;-;-;-;-
-"Hörgársveit";"Alls";-;-;-;-;-;-;599;583;566;567;568
-"Svalbarğsstrandarhreppur";"Alls";365;382;381;385;396;414;398;392;415;395;413
-"Grıtubakkahreppur";"Alls";393;366;368;357;338;337;334;351;358;356;368
-"Hálshreppur";"Alls";-;-;-;-;-;-;-;-;-;-;-
-"Ljósavatnshreppur";"Alls";-;-;-;-;-;-;-;-;-;-;-
-"Bárğdælahreppur";"Alls";-;-;-;-;-;-;-;-;-;-;-
-"Skútustağahreppur";"Alls";437;428;410;403;388;374;389;386;380;371;399
-"Reykdælahreppur";"Alls";-;-;-;-;-;-;-;-;-;-;-
-"Ağaldælahreppur";"Alls";265;256;257;261;-;-;-;-;-;-;-
-"Reykjahreppur";"Alls";-;-;-;-;-;-;-;-;-;-;-
-"Tjörneshreppur";"Alls";64;63;60;60;58;56;60;55;55;55;59
-"Şingeyjarsveit";"Alls";698;686;699;681;945;941;946;912;918;917;921
-"Kelduneshreppur";"Alls";103;100;-;-;-;-;-;-;-;-;-
-"Öxarfjarğarhreppur";"Alls";331;330;-;-;-;-;-;-;-;-;-
-"Raufarhafnarhreppur";"Alls";238;228;-;-;-;-;-;-;-;-;-
-"Svalbarğshreppur";"Alls";116;109;106;110;108;107;106;102;102;90;98
-"Şórshafnarhreppur";"Alls";411;417;-;-;-;-;-;-;-;-;-
-"Langanesbyggğ";"Alls";-;-;518;479;511;519;505;513;524;528;514
-"Seyğisfjörğur";"Alls";714;731;726;716;717;706;669;676;676;671;653
-"Neskaupstağur";"Alls";-;-;-;-;-;-;-;-;-;-;-
-"Eskifjörğur";"Alls";-;-;-;-;-;-;-;-;-;-;-
-"Fjarğabyggğ";"Alls";3175;3895;5705;5111;4736;4637;4573;4601;4621;4669;4747
-"Skeggjastağahreppur";"Alls";137;125;-;-;-;-;-;-;-;-;-
-"Vopnafjarğarhreppur";"Alls";732;725;712;701;674;682;670;675;687;697;675
-"Hlíğarhreppur";"Alls";-;-;-;-;-;-;-;-;-;-;-
-"Jökuldalshreppur";"Alls";-;-;-;-;-;-;-;-;-;-;-
-"Fljótsdalshreppur";"Alls";261;355;524;366;143;89;79;79;80;70;75
-"Fellahreppur";"Alls";-;-;-;-;-;-;-;-;-;-;-
-"Tunguhreppur";"Alls";-;-;-;-;-;-;-;-;-;-;-
-"Hjaltastağarhreppur";"Alls";-;-;-;-;-;-;-;-;-;-;-
-"Borgarfjarğarhreppur";"Alls";137;146;146;146;142;135;140;131;131;135;136
-"Norğur-Hérağ";"Alls";-;-;-;-;-;-;-;-;-;-;-
-"Skriğdalshreppur";"Alls";-;-;-;-;-;-;-;-;-;-;-
-"Vallahreppur";"Alls";-;-;-;-;-;-;-;-;-;-;-
-"Egilsstağir";"Alls";-;-;-;-;-;-;-;-;-;-;-
-"Eiğahreppur";"Alls";-;-;-;-;-;-;-;-;-;-;-
-"Mjóafjarğarhreppur";"Alls";38;42;-;-;-;-;-;-;-;-;-
-"Reyğarfjarğarhreppur";"Alls";-;-;-;-;-;-;-;-;-;-;-
-"Fáskrúğsfjarğarhreppur";"Alls";51;48;-;-;-;-;-;-;-;-;-
-"Búğahreppur";"Alls";-;-;-;-;-;-;-;-;-;-;-
-"Stöğvarhreppur";"Alls";-;-;-;-;-;-;-;-;-;-;-
-"Breiğdalshreppur";"Alls";249;232;244;218;197;209;205;189;180;187;188
-"Djúpavogshreppur";"Alls";479;458;463;450;456;439;448;463;453;471;427
-"Austur-Hérağ";"Alls";-;-;-;-;-;-;-;-;-;-;-
-"Austurbyggğ";"Alls";873;859;-;-;-;-;-;-;-;-;-
-"Fljótsdalshérağ";"Alls";3364;3905;4644;4073;3707;3465;3406;3404;3438;3476;3457
-"Bæjarhreppur (A-Skaftafellssıslu)";"Alls";-;-;-;-;-;-;-;-;-;-;-
-"Borgarhafnarhreppur";"Alls";-;-;-;-;-;-;-;-;-;-;-
-"Hofshreppur (A-Skaftafellssıslu)";"Alls";-;-;-;-;-;-;-;-;-;-;-
-"Hornarfjarğarbær";"Alls";-;-;-;-;-;-;-;-;-;-;-
-"Sveitarfélagiğ Hornafjörğur";"Alls";2225;2189;2186;2120;2110;2089;2116;2141;2167;2169;2149
-"Vestmannaeyjar";"Alls";4227;4175;4075;4040;4090;4129;4133;4193;4219;4246;4274
-"Selfoss";"Alls";-;-;-;-;-;-;-;-;-;-;-
-"Sveitarfélagiğ Árborg";"Alls";6522;6961;7280;7565;7928;7810;7818;7776;7833;7888;8035
-"Mırdalshreppur";"Alls";509;503;496;488;487;511;474;457;459;491;483
-"Skaftárhreppur";"Alls";506;490;485;466;467;450;447;442;445;453;459
-"Austur-Eyjafjallahreppur";"Alls";-;-;-;-;-;-;-;-;-;-;-
-"Vestur-Eyjafjallahreppur";"Alls";-;-;-;-;-;-;-;-;-;-;-
-"Austur-Landeyjahreppur";"Alls";-;-;-;-;-;-;-;-;-;-;-
-"Vestur-Landeyjahreppur";"Alls";-;-;-;-;-;-;-;-;-;-;-
-"Fljótshlíğarhreppur";"Alls";-;-;-;-;-;-;-;-;-;-;-
-"Hvolhreppur";"Alls";-;-;-;-;-;-;-;-;-;-;-
-"Rangárvallahreppur";"Alls";-;-;-;-;-;-;-;-;-;-;-
-"Ásahreppur";"Alls";150;164;158;171;182;190;194;204;192;195;216
-"Djúpárhreppur";"Alls";-;-;-;-;-;-;-;-;-;-;-
-"Holta- og Landsveit";"Alls";-;-;-;-;-;-;-;-;-;-;-
-"Rangárşing eystra";"Alls";1651;1672;1694;1741;1762;1744;1753;1744;1742;1703;1747
-"Rangárşing ytra";"Alls";1450;1459;1526;1547;1610;1545;1530;1504;1520;1563;1545
-"Gaulverjabæjarhreppur";"Alls";138;141;-;-;-;-;-;-;-;-;-
-"Stokkseyrarhreppur";"Alls";-;-;-;-;-;-;-;-;-;-;-
-"Eyrarbakkahreppur";"Alls";-;-;-;-;-;-;-;-;-;-;-
-"Sandvíkurhreppur";"Alls";-;-;-;-;-;-;-;-;-;-;-
-"Hraungerğishreppur";"Alls";196;200;-;-;-;-;-;-;-;-;-
-"Villingaholtshreppur";"Alls";183;185;-;-;-;-;-;-;-;-;-
-"Skeiğahreppur";"Alls";-;-;-;-;-;-;-;-;-;-;-
-"Gnúpverjahreppur";"Alls";-;-;-;-;-;-;-;-;-;-;-
-"Hrunamannahreppur";"Alls";754;767;786;794;794;789;793;771;781;784;786
-"Biskupstungnahreppur";"Alls";-;-;-;-;-;-;-;-;-;-;-
-"Laugardalshreppur";"Alls";-;-;-;-;-;-;-;-;-;-;-
-"Grímsneshreppur";"Alls";-;-;-;-;-;-;-;-;-;-;-
-"Şingvallahreppur";"Alls";-;-;-;-;-;-;-;-;-;-;-
-"Grafningshreppur";"Alls";-;-;-;-;-;-;-;-;-;-;-
-"Hveragerği";"Alls";2021;2089;2189;2274;2316;2302;2317;2275;2283;2312;2383
-"Sveitarfélagiğ Ölfus";"Alls";1725;1799;1854;1930;2002;1945;1909;1922;1902;1901;1894
-"Grímsnes- og Grafningshreppur";"Alls";344;356;375;379;444;415;401;420;423;416;434
-"Skeiğa- og Gnúpverjahreppur";"Alls";529;521;527;535;516;519;504;508;500;528;514
-"Bláskógabyggğ";"Alls";888;921;921;972;986;937;942;907;892;931;967
-"Flóahreppur";"Alls";-;-;551;576;592;595;591;601;641;628;617
+"SveitarfÃ©lag;""Aldur"";""2004 Alls"";""2005 Alls"";""2006 Alls"";""2007 Alls"";""2008 Alls"";""2009 Alls"";""2010 Alls"";""2011 Alls"";""2012 Alls"";""2013 Alls"";""2014 Alls"""
+"Alls;""Alls"";293291;299404;307261;312872;319756;317593;318236;319412;321585;325449;328910"
+"ReykjavÃ­k;""Alls"";113730;114800;116446;117721;119848;118427;118908;118785;119632;121116;121814"
+"KÃ³pavogur;""Alls"";25784;26468;27536;28561;29957;30314;30697;31139;31676;32303;33095"
+"Seltjarnarnes;""Alls"";4547;4461;4467;4428;4410;4406;4327;4304;4332;4376;4415"
+"GarÃ°abÃ¦r;""Alls"";9036;9423;9529;9913;10358;10587;10895;11270;11450;14137;14450"
+"HafnarfjÃ¶rÃ°ur;""Alls"";21942;22451;23674;24839;25837;25872;26045;26434;26763;27325;27818"
+"SveitarfÃ©lagiÃ° Ãlftanes;""Alls"";2024;2183;2278;2361;2510;2524;2479;2412;2417;-;-"
+"MosfellsbÃ¦r;""Alls"";6782;7157;7501;8147;8469;8527;8631;8822;8950;9084;9296"
+"Kjalarneshreppur;""Alls"";-;-;-;-;-;-;-;-;-;-;-"
+"KjÃ³sarhreppur;""Alls"";145;162;181;191;196;195;204;219;204;219;216"
+"ReykjanesbÃ¦r;""Alls"";10954;11346;11928;13256;14208;14081;13933;14156;14233;14524;14918"
+"GrindavÃ­kurbÃ¦r;""Alls"";2479;2624;2697;2760;2849;2841;2821;2827;2850;2889;2977"
+"SandgerÃ°i;""Alls"";1398;1535;1663;1723;1750;1711;1677;1664;1579;1602;1586"
+"SveitarfÃ©lagiÃ° GarÃ°ur;""Alls"";1322;1376;1486;1451;1542;1520;1456;1484;1428;1412;1432"
+"SveitarfÃ©lagiÃ° Vogar;""Alls"";939;1018;1106;1225;1215;1195;1165;1130;1106;1128;1109"
+"Akranes;""Alls"";5655;5782;5955;6345;6630;6555;6600;6586;6636;6697;6753"
+"HvalfjarÃ°arstrandarhreppur;""Alls"";147;147;-;-;-;-;-;-;-;-;-"
+"Skilmannahreppur;""Alls"";167;214;-;-;-;-;-;-;-;-;-"
+"Innri-Akraneshreppur;""Alls"";117;113;-;-;-;-;-;-;-;-;-"
+"LeirÃ¡r- og Melahreppur;""Alls"";130;129;-;-;-;-;-;-;-;-;-"
+"AndakÃ­lshreppur;""Alls"";-;-;-;-;-;-;-;-;-;-;-"
+"Skorradalshreppur;""Alls"";64;64;56;60;53;61;57;66;57;58;61"
+"Lundarreykjadalshreppur;""Alls"";-;-;-;-;-;-;-;-;-;-;-"
+"Reykholtsdalshreppur;""Alls"";-;-;-;-;-;-;-;-;-;-;-"
+"HÃ¡lsahreppur;""Alls"";-;-;-;-;-;-;-;-;-;-;-"
+"BorgarfjarÃ°arsveit;""Alls"";670;732;-;-;-;-;-;-;-;-;-"
+"HvalfjarÃ°arsveit;""Alls"";-;-;616;683;641;626;617;624;602;619;633"
+"HvÃ­tÃ¡rsÃ­Ã°uhreppur;""Alls"";84;83;-;-;-;-;-;-;-;-;-"
+"ÃverÃ¡rhlÃ­Ã°arhreppur;""Alls"";-;-;-;-;-;-;-;-;-;-;-"
+"Borgarhreppur;""Alls"";-;-;-;-;-;-;-;-;-;-;-"
+"Ãlftaneshreppur;""Alls"";-;-;-;-;-;-;-;-;-;-;-"
+"BorgarbyggÃ°;""Alls"";2593;2708;3713;3742;3747;3543;3484;3478;3482;3532;3542"
+"KolbeinsstaÃ°ahreppur;""Alls"";100;102;-;-;-;-;-;-;-;-;-"
+"GrundarfjarÃ°arbÃ¦r;""Alls"";938;974;954;918;921;910;903;904;904;873;897"
+"Helgafellssveit;""Alls"";47;55;58;58;59;64;61;57;58;54;53"
+"StykkishÃ³lmur;""Alls"";1137;1165;1149;1103;1108;1090;1103;1111;1113;1099;1106"
+"SkÃ³garstrandarhreppur;""Alls"";-;-;-;-;-;-;-;-;-;-;-"
+"Eyja- og Miklaholtshreppur;""Alls"";141;137;140;130;132;139;135;131;156;149;147"
+"SnÃ¦fellsbÃ¦r;""Alls"";1717;1743;1702;1703;1717;1701;1724;1735;1716;1681;1680"
+"SaurbÃ¦jarhreppur;""Alls"";80;77;-;-;-;-;-;-;-;-;-"
+"DalabyggÃ°;""Alls"";631;638;682;710;712;696;687;684;664;674;677"
+"BolungarvÃ­k;""Alls"";934;918;905;904;962;968;887;890;924;949;927"
+"ÃsafjarÃ°arbÃ¦r;""Alls"";4131;4109;4098;3963;3968;3897;3816;3758;3744;3654;3623"
+"ReykhÃ³lahreppur;""Alls"";260;255;251;266;279;292;278;270;279;274;269"
+"TÃ¡lknafjarÃ°arhreppur;""Alls"";326;297;292;290;302;297;304;279;293;297;306"
+"VesturbyggÃ°;""Alls"";1020;965;937;920;901;938;891;905;935;952;997"
+"SÃºÃ°avÃ­kurhreppur;""Alls"";235;235;229;214;215;205;194;182;179;204;206"
+"Ãrneshreppur;""Alls"";57;50;50;48;49;50;52;52;54;51;54"
+"Kaldrananeshreppur;""Alls"";117;112;101;102;110;114;106;105;100;104;109"
+"HÃ³lmavÃ­kurhreppur (fyrir 2002);""Alls"";-;-;-;-;-;-;-;-;-;-;-"
+"KirkjubÃ³lshreppur;""Alls"";-;-;-;-;-;-;-;-;-;-;-"
+"BÃ¦jarhreppur (StrandasÃ½slu);""Alls"";103;105;100;102;98;96;100;100;-;-;-"
+"Broddaneshreppur;""Alls"";53;53;-;-;-;-;-;-;-;-;-"
+"HÃ³lmavÃ­kurhreppur (eftir 2001);""Alls"";462;447;-;-;-;-;-;-;-;-;-"
+"StrandabyggÃ°;""Alls"";-;-;507;500;490;506;501;515;517;505;473"
+"SiglufjÃ¶rÃ°ur;""Alls"";1386;1352;-;-;-;-;-;-;-;-;-"
+"SauÃ°Ã¡rkrÃ³kur;""Alls"";-;-;-;-;-;-;-;-;-;-;-"
+"SveitarfÃ©lagiÃ° SkagafjÃ¶rÃ°ur;""Alls"";4141;4110;4078;4027;4077;4137;4100;4024;4007;3972;3908"
+"StaÃ°arhreppur (V-HÃºnavatnssÃ½slu);""Alls"";-;-;-;-;-;-;-;-;-;-;-"
+"Fremri-TorfustaÃ°ahreppur;""Alls"";-;-;-;-;-;-;-;-;-;-;-"
+"Ytri-TorfustaÃ°ahreppur;""Alls"";-;-;-;-;-;-;-;-;-;-;-"
+"Hvammstangahreppur;""Alls"";-;-;-;-;-;-;-;-;-;-;-"
+"Kirkjuhvammshreppur;""Alls"";-;-;-;-;-;-;-;-;-;-;-"
+"ÃverÃ¡rhreppur;""Alls"";-;-;-;-;-;-;-;-;-;-;-"
+"ÃorkelshÃ³lshreppur;""Alls"";-;-;-;-;-;-;-;-;-;-;-"
+"HÃºnaÃ¾ing vestra;""Alls"";1175;1173;1167;1150;1142;1122;1120;1086;1174;1171;1169"
+"Ãshreppur;""Alls"";73;66;-;-;-;-;-;-;-;-;-"
+"SveinsstaÃ°ahreppur;""Alls"";93;92;-;-;-;-;-;-;-;-;-"
+"TorfalÃ¦kjarhreppur;""Alls"";92;92;-;-;-;-;-;-;-;-;-"
+"BlÃ¶nduÃ³ssbÃ¦r;""Alls"";917;903;892;895;908;879;900;880;873;888;859"
+"SvÃ­navatnshreppur;""Alls"";116;106;-;-;-;-;-;-;-;-;-"
+"BÃ³lstaÃ°arhlÃ­Ã°arhreppur;""Alls"";113;115;-;-;-;-;-;-;-;-;-"
+"EngihlÃ­Ã°arhreppur;""Alls"";-;-;-;-;-;-;-;-;-;-;-"
+"VindhÃ¦lishreppur;""Alls"";-;-;-;-;-;-;-;-;-;-;-"
+"SveitarfÃ©lagiÃ° SkagastrÃ¶nd;""Alls"";562;545;534;526;523;519;531;506;508;496;490"
+"Skagahreppur;""Alls"";-;-;-;-;-;-;-;-;-;-;-"
+"SkagabyggÃ°;""Alls"";101;99;96;106;102;106;105;104;100;98;99"
+"HÃºnavatnshreppur;""Alls"";-;-;463;451;426;433;419;413;404;411;416"
+"SkefilsstaÃ°ahreppur;""Alls"";-;-;-;-;-;-;-;-;-;-;-"
+"SkarÃ°shreppur;""Alls"";-;-;-;-;-;-;-;-;-;-;-"
+"StaÃ°arhreppur (SkagafjarÃ°arsÃ½slu);""Alls"";-;-;-;-;-;-;-;-;-;-;-"
+"Seyluhreppur;""Alls"";-;-;-;-;-;-;-;-;-;-;-"
+"LÃ½tingsstaÃ°ahreppur;""Alls"";-;-;-;-;-;-;-;-;-;-;-"
+"Akrahreppur;""Alls"";215;225;222;204;217;208;205;197;195;208;195"
+"RÃ­purhreppur;""Alls"";-;-;-;-;-;-;-;-;-;-;-"
+"ViÃ°vÃ­kurhreppur;""Alls"";-;-;-;-;-;-;-;-;-;-;-"
+"HÃ³lahreppur;""Alls"";-;-;-;-;-;-;-;-;-;-;-"
+"Hofshreppur (SkagafjarÃ°arsÃ½slu);""Alls"";-;-;-;-;-;-;-;-;-;-;-"
+"FljÃ³tahreppur;""Alls"";-;-;-;-;-;-;-;-;-;-;-"
+"Akureyri;""Alls"";16450;16736;16822;17253;17522;17563;17728;17869;17956;18073;18195"
+"NorÃ°urÃ¾ing;""Alls"";2426;2373;3023;2970;2998;2929;2917;2880;2863;2826;2806"
+"Ã“lafsfjarÃ°arbÃ¦r;""Alls"";980;946;-;-;-;-;-;-;-;-;-"
+"FjallabyggÃ°;""Alls"";-;-;2261;2188;2129;2082;2037;2050;2013;2016;2041"
+"DalvÃ­k;""Alls"";-;-;-;-;-;-;-;-;-;-;-"
+"DalvÃ­kurbyggÃ°;""Alls"";1946;1927;1966;1951;1942;1951;1958;1914;1859;1862;1857"
+"GrÃ­mseyjarhreppur;""Alls"";92;102;99;103;92;-;-;-;-;-;-"
+"SvarfaÃ°ardalshreppur;""Alls"";-;-;-;-;-;-;-;-;-;-;-"
+"HrÃ­seyjarhreppur;""Alls"";-;-;-;-;-;-;-;-;-;-;-"
+"ÃrskÃ³gshreppur;""Alls"";-;-;-;-;-;-;-;-;-;-;-"
+"Arnarneshreppur;""Alls"";183;174;176;171;178;177;-;-;-;-;-"
+"SkriÃ°uhreppur;""Alls"";-;-;-;-;-;-;-;-;-;-;-"
+"Ã–xnadalshreppur;""Alls"";-;-;-;-;-;-;-;-;-;-;-"
+"GlÃ¦sibÃ¦jarhreppur;""Alls"";-;-;-;-;-;-;-;-;-;-;-"
+"EyjafjarÃ°arsveit;""Alls"";993;978;998;1009;1040;1030;1029;1034;1017;1024;1035"
+"HÃ¶rgÃ¡rbyggÃ°;""Alls"";390;399;411;416;415;429;-;-;-;-;-"
+"HÃ¶rgÃ¡rsveit;""Alls"";-;-;-;-;-;-;599;583;566;567;568"
+"SvalbarÃ°sstrandarhreppur;""Alls"";365;382;381;385;396;414;398;392;415;395;413"
+"GrÃ½tubakkahreppur;""Alls"";393;366;368;357;338;337;334;351;358;356;368"
+"HÃ¡lshreppur;""Alls"";-;-;-;-;-;-;-;-;-;-;-"
+"LjÃ³savatnshreppur;""Alls"";-;-;-;-;-;-;-;-;-;-;-"
+"BÃ¡rÃ°dÃ¦lahreppur;""Alls"";-;-;-;-;-;-;-;-;-;-;-"
+"SkÃºtustaÃ°ahreppur;""Alls"";437;428;410;403;388;374;389;386;380;371;399"
+"ReykdÃ¦lahreppur;""Alls"";-;-;-;-;-;-;-;-;-;-;-"
+"AÃ°aldÃ¦lahreppur;""Alls"";265;256;257;261;-;-;-;-;-;-;-"
+"Reykjahreppur;""Alls"";-;-;-;-;-;-;-;-;-;-;-"
+"TjÃ¶rneshreppur;""Alls"";64;63;60;60;58;56;60;55;55;55;59"
+"Ãingeyjarsveit;""Alls"";698;686;699;681;945;941;946;912;918;917;921"
+"Kelduneshreppur;""Alls"";103;100;-;-;-;-;-;-;-;-;-"
+"Ã–xarfjarÃ°arhreppur;""Alls"";331;330;-;-;-;-;-;-;-;-;-"
+"Raufarhafnarhreppur;""Alls"";238;228;-;-;-;-;-;-;-;-;-"
+"SvalbarÃ°shreppur;""Alls"";116;109;106;110;108;107;106;102;102;90;98"
+"ÃÃ³rshafnarhreppur;""Alls"";411;417;-;-;-;-;-;-;-;-;-"
+"LanganesbyggÃ°;""Alls"";-;-;518;479;511;519;505;513;524;528;514"
+"SeyÃ°isfjÃ¶rÃ°ur;""Alls"";714;731;726;716;717;706;669;676;676;671;653"
+"NeskaupstaÃ°ur;""Alls"";-;-;-;-;-;-;-;-;-;-;-"
+"EskifjÃ¶rÃ°ur;""Alls"";-;-;-;-;-;-;-;-;-;-;-"
+"FjarÃ°abyggÃ°;""Alls"";3175;3895;5705;5111;4736;4637;4573;4601;4621;4669;4747"
+"SkeggjastaÃ°ahreppur;""Alls"";137;125;-;-;-;-;-;-;-;-;-"
+"VopnafjarÃ°arhreppur;""Alls"";732;725;712;701;674;682;670;675;687;697;675"
+"HlÃ­Ã°arhreppur;""Alls"";-;-;-;-;-;-;-;-;-;-;-"
+"JÃ¶kuldalshreppur;""Alls"";-;-;-;-;-;-;-;-;-;-;-"
+"FljÃ³tsdalshreppur;""Alls"";261;355;524;366;143;89;79;79;80;70;75"
+"Fellahreppur;""Alls"";-;-;-;-;-;-;-;-;-;-;-"
+"Tunguhreppur;""Alls"";-;-;-;-;-;-;-;-;-;-;-"
+"HjaltastaÃ°arhreppur;""Alls"";-;-;-;-;-;-;-;-;-;-;-"
+"BorgarfjarÃ°arhreppur;""Alls"";137;146;146;146;142;135;140;131;131;135;136"
+"NorÃ°ur-HÃ©raÃ°;""Alls"";-;-;-;-;-;-;-;-;-;-;-"
+"SkriÃ°dalshreppur;""Alls"";-;-;-;-;-;-;-;-;-;-;-"
+"Vallahreppur;""Alls"";-;-;-;-;-;-;-;-;-;-;-"
+"EgilsstaÃ°ir;""Alls"";-;-;-;-;-;-;-;-;-;-;-"
+"EiÃ°ahreppur;""Alls"";-;-;-;-;-;-;-;-;-;-;-"
+"MjÃ³afjarÃ°arhreppur;""Alls"";38;42;-;-;-;-;-;-;-;-;-"
+"ReyÃ°arfjarÃ°arhreppur;""Alls"";-;-;-;-;-;-;-;-;-;-;-"
+"FÃ¡skrÃºÃ°sfjarÃ°arhreppur;""Alls"";51;48;-;-;-;-;-;-;-;-;-"
+"BÃºÃ°ahreppur;""Alls"";-;-;-;-;-;-;-;-;-;-;-"
+"StÃ¶Ã°varhreppur;""Alls"";-;-;-;-;-;-;-;-;-;-;-"
+"BreiÃ°dalshreppur;""Alls"";249;232;244;218;197;209;205;189;180;187;188"
+"DjÃºpavogshreppur;""Alls"";479;458;463;450;456;439;448;463;453;471;427"
+"Austur-HÃ©raÃ°;""Alls"";-;-;-;-;-;-;-;-;-;-;-"
+"AusturbyggÃ°;""Alls"";873;859;-;-;-;-;-;-;-;-;-"
+"FljÃ³tsdalshÃ©raÃ°;""Alls"";3364;3905;4644;4073;3707;3465;3406;3404;3438;3476;3457"
+"BÃ¦jarhreppur (A-SkaftafellssÃ½slu);""Alls"";-;-;-;-;-;-;-;-;-;-;-"
+"Borgarhafnarhreppur;""Alls"";-;-;-;-;-;-;-;-;-;-;-"
+"Hofshreppur (A-SkaftafellssÃ½slu);""Alls"";-;-;-;-;-;-;-;-;-;-;-"
+"HornarfjarÃ°arbÃ¦r;""Alls"";-;-;-;-;-;-;-;-;-;-;-"
+"SveitarfÃ©lagiÃ° HornafjÃ¶rÃ°ur;""Alls"";2225;2189;2186;2120;2110;2089;2116;2141;2167;2169;2149"
+"Vestmannaeyjar;""Alls"";4227;4175;4075;4040;4090;4129;4133;4193;4219;4246;4274"
+"Selfoss;""Alls"";-;-;-;-;-;-;-;-;-;-;-"
+"SveitarfÃ©lagiÃ° Ãrborg;""Alls"";6522;6961;7280;7565;7928;7810;7818;7776;7833;7888;8035"
+"MÃ½rdalshreppur;""Alls"";509;503;496;488;487;511;474;457;459;491;483"
+"SkaftÃ¡rhreppur;""Alls"";506;490;485;466;467;450;447;442;445;453;459"
+"Austur-Eyjafjallahreppur;""Alls"";-;-;-;-;-;-;-;-;-;-;-"
+"Vestur-Eyjafjallahreppur;""Alls"";-;-;-;-;-;-;-;-;-;-;-"
+"Austur-Landeyjahreppur;""Alls"";-;-;-;-;-;-;-;-;-;-;-"
+"Vestur-Landeyjahreppur;""Alls"";-;-;-;-;-;-;-;-;-;-;-"
+"FljÃ³tshlÃ­Ã°arhreppur;""Alls"";-;-;-;-;-;-;-;-;-;-;-"
+"Hvolhreppur;""Alls"";-;-;-;-;-;-;-;-;-;-;-"
+"RangÃ¡rvallahreppur;""Alls"";-;-;-;-;-;-;-;-;-;-;-"
+"Ãsahreppur;""Alls"";150;164;158;171;182;190;194;204;192;195;216"
+"DjÃºpÃ¡rhreppur;""Alls"";-;-;-;-;-;-;-;-;-;-;-"
+"Holta- og Landsveit;""Alls"";-;-;-;-;-;-;-;-;-;-;-"
+"RangÃ¡rÃ¾ing eystra;""Alls"";1651;1672;1694;1741;1762;1744;1753;1744;1742;1703;1747"
+"RangÃ¡rÃ¾ing ytra;""Alls"";1450;1459;1526;1547;1610;1545;1530;1504;1520;1563;1545"
+"GaulverjabÃ¦jarhreppur;""Alls"";138;141;-;-;-;-;-;-;-;-;-"
+"Stokkseyrarhreppur;""Alls"";-;-;-;-;-;-;-;-;-;-;-"
+"Eyrarbakkahreppur;""Alls"";-;-;-;-;-;-;-;-;-;-;-"
+"SandvÃ­kurhreppur;""Alls"";-;-;-;-;-;-;-;-;-;-;-"
+"HraungerÃ°ishreppur;""Alls"";196;200;-;-;-;-;-;-;-;-;-"
+"Villingaholtshreppur;""Alls"";183;185;-;-;-;-;-;-;-;-;-"
+"SkeiÃ°ahreppur;""Alls"";-;-;-;-;-;-;-;-;-;-;-"
+"GnÃºpverjahreppur;""Alls"";-;-;-;-;-;-;-;-;-;-;-"
+"Hrunamannahreppur;""Alls"";754;767;786;794;794;789;793;771;781;784;786"
+"Biskupstungnahreppur;""Alls"";-;-;-;-;-;-;-;-;-;-;-"
+"Laugardalshreppur;""Alls"";-;-;-;-;-;-;-;-;-;-;-"
+"GrÃ­msneshreppur;""Alls"";-;-;-;-;-;-;-;-;-;-;-"
+"Ãingvallahreppur;""Alls"";-;-;-;-;-;-;-;-;-;-;-"
+"Grafningshreppur;""Alls"";-;-;-;-;-;-;-;-;-;-;-"
+"HveragerÃ°i;""Alls"";2021;2089;2189;2274;2316;2302;2317;2275;2283;2312;2383"
+"SveitarfÃ©lagiÃ° Ã–lfus;""Alls"";1725;1799;1854;1930;2002;1945;1909;1922;1902;1901;1894"
+"GrÃ­msnes- og Grafningshreppur;""Alls"";344;356;375;379;444;415;401;420;423;416;434"
+"SkeiÃ°a- og GnÃºpverjahreppur;""Alls"";529;521;527;535;516;519;504;508;500;528;514"
+"BlÃ¡skÃ³gabyggÃ°;""Alls"";888;921;921;972;986;937;942;907;892;931;967"
+"FlÃ³ahreppur;""Alls"";-;-;551;576;592;595;591;601;641;628;617"

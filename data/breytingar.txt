@@ -1,211 +1,210 @@
-Fyrir					Eftir
-=============================================================
-Sléttuhreppur				Ísafjarğarkaupstağur
-Grunnavíkurhreppur			Snæfjallahreppur
-Eyrarhreppur 				Ísafjarğarkaupstağur
-Hnífsdalur				Ísafjarğarkaupstağur
-Flateyjarhreppur			Hálshreppur
-Loğmundarfjarğarhreppur			Borgarfjarğarhreppur
-Dyrhólahreppur				Mırdalshreppur
-Hvammshreppur				Mırdalshreppur
-Klofningshreppur			Fellsstrandarhreppur
-Geiradalshreppur			Reykhólahreppur
-Reykhólahreppur				Reykhólahreppur
-Gufudalshreppur				Reykhólahreppur
-Múlahreppur				Reykhólahreppur
-Flateyjarhreppur			Reykhólahreppur
-Ketildalahreppur			Bíldudalshreppur
-Suğurfjarğarhreppur			Bíldudalshreppur
-Hrófbergshreppur			Hólmavíkurhreppur
-Haganeshreppur				Fljótahreppur
-Holtshreppur				Fljótahreppur
-Helgustağahreppur			Eskifjarğarkaupstağur
-Selvogshreppur				Ölfushreppur
-Fróğárhreppur				Ólafsvíkurkaupstağur
-Auğkúluhreppur				Şingeyrarhreppur
-Seyğisfjarğarhreppur			Seyğisfjarğarkaupstağur
-Hofsóshreppur				Hofshreppur
-Fellshreppur				Hofshreppur
-Hörglandshreppur			Skaftárhreppur
-Kirkjubæjarhreppur			Skaftárhreppur
-Skaftártunguhreppur			Skaftárhreppur
-Leiğvallahreppur			Skaftárhreppur
-Álftavershreppur			Skaftárhreppur
-Hrafnagilshreppur			Eyjafjarğarsveit
-Saurbæjarhreppur			Eyjafjarğarsveit
-Öngulsstağahreppur			Eyjafjarğarsveit
-Presthólahreppur			Öxarfjarğarhreppur
-Hörğudalshreppur 			Suğurdalahreppur
-Miğdalahreppur				Suğurdalahreppur
-Fellshreppur 				Broddaneshreppur
-Óspakseyrarhreppur 			Broddaneshreppur
-Beruneshreppur 				Djúpavogshreppur
-Geithellnahreppur			Djúpavogshreppur
-Búlandshreppur				Djúpavogshreppur
-Landmannahreppur			Holta- og Landsveit
-Holtahreppur 				Holta- og Landsveit
-Fjallahreppur 				Öxarfjarğarhreppur
-Suğurdalahreppur 			Dalabyggğ
-Haukadalshreppur			Dalabyggğ
-Laxárdalshreppur			Dalabyggğ
-Hvammshreppur				Dalabyggğ
-Fellsstrandarhreppur			Dalabyggğ
-Skarğshreppur				Dalabyggğ
-Stağarsveit				Snæfellsbær
-Breiğuvíkurhreppur			Snæfellsbær
-Neshreppur utan Ennis			Snæfellsbær
-Ólafsvíkurbær				Snæfellsbær
-Hafnahreppur				Reykjanesbær
-Keflavíkurbær				Reykjanesbær
-Njarğvíkurbær 				Reykjanesbær
-Norğfjarğarhreppur			Neskaupstağur
-Barğastrandarhreppur			Vesturbyggğ
-Rauğasandshreppur			Vesturbyggğ
-Patrekshreppur				Vesturbyggğ
-Bíldudalshreppur			Vesturbyggğ
-Sauğaneshreppur				Şórshafnarhreppur
-Norğurárdalshreppur			Borgarbyggğ
-Stafholtstungnahreppur			Borgarbyggğ
-Borgarnesbær 				Borgarbyggğ
-Hraunhreppur				Borgarbyggğ
-Eyjarhreppur				Eyja-og Miklaholtshreppur
-Miklaholtshreppur			Eyja-og Miklaholtshreppur
-Nauteyrarhreppur í N-Ísafjarğarsıslu	Hólmavíkurhreppur
-Hólmavíkurhreppur í Strandasıslu	Hólmavíkurhreppur
-Snæfjallahreppur í N-Ísafjarğarsıslu	Ísafjarğarkaupstağur
-Helgafellssveit				Stykkishólmur
-Höfn 					Hornafjarğarbær
-Nesjahreppur				Hornafjarğarbær
-Mırahreppur				Hornafjarğarbær
-Ögurhreppur				Súğavíkurhreppur
-Reykjarfjarğarhreppur 			Súğavíkurhreppur
-Ísafjarğarkaupstağur 			Ísafjarğarbær
-Şingeyrarhreppur 			Ísafjarğarbær
-Mırahreppur				Ísafjarğarbær
-Flateyrarhreppur			Ísafjarğarbær
-Mosvallahreppur				Ísafjarğarbær
-Suğureyrarhreppur			Ísafjarğarbær
-Hlíğarhreppur 				Norğur- Hérağ
-Jökuldalshreppur			Norğur- Hérağ
-Tunguhreppur				Norğur- Hérağ
-Skógarstrandarhreppur 			Dalabyggğ
-Kjalarneshreppur			Reykjavíkurborg
-Skriğdalshreppur			Austur- Hérağ
-Vallahreppur				Austur- Hérağ
-Egilsstağabær				Austur- Hérağ
-Eiğahreppur				Austur- Hérağ
-Hjaltastağarhreppur			Austur- Hérağ
-Dalvíkurkaupstağur			Dalvíkurbyggğ
-Svarfağardalshreppur 			Dalvíkurbyggğ
-Árskógshreppur				Dalvíkurbyggğ
-Grímsneshreppur				Grímsnes- og Grafningshreppur
-Grafningshreppur 			Grímsnes- og Grafningshreppur
-Sauğárkrókskaupstağur 			Sveitarfélagiğ Skagafjörğur
-Skefilsstağahreppur 			Sveitarfélagiğ Skagafjörğur
-Skarğshreppur				Sveitarfélagiğ Skagafjörğur
-Stağarhreppur 				Sveitarfélagiğ Skagafjörğur
-Seyluhreppur				Sveitarfélagiğ Skagafjörğur
-Lıtingsstağahreppur			Sveitarfélagiğ SkagafjörğurSveitarfélagiğ Skagafjörğur
-Rípurhreppur				Sveitarfélagiğ Skagafjörğur
-Viğvíkurhreppur				Sveitarfélagiğ Skagafjörğur
-Hólahreppur 				Sveitarfélagiğ Skagafjörğur
-Hofshreppur 				Sveitarfélagiğ Skagafjörğur
-Fljótahreppur 				Sveitarfélagiğ Skagafjörğur
-Neskaupstağur 				Fjarğabyggğ
-Eskifjarğarkaupstağur 			Fjarğabyggğ
-Reyğarfjarğarhreppur			Fjarğabyggğ
-Stağarhreppur 				Húnaşing vestra
-Fremri Torfustağahreppur		Húnaşing vestra
-Ytri Torfustağahreppur			Húnaşing vestra
-Hvammstangahreppur 			Húnaşing vestra
-Kirkjuhvammshreppur 			Húnaşing vestra
-Şverárhreppur 				Húnaşing vestra
-Şorkelshólshreppur 			Húnaşing vestra
-Bæjarhreppur 				Sveitarfélagiğ Hornafjörğur
-Borgarhafnarhreppur			Sveitarfélagiğ Hornafjörğur
-Hofshreppur 				Sveitarfélagiğ Hornafjörğur
-Hornafjarğarbær				Sveitarfélagiğ Hornafjörğur
-Selfosskaupstağur			Sveitarfélagiğ Árborg
-Stokkseyrarhreppur			Sveitarfélagiğ Árborg
-Eyrarbakkahreppur			Sveitarfélagiğ Árborg
-Sandvíkurhreppur			Sveitarfélagiğ Árborg
-Şverárhlíğarhreppur 			Borgarbyggğ
-Borgarbyggğ				Borgarbyggğ
-Borgarhreppur				Borgarbyggğ
-Álftaneshreppur				Borgarbyggğ
-Lundarreykjardalshreppur 		Borgarfjarğarsveit
-Hálsahreppur				Borgarfjarğarsveit
-Reykholtsdalshreppur 			Borgarfjarğarsveit
-Andakílshreppur				Borgarfjarğarsveit
-Skriğuhreppur				Hörgárbyggğ
-Öxnadalshreppur				Hörgárbyggğ
-Glæsibæjarhreppur			Hörgárbyggğ
-Engihlíğarhreppur			Blönduósbær
-Hálshreppur				Şingeyjarsveit
-Ljósavatnshreppur			Şingeyjarsveit
-Bárğdælahreppur				Şingeyjarsveit
-Reykdælahreppur				Şingeyjarsveit
-Austur-Eyjafjallahreppur		Rangárşing eystra
-Vestur-Eyjafjallahreppur		Rangárşing eystra
-Austur-Landeyjahreppur			Rangárşing eystra
-Vestur-Landeyjahreppur			Rangárşing eystra
-Fljótshlíğarhreppur			Rangárşing eystra
-Hvolhreppur				Rangárşing eystra
-Vindhælishreppur			Skagabyggğ
-Skagahreppur				Skagabyggğ
-Skeiğahreppur				Skeiğa- og Gnúpverjahreppur
-Gnúpverjahreppur			Skeiğa- og Gnúpverjahreppur
-Şingvallahreppur			Bláskógabyggğ
-Biskupstungnahreppur			Bláskógabyggğ
-Laugardalshreppur			Bláskógabyggğ
-Húsavíkurkaupstağur			Húsavíkurbær
-Reykjahreppur				Húsavíkurbær
-Holta- og Landsveit			Rangárşing ytra
-Djúpárhreppur				Rangárşing ytra
-Rangárvallahreppur			Rangárşing ytra
-Kirkjubólshreppur			Hólmavíkurhreppur
-Stöğvarhreppur				Austurbyggğ
-Búğahreppur				Austurbyggğ
-Gerğahreppur				Sveitarfélagiğ Garğur
-Bessastağahreppur 			Sveitarfélagiğ Álftanes
-Hríseyjarhreppur			Akureyrarkaupstağur
-Austur-Hérağ				Fljótsdalshérağ
-Fellahreppur				Fljótsdalshérağ
-Norğur-Hérağ				Fljótsdalshérağ
-Bólstağarhlíğarhreppur			Húnavatnshreppur
-Sveinsstağarhreppur			Húnavatnshreppur
-Svínavatnshreppur			Húnavatnshreppur
-Torfalækjarhreppur			Húnavatnshreppur
-Hvalfjarğarstrandarhreppur		Hvalfjarğarsveit
-Innri-Akraneshreppur			Hvalfjarğarsveit
-Leirár- og Melahreppur			Hvalfjarğarsveit
-Skilmannahreppur			Hvalfjarğarsveit
-Borgarfjarğarsveit			Borgarbyggğ
-Hvítársíğuhreppur			Borgarbyggğ
-Kolbeinsstağahreppur			Borgarbyggğ
-Mjóafjarğarhreppur			Fjarğabyggğ
-Fáskrúğsfjarğarhreppur			Fjarğabyggğ
-Austurbyggğ				Fjarğabyggğ
-Vatnsleysustrandarhreppur 		Sveitarfélagiğ Vogar
-Húsavíkurbær				Norğurşing
-Kelduneshreppur				Norğurşing
-Öxarfjarğarhreppur			Norğurşing
-Raufarhafnarhreppur			Norğurşing
-Siglufjarğarkaupstağur			Fjallabyggğ
-Ólafsfjarğarbær				Fjallabyggğ
-Gaulverjabæjarhreppur			Flóahreppur
-Hraungerğishreppur			Flóahreppur
-Villingaholtshreppur			Flóahreppur
-Saurbæjarhreppur			Dalabyggğ
-Áshreppur				Húnavatnshreppur
-Hólmavíkurhreppur			Strandabyggğ
-Broddaneshreppur			Strandabyggğ
-Skeggjastağahreppur			Langanesbyggğ
-Şórshafnarhreppur			Langanesbyggğ
-Höfğahreppur 				Sveitarfélagiğ Skagaströnd
-Ağaldælahreppur				Şingeyjarsveit
-Grímseyjarhreppur			Akureyrarbær
-Hörgárbyggğ				Hörgársveit
-Arnarneshreppur				Hörgársveit
-Bæjarhreppur				Húnaşing vestra
-Sveitarfélagiğ Álftanes 		Garğabær
+Fyrir,Eftir,Ãrtal
+SlÃ©ttuhreppur,ÃsafjarÃ°arkaupstaÃ°ur,1995
+GrunnavÃ­kurhreppur,SnÃ¦fjallahreppur,1964
+Eyrarhreppur,ÃsafjarÃ°arkaupstaÃ°ur,1971
+HnÃ­fsdalur,ÃsafjarÃ°arkaupstaÃ°ur,1971
+Flateyjarhreppur S-Ãing,HÃ¡lshreppur,1972
+LoÃ°mundarfjarÃ°arhreppur,BorgarfjarÃ°arhreppur,1972
+DyrhÃ³lahreppur,MÃ½rdalshreppur,1984
+Hvammshreppur V-SkaftafellssÃ½slu,MÃ½rdalshreppur,1984
+Klofningshreppur,Fellsstrandarhreppur,1986
+Geiradalshreppur,ReykhÃ³lahreppur,1987
+ReykhÃ³lahreppur,ReykhÃ³lahreppur,1987
+Gufudalshreppur,ReykhÃ³lahreppur,1987
+MÃºlahreppur,ReykhÃ³lahreppur,1987
+Flateyjarhreppur,ReykhÃ³lahreppur,1987
+Ketildalahreppur,BÃ­ldudalshreppur,1987
+SuÃ°urfjarÃ°arhreppur,BÃ­ldudalshreppur,1987
+HrÃ³fbergshreppur,HÃ³lmavÃ­kurhreppur,1987
+Haganeshreppur,FljÃ³tahreppur,1988
+Holtshreppur,FljÃ³tahreppur,1988
+HelgustaÃ°ahreppur,EskifjarÃ°arkaupstaÃ°ur,1988
+Selvogshreppur,Ã–lfushreppur,1989
+FrÃ³Ã°Ã¡rhreppur,Ã“lafsvÃ­kurkaupstaÃ°ur,1990
+AuÃ°kÃºluhreppur,Ãingeyrarhreppur,1990
+SeyÃ°isfjarÃ°arhreppur,SeyÃ°isfjarÃ°arkaupstaÃ°ur,1990
+HofsÃ³shreppur,Hofshreppur,1990
+Fellshreppur,Hofshreppur,1990
+HÃ¶rglandshreppur,SkaftÃ¡rhreppur,1990
+KirkjubÃ¦jarhreppur,SkaftÃ¡rhreppur,1990
+SkaftÃ¡rtunguhreppur,SkaftÃ¡rhreppur,1990
+LeiÃ°vallahreppur,SkaftÃ¡rhreppur,1990
+Ãlftavershreppur,SkaftÃ¡rhreppur,1990
+Hrafnagilshreppur,EyjafjarÃ°arsveit,1991
+SaurbÃ¦jarhreppur EyjafjarÃ°arsÃ½slu,EyjafjarÃ°arsveit,1991
+Ã–ngulsstaÃ°ahreppur,EyjafjarÃ°arsveit,1991
+PresthÃ³lahreppur,Ã–xarfjarÃ°arhreppur,1991
+HÃ¶rÃ°udalshreppur,SuÃ°urdalahreppur,1992
+MiÃ°dalahreppur,SuÃ°urdalahreppur,1992
+Fellshreppur Ã­ StrandasÃ½slu,Broddaneshreppur,1992
+Ã“spakseyrarhreppur,Broddaneshreppur,1992
+Beruneshreppur,DjÃºpavogshreppur,1992
+Geithellnahreppur,DjÃºpavogshreppur,1992
+BÃºlandshreppur,DjÃºpavogshreppur,1992
+Landmannahreppur,Holta- og Landsveit,1993
+Holtahreppur,Holta- og Landsveit,1994
+Fjallahreppur,Ã–xarfjarÃ°arhreppur,1994
+SuÃ°urdalahreppur,DalabyggÃ°,1994
+Haukadalshreppur,DalabyggÃ°,1994
+LaxÃ¡rdalshreppur,DalabyggÃ°,1994
+Hvammshreppur,DalabyggÃ°,1994
+Fellsstrandarhreppur,DalabyggÃ°,1994
+SkarÃ°shreppur DalasÃ½slu,DalabyggÃ°,1994
+StaÃ°arsveit,SnÃ¦fellsbÃ¦r,1994
+BreiÃ°uvÃ­kurhreppur,SnÃ¦fellsbÃ¦r,1994
+Neshreppur utan Ennis,SnÃ¦fellsbÃ¦r,1994
+Ã“lafsvÃ­kurbÃ¦r,SnÃ¦fellsbÃ¦r,1994
+Hafnahreppur,ReykjanesbÃ¦r,1994
+KeflavÃ­kurbÃ¦r,ReykjanesbÃ¦r,1994
+NjarÃ°vÃ­kurbÃ¦r,ReykjanesbÃ¦r,1994
+NorÃ°fjarÃ°arhreppur,NeskaupstaÃ°ur,1994
+BarÃ°astrandarhreppur,VesturbyggÃ°,1994
+RauÃ°asandshreppur,VesturbyggÃ°,1994
+Patrekshreppur,VesturbyggÃ°,1994
+BÃ­ldudalshreppur,VesturbyggÃ°,1994
+SauÃ°aneshreppur,ÃÃ³rshafnarhreppur,1994
+NorÃ°urÃ¡rdalshreppur,BorgarbyggÃ°,1994
+Stafholtstungnahreppur,BorgarbyggÃ°,1994
+BorgarnesbÃ¦r,BorgarbyggÃ°,1994
+Hraunhreppur,BorgarbyggÃ°,1994
+Eyjarhreppur,Eyja-og Miklaholtshreppur,1994
+Miklaholtshreppur,Eyja-og Miklaholtshreppur,1994
+Nauteyrarhreppur Ã­ N-ÃsafjarÃ°arsÃ½slu,HÃ³lmavÃ­kurhreppur,1994
+HÃ³lmavÃ­kurhreppur Ã­ StrandasÃ½slu,HÃ³lmavÃ­kurhreppur,1994
+SnÃ¦fjallahreppur Ã­ N-ÃsafjarÃ°arsÃ½slu,ÃsafjarÃ°arkaupstaÃ°ur,1994
+Helgafellssveit,StykkishÃ³lmur,1994
+HÃ¶fn,HornafjarÃ°arbÃ¦r,1994
+Nesjahreppur,HornafjarÃ°arbÃ¦r,1994
+MÃ½rahreppur ,HornafjarÃ°arbÃ¦r,1994
+Ã–gurhreppur,SÃºÃ°avÃ­kurhreppur,1995
+ReykjarfjarÃ°arhreppur,SÃºÃ°avÃ­kurhreppur,1995
+ÃsafjarÃ°arkaupstaÃ°ur,ÃsafjarÃ°arbÃ¦r,1996
+Ãingeyrarhreppur,ÃsafjarÃ°arbÃ¦r,1996
+MÃ½rahreppur V-ÃsafjarÃ°arsÃ½slu,ÃsafjarÃ°arbÃ¦r,1996
+Flateyrarhreppur,ÃsafjarÃ°arbÃ¦r,1996
+Mosvallahreppur,ÃsafjarÃ°arbÃ¦r,1996
+SuÃ°ureyrarhreppur,ÃsafjarÃ°arbÃ¦r,1996
+HlÃ­Ã°arhreppur,NorÃ°ur- HÃ©raÃ°,1997
+JÃ¶kuldalshreppur,NorÃ°ur- HÃ©raÃ°,1997
+Tunguhreppur,NorÃ°ur- HÃ©raÃ°,1997
+SkÃ³garstrandarhreppur,DalabyggÃ°,1998
+Kjalarneshreppur,ReykjavÃ­kurborg,1998
+SkriÃ°dalshreppur,Austur- HÃ©raÃ°,1998
+Vallahreppur,Austur- HÃ©raÃ°,1998
+EgilsstaÃ°abÃ¦r,Austur- HÃ©raÃ°,1998
+EiÃ°ahreppur,Austur- HÃ©raÃ°,1998
+HjaltastaÃ°arhreppur,Austur- HÃ©raÃ°,1998
+DalvÃ­kurkaupstaÃ°ur,DalvÃ­kurbyggÃ°,1998
+SvarfaÃ°ardalshreppur,DalvÃ­kurbyggÃ°,1998
+ÃrskÃ³gshreppur,DalvÃ­kurbyggÃ°,1998
+GrÃ­msneshreppur,GrÃ­msnes- og Grafningshreppur,1998
+Grafningshreppur,GrÃ­msnes- og Grafningshreppur,1998
+SauÃ°Ã¡rkrÃ³kskaupstaÃ°ur,SveitarfÃ©lagiÃ° SkagafjÃ¶rÃ°ur,1998
+SkefilsstaÃ°ahreppur,SveitarfÃ©lagiÃ° SkagafjÃ¶rÃ°ur,1998
+SkarÃ°shreppur SkagafjarÃ°arsÃ½slu,SveitarfÃ©lagiÃ° SkagafjÃ¶rÃ°ur,1998
+StaÃ°arhreppur SkagafjarÃ°arsÃ½slu,SveitarfÃ©lagiÃ° SkagafjÃ¶rÃ°ur,1998
+Seyluhreppur,SveitarfÃ©lagiÃ° SkagafjÃ¶rÃ°ur,1998
+LÃ½tingsstaÃ°ahreppur,SveitarfÃ©lagiÃ° SkagafjÃ¶rÃ°ur,1998
+RÃ­purhreppur,SveitarfÃ©lagiÃ° SkagafjÃ¶rÃ°ur,1998
+ViÃ°vÃ­kurhreppur,SveitarfÃ©lagiÃ° SkagafjÃ¶rÃ°ur,1998
+HÃ³lahreppur,SveitarfÃ©lagiÃ° SkagafjÃ¶rÃ°ur,1998
+Hofshreppur SkagafjarÃ°arsÃ½slu,SveitarfÃ©lagiÃ° SkagafjÃ¶rÃ°ur,1998
+FljÃ³tahreppur,SveitarfÃ©lagiÃ° SkagafjÃ¶rÃ°ur,1998
+NeskaupstaÃ°ur,FjarÃ°abyggÃ°,1998
+EskifjarÃ°arkaupstaÃ°ur,FjarÃ°abyggÃ°,1998
+ReyÃ°arfjarÃ°arhreppur,FjarÃ°abyggÃ°,1998
+StaÃ°arhreppur V-HÃºnavatnssÃ½slu,HÃºnaÃ¾ing vestra,1998
+Fremri TorfustaÃ°ahreppur,HÃºnaÃ¾ing vestra,1998
+Ytri TorfustaÃ°ahreppur,HÃºnaÃ¾ing vestra,1998
+Hvammstangahreppur,HÃºnaÃ¾ing vestra,1998
+Kirkjuhvammshreppur,HÃºnaÃ¾ing vestra,1998
+ÃverÃ¡rhreppur,HÃºnaÃ¾ing vestra,1998
+ÃorkelshÃ³lshreppur,HÃºnaÃ¾ing vestra,1998
+BÃ¦jarhreppur A-SkaftafellssÃ½slu,SveitarfÃ©lagiÃ° HornafjÃ¶rÃ°ur,1998
+Borgarhafnarhreppur,SveitarfÃ©lagiÃ° HornafjÃ¶rÃ°ur,1998
+Hofshreppur A-SkaftafellssÃ½slu,SveitarfÃ©lagiÃ° HornafjÃ¶rÃ°ur,1998
+HornafjarÃ°arbÃ¦r,SveitarfÃ©lagiÃ° HornafjÃ¶rÃ°ur,1998
+SelfosskaupstaÃ°ur,SveitarfÃ©lagiÃ° Ãrborg,1998
+Stokkseyrarhreppur,SveitarfÃ©lagiÃ° Ãrborg,1998
+Eyrarbakkahreppur,SveitarfÃ©lagiÃ° Ãrborg,1998
+SandvÃ­kurhreppur,SveitarfÃ©lagiÃ° Ãrborg,1998
+ÃverÃ¡rhlÃ­Ã°arhreppur,BorgarbyggÃ°,1998
+BorgarbyggÃ°,BorgarbyggÃ°,1998
+Borgarhreppur,BorgarbyggÃ°,1998
+Ãlftaneshreppur,BorgarbyggÃ°,1998
+Lundarreykjardalshreppur,BorgarfjarÃ°arsveit,1998
+HÃ¡lsahreppur,BorgarfjarÃ°arsveit,1998
+Reykholtsdalshreppur,BorgarfjarÃ°arsveit,1998
+AndakÃ­lshreppur,BorgarfjarÃ°arsveit,1998
+SkriÃ°uhreppur,HÃ¶rgÃ¡rbyggÃ°,2001
+Ã–xnadalshreppur,HÃ¶rgÃ¡rbyggÃ°,2001
+GlÃ¦sibÃ¦jarhreppur,HÃ¶rgÃ¡rbyggÃ°,2001
+EngihlÃ­Ã°arhreppur,BlÃ¶nduÃ³sbÃ¦r,2001
+HÃ¡lshreppur,Ãingeyjarsveit,2001
+LjÃ³savatnshreppur,Ãingeyjarsveit,2001
+BÃ¡rÃ°dÃ¦lahreppur,Ãingeyjarsveit,2001
+ReykdÃ¦lahreppur,Ãingeyjarsveit,2001
+Austur-Eyjafjallahreppur,RangÃ¡rÃ¾ing eystra,2001
+Vestur-Eyjafjallahreppur,RangÃ¡rÃ¾ing eystra,2001
+Austur-Landeyjahreppur,RangÃ¡rÃ¾ing eystra,2001
+Vestur-Landeyjahreppur,RangÃ¡rÃ¾ing eystra,2001
+FljÃ³tshlÃ­Ã°arhreppur,RangÃ¡rÃ¾ing eystra,2001
+Hvolhreppur,RangÃ¡rÃ¾ing eystra,2001
+VindhÃ¦lishreppur,SkagabyggÃ°,2001
+Skagahreppur,SkagabyggÃ°,2001
+SkeiÃ°ahreppur,SkeiÃ°a- og GnÃºpverjahreppur,2002
+GnÃºpverjahreppur,SkeiÃ°a- og GnÃºpverjahreppur,2002
+Ãingvallahreppur,BlÃ¡skÃ³gabyggÃ°,2002
+Biskupstungnahreppur,BlÃ¡skÃ³gabyggÃ°,2002
+Laugardalshreppur,BlÃ¡skÃ³gabyggÃ°,2002
+HÃºsavÃ­kurkaupstaÃ°ur,HÃºsavÃ­kurbÃ¦r,2002
+Reykjahreppur,HÃºsavÃ­kurbÃ¦r,2002
+Holta- og Landsveit,RangÃ¡rÃ¾ing ytra,2002
+DjÃºpÃ¡rhreppur,RangÃ¡rÃ¾ing ytra,2002
+RangÃ¡rvallahreppur,RangÃ¡rÃ¾ing ytra,2002
+KirkjubÃ³lshreppur,HÃ³lmavÃ­kurhreppur,2002
+StÃ¶Ã°varhreppur,AusturbyggÃ°,2003
+BÃºÃ°ahreppur,AusturbyggÃ°,2003
+GerÃ°ahreppur,SveitarfÃ©lagiÃ° GarÃ°ur,2004
+BessastaÃ°ahreppur,SveitarfÃ©lagiÃ° Ãlftanes,2004
+HrÃ­seyjarhreppur,AkureyrarkaupstaÃ°ur,2004
+Austur-HÃ©raÃ°,FljÃ³tsdalshÃ©raÃ°,2004
+Fellahreppur,FljÃ³tsdalshÃ©raÃ°,2004
+NorÃ°ur-HÃ©raÃ°,FljÃ³tsdalshÃ©raÃ°,2004
+BÃ³lstaÃ°arhlÃ­Ã°arhreppur,HÃºnavatnshreppur,2004
+SveinsstaÃ°arhreppur,HÃºnavatnshreppur,2004
+SvÃ­navatnshreppur,HÃºnavatnshreppur,2004
+TorfalÃ¦kjarhreppur,HÃºnavatnshreppur,2004
+HvalfjarÃ°arstrandarhreppur,HvalfjarÃ°arsveit,2004
+Innri-Akraneshreppur,HvalfjarÃ°arsveit,2004
+LeirÃ¡r- og Melahreppur,HvalfjarÃ°arsveit,2004
+Skilmannahreppur,HvalfjarÃ°arsveit,2004
+BorgarfjarÃ°arsveit,BorgarbyggÃ°,2005
+HvÃ­tÃ¡rsÃ­Ã°uhreppur,BorgarbyggÃ°,2005
+KolbeinsstaÃ°ahreppur,BorgarbyggÃ°,2005
+MjÃ³afjarÃ°arhreppur,FjarÃ°abyggÃ°,2005
+FÃ¡skrÃºÃ°sfjarÃ°arhreppur,FjarÃ°abyggÃ°,2005
+AusturbyggÃ°,FjarÃ°abyggÃ°,2005
+Vatnsleysustrandarhreppur,SveitarfÃ©lagiÃ° Vogar,2006
+HÃºsavÃ­kurbÃ¦r,NorÃ°urÃ¾ing,2006
+Kelduneshreppur,NorÃ°urÃ¾ing,2006
+Ã–xarfjarÃ°arhreppur,NorÃ°urÃ¾ing,2006
+Raufarhafnarhreppur,NorÃ°urÃ¾ing,2006
+SiglufjarÃ°arkaupstaÃ°ur,FjallabyggÃ°,2006
+Ã“lafsfjarÃ°arbÃ¦r,FjallabyggÃ°,2006
+GaulverjabÃ¦jarhreppur,FlÃ³ahreppur,2006
+HraungerÃ°ishreppur,FlÃ³ahreppur,2006
+Villingaholtshreppur,FlÃ³ahreppur,2006
+SaurbÃ¦jarhreppur DalasÃ½slu,DalabyggÃ°,2006
+Ãshreppur,HÃºnavatnshreppur,2006
+HÃ³lmavÃ­kurhreppur,StrandabyggÃ°,2006
+Broddaneshreppur,StrandabyggÃ°,2006
+SkeggjastaÃ°ahreppur,LanganesbyggÃ°,2006
+ÃÃ³rshafnarhreppur,LanganesbyggÃ°,2006
+HÃ¶fÃ°ahreppur,SveitarfÃ©lagiÃ° SkagastrÃ¶nd,2007
+AÃ°aldÃ¦lahreppur,Ãingeyjarsveit,2008
+GrÃ­mseyjarhreppur,AkureyrarbÃ¦r,2009
+HÃ¶rgÃ¡rbyggÃ°,HÃ¶rgÃ¡rsveit,2010
+Arnarneshreppur,HÃ¶rgÃ¡rsveit,2010
+BÃ¦jarhreppur StrandasÃ½slu,HÃºnaÃ¾ing vestra,2012
+SveitarfÃ©lagiÃ° Ãlftanes,GarÃ°abÃ¦r,2013
