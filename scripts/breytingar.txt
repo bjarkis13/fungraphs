@@ -1,0 +1,209 @@
+Sléttuhreppur				Ísafjarðarkaupstaður
+Grunnavíkurhreppur			Snæfjallahreppur
+Eyrarhreppur 				Ísafjarðarkaupstaður
+Hnífsdalur				Ísafjarðarkaupstaður
+Flateyjarhreppur			Hálshreppur
+Loðmundarfjarðarhreppur			Borgarfjarðarhreppur
+Dyrhólahreppur				Mýrdalshreppur
+Hvammshreppur				Mýrdalshreppur
+Klofningshreppur			Fellsstrandarhreppur
+Geiradalshreppur			Reykhólahreppur
+Reykhólahreppur				Reykhólahreppur
+Gufudalshreppur				Reykhólahreppur
+Múlahreppur				Reykhólahreppur
+Flateyjarhreppur			Reykhólahreppur
+Ketildalahreppur			Bíldudalshreppur
+Suðurfjarðarhreppur			Bíldudalshreppur
+Hrófbergshreppur			Hólmavíkurhreppur
+Haganeshreppur				Fljótahreppur
+Holtshreppur				Fljótahreppur
+Helgustaðahreppur			Eskifjarðarkaupstaður
+Selvogshreppur				Ölfushreppur
+Fróðárhreppur				Ólafsvíkurkaupstaður
+Auðkúluhreppur				Þingeyrarhreppur
+Seyðisfjarðarhreppur			Seyðisfjarðarkaupstaður
+Hofsóshreppur				Hofshreppur
+Fellshreppur				Hofshreppur
+Hörglandshreppur			Skaftárhreppur
+Kirkjubæjarhreppur			Skaftárhreppur
+Skaftártunguhreppur			Skaftárhreppur
+Leiðvallahreppur			Skaftárhreppur
+Álftavershreppur			Skaftárhreppur
+Hrafnagilshreppur			Eyjafjarðarsveit
+Saurbæjarhreppur			Eyjafjarðarsveit
+Öngulsstaðahreppur			Eyjafjarðarsveit
+Presthólahreppur			Öxarfjarðarhreppur
+Hörðudalshreppur 			Suðurdalahreppur
+Miðdalahreppur				Suðurdalahreppur
+Fellshreppur 				Broddaneshreppur
+Óspakseyrarhreppur 			Broddaneshreppur
+Beruneshreppur 				Djúpavogshreppur
+Geithellnahreppur			Djúpavogshreppur
+Búlandshreppur				Djúpavogshreppur
+Landmannahreppur			Holta- og Landsveit
+Holtahreppur 				Holta- og Landsveit
+Fjallahreppur 				Öxarfjarðarhreppur
+Suðurdalahreppur 			Dalabyggð
+Haukadalshreppur			Dalabyggð
+Laxárdalshreppur			Dalabyggð
+Hvammshreppur				Dalabyggð
+Fellsstrandarhreppur			Dalabyggð
+Skarðshreppur				Dalabyggð
+Staðarsveit				Snæfellsbær
+Breiðuvíkurhreppur			Snæfellsbær
+Neshreppur utan Ennis			Snæfellsbær
+Ólafsvíkurbær				Snæfellsbær
+Hafnahreppur				Reykjanesbær
+Keflavíkurbær				Reykjanesbær
+Njarðvíkurbær 				Reykjanesbær
+Norðfjarðarhreppur			Neskaupstaður
+Barðastrandarhreppur			Vesturbyggð
+Rauðasandshreppur			Vesturbyggð
+Patrekshreppur				Vesturbyggð
+Bíldudalshreppur			Vesturbyggð
+Sauðaneshreppur				Þórshafnarhreppur
+Norðurárdalshreppur			Borgarbyggð
+Stafholtstungnahreppur			Borgarbyggð
+Borgarnesbær 				Borgarbyggð
+Hraunhreppur				Borgarbyggð
+Eyjarhreppur				Eyja-og Miklaholtshreppur
+Miklaholtshreppur			Eyja-og Miklaholtshreppur
+Nauteyrarhreppur í N-Ísafjarðarsýslu	Hólmavíkurhreppur
+Hólmavíkurhreppur í Strandasýslu	Hólmavíkurhreppur
+Snæfjallahreppur í N-Ísafjarðarsýslu	Ísafjarðarkaupstaður
+Helgafellssveit				Stykkishólmur
+Höfn 					Hornafjarðarbær
+Nesjahreppur				Hornafjarðarbær
+Mýrahreppur				Hornafjarðarbær
+Ögurhreppur				Súðavíkurhreppur
+Reykjarfjarðarhreppur 			Súðavíkurhreppur
+Ísafjarðarkaupstaður 			Ísafjarðarbær
+Þingeyrarhreppur 			Ísafjarðarbær
+Mýrahreppur				Ísafjarðarbær
+Flateyrarhreppur			Ísafjarðarbær
+Mosvallahreppur				Ísafjarðarbær
+Suðureyrarhreppur			Ísafjarðarbær
+Hlíðarhreppur 				Norður- Hérað
+Jökuldalshreppur			Norður- Hérað
+Tunguhreppur				Norður- Hérað
+Skógarstrandarhreppur 			Dalabyggð
+Kjalarneshreppur			Reykjavíkurborg
+Skriðdalshreppur			Austur- Hérað
+Vallahreppur				Austur- Hérað
+Egilsstaðabær				Austur- Hérað
+Eiðahreppur				Austur- Hérað
+Hjaltastaðarhreppur			Austur- Hérað
+Dalvíkurkaupstaður			Dalvíkurbyggð
+Svarfaðardalshreppur 			Dalvíkurbyggð
+Árskógshreppur				Dalvíkurbyggð
+Grímsneshreppur				Grímsnes- og Grafningshreppur
+Grafningshreppur 			Grímsnes- og Grafningshreppur
+Sauðárkrókskaupstaður 			Sveitarfélagið Skagafjörður
+Skefilsstaðahreppur 			Sveitarfélagið Skagafjörður
+Skarðshreppur				Sveitarfélagið Skagafjörður
+Staðarhreppur 				Sveitarfélagið Skagafjörður
+Seyluhreppur				Sveitarfélagið Skagafjörður
+Lýtingsstaðahreppur			Sveitarfélagið SkagafjörðurSveitarfélagið Skagafjörður
+Rípurhreppur				Sveitarfélagið Skagafjörður
+Viðvíkurhreppur				Sveitarfélagið Skagafjörður
+Hólahreppur 				Sveitarfélagið Skagafjörður
+Hofshreppur 				Sveitarfélagið Skagafjörður
+Fljótahreppur 				Sveitarfélagið Skagafjörður
+Neskaupstaður 				Fjarðabyggð
+Eskifjarðarkaupstaður 			Fjarðabyggð
+Reyðarfjarðarhreppur			Fjarðabyggð
+Staðarhreppur 				Húnaþing vestra
+Fremri Torfustaðahreppur		Húnaþing vestra
+Ytri Torfustaðahreppur			Húnaþing vestra
+Hvammstangahreppur 			Húnaþing vestra
+Kirkjuhvammshreppur 			Húnaþing vestra
+Þverárhreppur 				Húnaþing vestra
+Þorkelshólshreppur 			Húnaþing vestra
+Bæjarhreppur 				Sveitarfélagið Hornafjörður
+Borgarhafnarhreppur			Sveitarfélagið Hornafjörður
+Hofshreppur 				Sveitarfélagið Hornafjörður
+Hornafjarðarbær				Sveitarfélagið Hornafjörður
+Selfosskaupstaður			Sveitarfélagið Árborg
+Stokkseyrarhreppur			Sveitarfélagið Árborg
+Eyrarbakkahreppur			Sveitarfélagið Árborg
+Sandvíkurhreppur			Sveitarfélagið Árborg
+Þverárhlíðarhreppur 			Borgarbyggð
+Borgarbyggð				Borgarbyggð
+Borgarhreppur				Borgarbyggð
+Álftaneshreppur				Borgarbyggð
+Lundarreykjardalshreppur 		Borgarfjarðarsveit
+Hálsahreppur				Borgarfjarðarsveit
+Reykholtsdalshreppur 			Borgarfjarðarsveit
+Andakílshreppur				Borgarfjarðarsveit
+Skriðuhreppur				Hörgárbyggð
+Öxnadalshreppur				Hörgárbyggð
+Glæsibæjarhreppur			Hörgárbyggð
+Engihlíðarhreppur			Blönduósbær
+Hálshreppur				Þingeyjarsveit
+Ljósavatnshreppur			Þingeyjarsveit
+Bárðdælahreppur				Þingeyjarsveit
+Reykdælahreppur				Þingeyjarsveit
+Austur-Eyjafjallahreppur		Rangárþing eystra
+Vestur-Eyjafjallahreppur		Rangárþing eystra
+Austur-Landeyjahreppur			Rangárþing eystra
+Vestur-Landeyjahreppur			Rangárþing eystra
+Fljótshlíðarhreppur			Rangárþing eystra
+Hvolhreppur				Rangárþing eystra
+Vindhælishreppur			Skagabyggð
+Skagahreppur				Skagabyggð
+Skeiðahreppur				Skeiða- og Gnúpverjahreppur
+Gnúpverjahreppur			Skeiða- og Gnúpverjahreppur
+Þingvallahreppur			Bláskógabyggð
+Biskupstungnahreppur			Bláskógabyggð
+Laugardalshreppur			Bláskógabyggð
+Húsavíkurkaupstaður			Húsavíkurbær
+Reykjahreppur				Húsavíkurbær
+Holta- og Landsveit			Rangárþing ytra
+Djúpárhreppur				Rangárþing ytra
+Rangárvallahreppur			Rangárþing ytra
+Kirkjubólshreppur			Hólmavíkurhreppur
+Stöðvarhreppur				Austurbyggð
+Búðahreppur				Austurbyggð
+Gerðahreppur				Sveitarfélagið Garður
+Bessastaðahreppur 			Sveitarfélagið Álftanes
+Hríseyjarhreppur			Akureyrarkaupstaður
+Austur-Hérað				Fljótsdalshérað
+Fellahreppur				Fljótsdalshérað
+Norður-Hérað				Fljótsdalshérað
+Bólstaðarhlíðarhreppur			Húnavatnshreppur
+Sveinsstaðarhreppur			Húnavatnshreppur
+Svínavatnshreppur			Húnavatnshreppur
+Torfalækjarhreppur			Húnavatnshreppur
+Hvalfjarðarstrandarhreppur		Hvalfjarðarsveit
+Innri-Akraneshreppur			Hvalfjarðarsveit
+Leirár- og Melahreppur			Hvalfjarðarsveit
+Skilmannahreppur			Hvalfjarðarsveit
+Borgarfjarðarsveit			Borgarbyggð
+Hvítársíðuhreppur			Borgarbyggð
+Kolbeinsstaðahreppur			Borgarbyggð
+Mjóafjarðarhreppur			Fjarðabyggð
+Fáskrúðsfjarðarhreppur			Fjarðabyggð
+Austurbyggð				Fjarðabyggð
+Vatnsleysustrandarhreppur 		Sveitarfélagið Vogar
+Húsavíkurbær				Norðurþing
+Kelduneshreppur				Norðurþing
+Öxarfjarðarhreppur			Norðurþing
+Raufarhafnarhreppur			Norðurþing
+Siglufjarðarkaupstaður			Fjallabyggð
+Ólafsfjarðarbær				Fjallabyggð
+Gaulverjabæjarhreppur			Flóahreppur
+Hraungerðishreppur			Flóahreppur
+Villingaholtshreppur			Flóahreppur
+Saurbæjarhreppur			Dalabyggð
+Áshreppur				Húnavatnshreppur
+Hólmavíkurhreppur			Strandabyggð
+Broddaneshreppur			Strandabyggð
+Skeggjastaðahreppur			Langanesbyggð
+Þórshafnarhreppur			Langanesbyggð
+Höfðahreppur 				Sveitarfélagið Skagaströnd
+Aðaldælahreppur				Þingeyjarsveit
+Grímseyjarhreppur			Akureyrarbær
+Hörgárbyggð				Hörgársveit
+Arnarneshreppur				Hörgársveit
+Bæjarhreppur				Húnaþing vestra
+Sveitarfélagið Álftanes 		Garðabær
