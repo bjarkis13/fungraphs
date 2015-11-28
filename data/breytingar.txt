@@ -67,12 +67,12 @@ Norðurárdalshreppur,Borgarbyggð,1994
 Stafholtstungnahreppur,Borgarbyggð,1994
 Borgarnesbær,Borgarbyggð,1994
 Hraunhreppur,Borgarbyggð,1994
-Eyjarhreppur,Eyja-og Miklaholtshreppur,1994
-Miklaholtshreppur,Eyja-og Miklaholtshreppur,1994
+Eyjarhreppur,Eyja- og Miklaholtshreppur,1994
+Miklaholtshreppur,Eyja- og Miklaholtshreppur,1994
 Nauteyrarhreppur í N-Ísafjarðarsýslu,Hólmavíkurhreppur,1994
 Hólmavíkurhreppur í Strandasýslu,Hólmavíkurhreppur,1994
 Snæfjallahreppur í N-Ísafjarðarsýslu,Ísafjarðarkaupstaður,1994
-Helgafellssveit,Stykkishólmur,1994
+Helgafellssveit,Stykkishólmsbær,1994
 Höfn,Hornafjarðarbær,1994
 Nesjahreppur,Hornafjarðarbær,1994
 Mýrahreppur ,Hornafjarðarbær,1994
@@ -97,8 +97,8 @@ Hjaltastaðarhreppur,Austur- Hérað,1998
 Dalvíkurkaupstaður,Dalvíkurbyggð,1998
 Svarfaðardalshreppur,Dalvíkurbyggð,1998
 Árskógshreppur,Dalvíkurbyggð,1998
-Grímsneshreppur,Grímsnes- og Grafningshreppur,1998
-Grafningshreppur,Grímsnes- og Grafningshreppur,1998
+Grímsneshreppur,Grímsnes- og Grafningshr.,1998
+Grafningshreppur,Grímsnes- og Grafningshr.,1998
 Sauðárkrókskaupstaður,Sveitarfélagið Skagafjörður,1998
 Skefilsstaðahreppur,Sveitarfélagið Skagafjörður,1998
 Skarðshreppur Skagafjarðarsýslu,Sveitarfélagið Skagafjörður,1998
@@ -152,8 +152,8 @@ Fljótshlíðarhreppur,Rangárþing eystra,2001
 Hvolhreppur,Rangárþing eystra,2001
 Vindhælishreppur,Skagabyggð,2001
 Skagahreppur,Skagabyggð,2001
-Skeiðahreppur,Skeiða- og Gnúpverjahreppur,2002
-Gnúpverjahreppur,Skeiða- og Gnúpverjahreppur,2002
+Skeiðahreppur,Skeiða- og Gnúpverjahr.,2002
+Gnúpverjahreppur,Skeiða- og Gnúpverjahr.,2002
 Þingvallahreppur,Bláskógabyggð,2002
 Biskupstungnahreppur,Bláskógabyggð,2002
 Laugardalshreppur,Bláskógabyggð,2002
@@ -203,8 +203,14 @@ Skeggjastaðahreppur,Langanesbyggð,2006
 Þórshafnarhreppur,Langanesbyggð,2006
 Höfðahreppur,Sveitarfélagið Skagaströnd,2007
 Aðaldælahreppur,Þingeyjarsveit,2008
-Grímseyjarhreppur,Akureyrarbær,2009
+Grímseyjarhreppur,Akureyrarkaupstaður,2009
 Hörgárbyggð,Hörgársveit,2010
 Arnarneshreppur,Hörgársveit,2010
 Bæjarhreppur Strandasýslu,Húnaþing vestra,2012
 Sveitarfélagið Álftanes,Garðabær,2013
+Austur- Hérað,Fljótsdalshérað,2004
+Norður- Hérað,Fljótsdalshérað,2004
+Ölfushreppur,Sveitarfélagið Ölfus,2004
+Hofshreppur,Sveitarfélagið Skagafjörður,1998
+Snæfjallahreppur,Ísafjarðarkaupstaður,1964
+Ólafsvíkurkaupstaður,Snæfellsbær,1994
