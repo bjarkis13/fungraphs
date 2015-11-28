@@ -1,32 +1,37 @@
-import codecs
-
 def listSveito():
 	s = []
-	#Fokk encodings
-	#Check if s is correct
-	f = codecs.open('sveitarfelog.txt', 'r', encoding='iso-8859-15')
-	for i in f:
-		i = i.split()[1]
-		s.append(i)
 
-	f.close()
+	#Hopefully this file is correct
+	with open('../data/sveitarfelog.txt', 'r') as f:
+		for i in f:
+			i = i.split(',')[1].strip()
+			s.append(i)
+
 	return s
 
-def convertDict():
+def convertDict(end=True):
 	s = listSveito()
 	dic = {}
 
-	#Fokk encodings
-	f = codecs.open('breytingar.txt', 'r', encoding='iso-8859-15')
-	for i in f:
-		i = i.split()
-		if i[0] in dic: print('{} is already in dic!!'.format(i[0]))
+	with open('../data/breytingar.txt', 'r') as f:
+		for i in f:
+			i = i.split(',')
+			if i[0] == 'Fyrir': continue
+			if i[0] in dic: print('{} is already in dic!!'.format(i[0]))
+			dic[i[0]] = i[1]
 
-		dic[i[0]] = i[1]
 
-
-	#Here we should do repeated applications of the script when
-	#dic[i] not in s
+	#Continuously apply changes until we are at modern times
+	if end:
+		for i in dic:
+			depth = 0
+			while dic[i] not in s:
+				for j in dic:
+					if dic[i] == j: dic[i] = dic[j]
+				depth += 1
+				if depth > 10:
+					print('Something is afoot, we stop at {}: {}'.format(i, dic[i]))
+					break
 
 	return dic
 
@@ -37,4 +42,4 @@ def printdic(dic):
 
 if __name__ == '__main__':
 	dic = convertDict()
-	printdic(dic)
+	#printdic(dic)
