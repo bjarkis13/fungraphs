@@ -1,3 +1,8 @@
+'''
+This file is used for creating a dictionary to convert
+municipalities to their modern equivelant
+'''
+
 def listSveito():
 	s = []
 
