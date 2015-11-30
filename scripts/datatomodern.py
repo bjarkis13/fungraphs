@@ -6,6 +6,12 @@ def fint(lis):
 	for i in range(len(lis)):
 		if lis[i] == '-': lis[i] = 0
 		else: lis[i] = int(lis[i])
+	return lis
+
+def nullis(s):
+	for i in s:
+		if i != 0: return False
+	return True
 
 def sumlis(s, l):
 	assert(len(s) == len(l))
@@ -23,9 +29,10 @@ def toModern():
 		#s[1] is always Alls
 		index = s[0]
 		data = fint(s[2:])
+		if nullis(data): return
 
 		#REYKJAVÍK -> REYKJAVÍKURBORG :S
-		print(modern)
+		#print(modern)
 
 		#Do actual conversion
 		if index not in modern:
@@ -33,7 +40,6 @@ def toModern():
 				index = dic[index]
 			except KeyError:
 				print('Something is wrong, {} is not in dic'.format(index))
-				exit()
 
 		if index in moderndata:
 			moderndata[index] = sumlis(moderndata[index], data)
@@ -50,4 +56,4 @@ def toModern():
 
 
 if __name__ == '__main__':
-	toModern()
+	print(toModern())
