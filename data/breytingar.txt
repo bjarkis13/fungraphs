@@ -22,7 +22,7 @@ Helgustaðahreppur,Eskifjarðarkaupstaður,1988
 Selvogshreppur,Ölfushreppur,1989
 Fróðárhreppur,Ólafsvíkurkaupstaður,1990
 Auðkúluhreppur,Þingeyrarhreppur,1990
-Seyðisfjarðarhreppur,Seyðisfjarðarkaupstaður,1990
+Seyðisfjarðarhreppur,Seyðisfjörður,1990
 Hofsóshreppur,Hofshreppur,1990
 Fellshreppur,Hofshreppur,1990
 Hörglandshreppur,Skaftárhreppur,1990
@@ -72,7 +72,7 @@ Miklaholtshreppur,Eyja- og Miklaholtshreppur,1994
 Nauteyrarhreppur í N-Ísafjarðarsýslu,Hólmavíkurhreppur,1994
 Hólmavíkurhreppur í Strandasýslu,Hólmavíkurhreppur,1994
 Snæfjallahreppur í N-Ísafjarðarsýslu,Ísafjarðarkaupstaður,1994
-Helgafellssveit,Stykkishólmsbær,1994
+Helgafellssveit,Stykkishólmur,1994
 Höfn,Hornafjarðarbær,1994
 Nesjahreppur,Hornafjarðarbær,1994
 Mýrahreppur ,Hornafjarðarbær,1994
@@ -88,7 +88,7 @@ Hlíðarhreppur,Norður- Hérað,1997
 Jökuldalshreppur,Norður- Hérað,1997
 Tunguhreppur,Norður- Hérað,1997
 Skógarstrandarhreppur,Dalabyggð,1998
-Kjalarneshreppur,Reykjavíkurborg,1998
+Kjalarneshreppur,Reykjavík,1998
 Skriðdalshreppur,Austur- Hérað,1998
 Vallahreppur,Austur- Hérað,1998
 Egilsstaðabær,Austur- Hérað,1998
@@ -167,7 +167,7 @@ Stöðvarhreppur,Austurbyggð,2003
 Búðahreppur,Austurbyggð,2003
 Gerðahreppur,Sveitarfélagið Garður,2004
 Bessastaðahreppur,Sveitarfélagið Álftanes,2004
-Hríseyjarhreppur,Akureyrarkaupstaður,2004
+Hríseyjarhreppur,Akureyri,2004
 Austur-Hérað,Fljótsdalshérað,2004
 Fellahreppur,Fljótsdalshérað,2004
 Norður-Hérað,Fljótsdalshérað,2004
@@ -203,7 +203,7 @@ Skeggjastaðahreppur,Langanesbyggð,2006
 Þórshafnarhreppur,Langanesbyggð,2006
 Höfðahreppur,Sveitarfélagið Skagaströnd,2007
 Aðaldælahreppur,Þingeyjarsveit,2008
-Grímseyjarhreppur,Akureyrarkaupstaður,2009
+Grímseyjarhreppur,Akureyri,2009
 Hörgárbyggð,Hörgársveit,2010
 Arnarneshreppur,Hörgársveit,2010
 Bæjarhreppur Strandasýslu,Húnaþing vestra,2012
