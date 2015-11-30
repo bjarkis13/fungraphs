@@ -69,7 +69,7 @@
 8710,Hrunamannahreppur
 8716,Hveragerði
 8717,Sveitarfélagið Ölfus
-8719,Grímsnes- og Grafningshr.
-8720,Skeiða- og Gnúpverjahr.
+8719,Grímsnes- og Grafningshreppur
+8720,Skeiða- og Gnúpverjahreppur
 8721,Bláskógabyggð
 8722,Flóahreppur

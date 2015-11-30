@@ -97,8 +97,8 @@ Hjaltastaðarhreppur,Austur- Hérað,1998
 Dalvíkurkaupstaður,Dalvíkurbyggð,1998
 Svarfaðardalshreppur,Dalvíkurbyggð,1998
 Árskógshreppur,Dalvíkurbyggð,1998
-Grímsneshreppur,Grímsnes- og Grafningshr.,1998
-Grafningshreppur,Grímsnes- og Grafningshr.,1998
+Grímsneshreppur,Grímsnes- og Grafningshreppur,1998
+Grafningshreppur,Grímsnes- og Grafningshreppur,1998
 Sauðárkrókskaupstaður,Sveitarfélagið Skagafjörður,1998
 Skefilsstaðahreppur,Sveitarfélagið Skagafjörður,1998
 Skarðshreppur Skagafjarðarsýslu,Sveitarfélagið Skagafjörður,1998
@@ -152,8 +152,8 @@ Fljótshlíðarhreppur,Rangárþing eystra,2001
 Hvolhreppur,Rangárþing eystra,2001
 Vindhælishreppur,Skagabyggð,2001
 Skagahreppur,Skagabyggð,2001
-Skeiðahreppur,Skeiða- og Gnúpverjahr.,2002
-Gnúpverjahreppur,Skeiða- og Gnúpverjahr.,2002
+Skeiðahreppur,Skeiða- og Gnúpverjahreppur,2002
+Gnúpverjahreppur,Skeiða- og Gnúpverjahreppur,2002
 Þingvallahreppur,Bláskógabyggð,2002
 Biskupstungnahreppur,Bláskógabyggð,2002
 Laugardalshreppur,Bláskógabyggð,2002
@@ -190,7 +190,7 @@ Húsavíkurbær,Norðurþing,2006
 Kelduneshreppur,Norðurþing,2006
 Öxarfjarðarhreppur,Norðurþing,2006
 Raufarhafnarhreppur,Norðurþing,2006
-Siglufjarðarkaupstaður,Fjallabyggð,2006
+Siglufjörður,Fjallabyggð,2006
 Ólafsfjarðarbær,Fjallabyggð,2006
 Gaulverjabæjarhreppur,Flóahreppur,2006
 Hraungerðishreppur,Flóahreppur,2006
