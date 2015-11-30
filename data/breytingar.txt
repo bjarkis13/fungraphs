@@ -172,7 +172,7 @@ Austur-Hérað,Fljótsdalshérað,2004
 Fellahreppur,Fljótsdalshérað,2004
 Norður-Hérað,Fljótsdalshérað,2004
 Bólstaðarhlíðarhreppur,Húnavatnshreppur,2004
-Sveinsstaðarhreppur,Húnavatnshreppur,2004
+Sveinsstaðahreppur,Húnavatnshreppur,2004
 Svínavatnshreppur,Húnavatnshreppur,2004
 Torfalækjarhreppur,Húnavatnshreppur,2004
 Hvalfjarðarstrandarhreppur,Hvalfjarðarsveit,2004
