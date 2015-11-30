@@ -38,7 +38,7 @@ Stykkishólmur;Alls;1137;1165;1149;1103;1108;1090;1103;1111;1113;1099;1106
 Skógarstrandarhreppur;Alls;-;-;-;-;-;-;-;-;-;-;-
 Eyja- og Miklaholtshreppur;Alls;141;137;140;130;132;139;135;131;156;149;147
 Snæfellsbær;Alls;1717;1743;1702;1703;1717;1701;1724;1735;1716;1681;1680
-Saurbæjarhreppur;Alls;80;77;-;-;-;-;-;-;-;-;-
+Saurbæjarhreppur Dalasýslu;Alls;80;77;-;-;-;-;-;-;-;-;-
 Dalabyggð;Alls;631;638;682;710;712;696;687;684;664;674;677
 Bolungarvík;Alls;934;918;905;904;962;968;887;890;924;949;927
 Ísafjarðarbær;Alls;4131;4109;4098;3963;3968;3897;3816;3758;3744;3654;3623
@@ -50,9 +50,9 @@ Súðavíkurhreppur;Alls;235;235;229;214;215;205;194;182;179;204;206
 Kaldrananeshreppur;Alls;117;112;101;102;110;114;106;105;100;104;109
 Hólmavíkurhreppur (fyrir 2002);Alls;-;-;-;-;-;-;-;-;-;-;-
 Kirkjubólshreppur;Alls;-;-;-;-;-;-;-;-;-;-;-
-Bæjarhreppur (Strandasýslu);Alls;103;105;100;102;98;96;100;100;-;-;-
+Bæjarhreppur Strandasýslu;Alls;103;105;100;102;98;96;100;100;-;-;-
 Broddaneshreppur;Alls;53;53;-;-;-;-;-;-;-;-;-
-Hólmavíkurhreppur (eftir 2001);Alls;462;447;-;-;-;-;-;-;-;-;-
+Hólmavíkurhreppur í Strandasýslu;Alls;462;447;-;-;-;-;-;-;-;-;-
 Strandabyggð;Alls;-;-;507;500;490;506;501;515;517;505;473
 Siglufjörður;Alls;1386;1352;-;-;-;-;-;-;-;-;-
 Sauðárkrókur;Alls;-;-;-;-;-;-;-;-;-;-;-
@@ -68,7 +68,7 @@ Húnaþing vestra;Alls;1175;1173;1167;1150;1142;1122;1120;1086;1174;1171;1169
 Áshreppur;Alls;73;66;-;-;-;-;-;-;-;-;-
 Sveinsstaðahreppur;Alls;93;92;-;-;-;-;-;-;-;-;-
 Torfalækjarhreppur;Alls;92;92;-;-;-;-;-;-;-;-;-
-Blönduóssbær;Alls;917;903;892;895;908;879;900;880;873;888;859
+Blönduósbær;Alls;917;903;892;895;908;879;900;880;873;888;859
 Svínavatnshreppur;Alls;116;106;-;-;-;-;-;-;-;-;-
 Bólstaðarhlíðarhreppur;Alls;113;115;-;-;-;-;-;-;-;-;-
 Engihlíðarhreppur;Alls;-;-;-;-;-;-;-;-;-;-;-
@@ -150,7 +150,7 @@ Djúpavogshreppur;Alls;479;458;463;450;456;439;448;463;453;471;427
 Austur-Hérað;Alls;-;-;-;-;-;-;-;-;-;-;-
 Austurbyggð;Alls;873;859;-;-;-;-;-;-;-;-;-
 Fljótsdalshérað;Alls;3364;3905;4644;4073;3707;3465;3406;3404;3438;3476;3457
-Bæjarhreppur (A-Skaftafellssýslu);Alls;-;-;-;-;-;-;-;-;-;-;-
+Bæjarhreppur A-Skaftafellssýslu;Alls;-;-;-;-;-;-;-;-;-;-;-
 Borgarhafnarhreppur;Alls;-;-;-;-;-;-;-;-;-;-;-
 Hofshreppur (A-Skaftafellssýslu);Alls;-;-;-;-;-;-;-;-;-;-;-
 Hornarfjarðarbær;Alls;-;-;-;-;-;-;-;-;-;-;-

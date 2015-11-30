@@ -47,4 +47,4 @@ def printdic(dic):
 
 if __name__ == '__main__':
 	dic = convertDict()
-	#printdic(dic)
+	printdic(dic)
