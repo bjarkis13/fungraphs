@@ -54,6 +54,18 @@ def toModern():
 
 	return moderndata
 
+def printdic(dic):
+	#Years hardcoded!
+	s = 'Sveitarfélag'
+	for i in range(2004,2015):
+		s += ';' + str(i)
+	print(s)
+
+	for i in dic:
+		s = str(i)
+		for j in dic[i]:
+			s += ';' + str(j)
+		print(s)
 
 if __name__ == '__main__':
-	print(toModern())
+	printdic(toModern())
