@@ -1,663 +1,263 @@
-" ";"1901 1. nóvember";"1910 1. desember";"1920 1. desember";"1930 2. desember";"1940 2. desember";"1950 1. desember";"1960 1. desember";"1970 1. desember";"1980 1. desember";"1990 1. desember"
-"Reykjavík (1786, 1923, 1929, 1932, 1943, 1953, 1978)";6667;11600;17679;28304;38196;56251;72407;81693;83766;97569
-"Kópavogur (1955)";.;.;.;.;.;.;6213;11165;13819;16186
-"Seltjarnarnes (1974, 1978)";.;.;.;.;.;.;.;.;3100;4143
-"Garðabær (1976, 1978)";.;.;.;.;.;.;.;.;4909;6954
-"Hafnarfjörður (1908, 1936, 1959, 1978)";.;1547;2366;3591;3686;5087;7160;9696;12205;15151
-"Bessastaðahreppur (1974)";.;.;.;.;.;.;.;.;480;1082
-"Kópavogshreppur (1948, 1955)";.;.;.;.;.;1647;.;.;.;.
-"Seltjarnarneshreppur (1923, 1932, 1943, 1948, 1974)";491;440;440;1062;627;686;1310;2153;.;.
-"Mosfellshreppur/-bær (1923, 1929, 1943, 1953, 1987)";335;313;268;373;492;605;727;986;2928;4259
-"Kjalarneshreppur";470;258;254;225;195;261;225;201;290;469
-"Kjósarhreppur";258;376;340;312;287;276;273;258;201;167
-"Suðurnes";3761;3061;2976;3321;3977;5835;10102;13670;13302;15202
-"Grindavík (1974)";.;.;.;.;.;.;.;.;1929;2172
-"Keflavík (1949, 1966)";.;.;.;.;.;2395;4700;5663;6622;7525
-"Njarðvík (1975)";.;.;.;.;.;.;.;.;2008;2405
-"Grindavíkurhreppur (1936, 1974)";391;358;438;505;509;527;740;1169;.;.
-"Hafnahreppur";182;200;170;153;144;186;250;182;143;127
-"Miðneshreppur";341;377;448;500;551;613;924;1050;1124;1253
-"Rosmhvalaneshreppur (1908)";953;.;.;.;.;.;.;.;.;.
-"Gerðahreppur (1908, 1966)";.;647;536;396;442;506;625;621;912;1074
-"Keflavíkurhreppur (1908, 1942, 1949)";.;575;650;976;1578;.;.;.;.;.
-"Njarðvíkurhreppur (1908, 1942, 1975)";210;.;.;.;.;568;1312;1512;.;.
-"Vatnsleysustrandarhreppur";441;432;339;289;254;298;373;387;564;646
-"Garðahreppur (1908, 1936, 1959, 1964, 1971, 1974)";932;264;226;347;379;583;1013;2868;.;.
-"Bessastaðahreppur (1974)";311;208;169;155;120;159;165;218;.;.
-"Vesturland";9772;10268;10102;9577;9936;9975;11973;13205;14884;14537
-"Akranes (1942, 1964)";.;.;.;.;.;2583;3822;4253;5200;5230
-"Ólafsvík (1983, 1990)";.;.;.;.;.;.;.;.;.;1216
-"Hvalfjarðarstrandarhreppur (1955)";213;203;184;170;157;198;189;181;163;158
-"Skilmannahreppur";118;108;103;83;99;88;129;126;130;152
-"Innri-Akraneshreppur (1964)";291;232;206;188;143;149;143;117;116;138
-"Ytri-Akraneshreppur (1942)";747;808;929;1270;1840;.;.;.;.;.
-"Leirár- og Melahreppur";197;220;177;155;132;147;143;152;153;157
-"Andakílshreppur";289;326;299;272;266;213;249;236;273;250
-"Skorradalshreppur (1955)";137;152;134;132;132;109;99;65;69;64
-"Lundarreykjadalshreppur";145;156;120;116;118;101;120;117;120;101
-"Reykholtsdalshreppur";244;235;215;187;270;256;272;312;317;265
-"Hálsahreppur";139;121;112;102;104;88;85;101;107;93
-"Hvítársíðuhreppur";153;135;131;124;126;89;99;107;86;73
-"Þverárhlíðarhreppur";135;129;114;122;93;77;85;101;95;78
-"Norðurárdalshreppur";175;185;154;139;121;113;134;129;132;113
-"Stafholtstungnahreppur";302;287;290;250;216;227;219;221;190;196
-"Borgarhreppur (1913)";378;478;307;251;251;198;182;183;175;144
-"Borgarnes (1913, 1987)";.;.;361;428;642;774;883;1157;1619;1725
-"Álftaneshreppur";268;237;215;202;172;142;127;135;123;104
-"Hraunhreppur";274;302;308;248;193;161;154;112;117;110
-"Kolbeinsstaðahreppur";243;231;193;220;220;168;144;143;149;128
-"Eyjahreppur";81;116;115;105;97;94;91;80;70;65
-"Miklaholtshreppur";170;196;193;170;175;149;156;166;142;112
-"Staðarsveit";274;297;276;247;244;190;180;153;128;97
-"Breiðuvíkurhreppur";248;181;174;226;239;180;144;120;103;59
-"Neshreppur utan Ennis";381;491;641;614;485;348;456;587;627;617
-"Neshreppur innan Ennis (1911)";807;705;.;.;.;.;.;.;.;.
-"Ólafsvíkurhreppur (1911, 1983)";.;.;442;438;473;468;806;995;1180;.
-"Fróðárhreppur (1911, 1990)";.;.;177;144;93;62;45;30;26;.
-"Eyrarsveit";298;457;453;394;379;391;542;722;788;817
-"Helgafellssveit";281;267;261;197;191;110;105;102;87;90
-"Stykkishólmur (1987)";453;721;733;605;675;856;906;1042;1205;1209
-"Skógarstrandarhreppur";269;271;231;176;181;117;124;83;92;57
-"Hörðudalshreppur";178;175;153;136;121;87;76;61;54;45
-"Miðdalahreppur";345;343;304;227;199;184;168;173;153;100
-"Haukadalshreppur";178;157;161;168;118;70;104;90;69;48
-"Laxárdalshreppur";293;322;345;264;235;208;277;358;411;388
-"Hvammshreppur";188;211;196;142;135;123;111;110;108;91
-"Fellsstrandarhreppur (1986)";187;189;169;172;141;101;94;81;83;82
-"Skarðsstrandarhreppur (1918)";397;333;.;.;.;.;.;.;.;.
-"Klofningshreppur (1918, 1986)";.;.;116;104;103;65;48;35;30;.
-"Skarðshreppur (1918, 1986)";.;.;170;139;123;81;72;73;52;55
-"Saurbæjarhreppur";296;291;240;250;234;210;190;196;142;110
-"Vestfirðir";12347;13386;13397;13071;12953;11166;10507;10050;10479;9798
-"Bolungarvík (1974)";.;.;.;.;.;.;.;.;1266;1187
-"Ísafjörður (1866, 1918, 1971)";1111;1854;1980;2533;2833;2808;2725;2680;3352;3498
-"Geiradalshreppur (1987)";111;111;104;87;101;93;95;118;91;.
-"Reykhólahreppur (1987)";311;311;275;241;247;243;226;205;225;360
-"Gufudalshreppur (1987)";172;172;176;154;143;81;69;68;49;.
-"Múlahreppur (1987)";170;150;138;126;110;88;58;31;21;.
-"Flateyjarhreppur (1987)";433;397;355;314;276;187;79;53;30;.
-"Barðastrandarhreppur";303;321;335;338;261;192;209;196;188;150
-"Rauðasandshreppur (1907)";813;465;435;331;300;175;154;125;110;92
-"Patrekshreppur (1907)";.;475;436;606;716;860;911;996;1032;926
-"Tálknafjarðarhreppur";325;321;332;275;248;180;212;236;340;371
-"Ketildalahreppur (1987)";262;209;246;204;178;73;58;33;26;.
-"Suðurfjarðahreppur (1987)";469;449;482;443;417;438;437;362;349;.
-"Bíldudalshreppur (1987)";.;.;.;.;.;.;.;.;.;372
-"Auðkúluhreppur (1990)";319;294;253;201;154;90;53;41;33;.
-"Þingeyrarhreppur (1990)";630;755;790;706;645;486;471;463;477;487
-"Mýrahreppur";502;414;389;344;313;216;196;163;146;77
-"Mosvallahreppur (1922)";718;608;705;254;216;176;147;100;95;71
-"Flateyrarhreppur (1922)";.;.;.;392;490;459;529;455;459;396
-"Suðureyrarhreppur";179;361;444;436;437;411;430;503;500;365
-"Hólshreppur (1974)";546;1021;953;816;751;784;858;978;.;.
-"Eyrarhreppur (1918, 1971)";539;592;677;557;442;402;367;397;.;.
-"Súðavíkurhreppur";535;581;529;444;335;305;259;255;253;229
-"Ögurhreppur";380;383;277;261;194;125;127;63;51;36
-"Reykjarfjarðarhreppur";237;198;185;126;157;105;99;121;93;43
-"Nauteyrarhreppur";273;220;231;179;160;107;81;79;70;59
-"Snæfjallahreppur (1964)";362;223;163;145;119;63;48;41;39;13
-"Grunnavíkurhreppur (1964)";396;281;255;255;223;77;33;.;.;.
-"Sléttuhreppur (1953)";439;463;476;470;405;34;-;-;-;-
-"Árneshreppur";444;431;479;434;515;408;287;216;176;121
-"Kaldrananeshreppur";342;322;325;383;473;478;347;228;193;167
-"Hrófbergshreppur (1943, 1987)";201;230;258;344;473;70;59;47;28;.
-"Hólmavíkurhreppur (1943, 1987)";.;.;.;.;.;443;420;331;398;475
-"Kirkjubólshreppur";251;220;186;168;137;111;105;100;80;57
-"Fellshreppur";99;114;108;99;102;100;78;75;66;66
-"Óspakseyrarhreppur";109;120;97;104;95;70;71;67;58;46
-"Bæjarhreppur";366;320;323;301;287;228;209;224;185;134
-"Norðurland vestra (1919)";8282;8358;9789;9912;10496;10264;10241;9909;10631;10446
-"Sauðárkrókur (1947)";.;.;.;.;.;1023;1205;1600;2188;2534
-"Siglufjörður (1919)";.;.;1159;2022;2884;3015;2680;2161;2003;1815
-"Staðarhreppur";187;150;148;151;134;105;125;146;135;103
-"Fremri-Torfustaðahreppur";306;236;256;212;174;138;125;105;88;78
-"Ytri-Torfustaðahreppur";227;304;292;242;196;180;206;226;258;216
-"Hvammstangahreppur (1938)";.;.;.;.;314;305;336;361;591;706
-"Kirkjuhvammshreppur (1938)";331;412;474;496;253;208;228;179;160;109
-"Þverárhreppur";359;303;331;283;239;159;178;166;141;106
-"Þorkelshólshreppur";258;260;296;264;212;182;183;206;198;163
-"Áshreppur";232;209;234;233;183;160;159;153;140;111
-"Sveinsstaðahreppur";230;230;219;178;156;135;129;137;116;106
-"Torfalækjarhreppur (1914)";322;404;183;165;132;116;145;158;129;121
-"Blönduós (1914, 1936, 1988)";.;.;260;287;436;454;585;690;934;1084
-"Svínavatnshreppur";264;260;281;212;179;167;162;157;157;126
-"Bólstaðarhlíðarhreppur";317;312;325;246;230;199;191;191;171;132
-"Engihlíðarhreppur (1936)";246;296;321;241;183;132;129;121;112;87
-"Vindhælishreppur (1939)";623;646;653;668;127;91;94;78;72;53
-"Höfðahreppur (1939)";.;.;.;.;315;617;593;532;649;658
-"Skagahreppur (1939)";.;.;.;.;208;151;122;107;91;64
-"Skefilsstaðahreppur";216;209;204;174;152;88;101;77;61;48
-"Sauðárhreppur (1907)";715;.;.;.;.;.;.;.;.;.
-"Skarðshreppur (1907)";.;199;176;145;107;129;119;101;109;115
-"Sauðárkrókshreppur (1907, 1947)";.;473;513;780;964;.;.;.;.;.
-"Staðarhreppur";211;209;215;203;166;166;145;146;129;117
-"Seyluhreppur";280;271;275;265;249;244;265;243;293;305
-"Lýtingsstaðahreppur";510;448;414;367;356;359;357;328;305;285
-"Akrahreppur";432;496;497;415;385;327;357;363;323;271
-"Rípurhreppur";161;147;143;127;117;112;131;117;107;94
-"Viðvíkurhreppur";218;215;205;178;159;115;94;88;90;95
-"Hólahreppur";182;250;283;189;209;168;159;164;168;143
-"Hofshreppur (1948, 1990)";638;611;628;573;540;243;241;225;181;423
-"Hofsóshreppur (1948, 1990)";.;.;.;.;.;291;309;280;298;.
-"Fellshreppur (1990)";170;167;170;127;108;88;68;47;45;.
-"Haganeshreppur (1988)";329;325;324;232;193;185;148;123;87;.
-"Holtshreppur (1988)";318;316;310;237;236;212;172;133;102;.
-"Fljótahreppur (1988)";.;.;.;.;.;.;.;.;.;178
-"Norðurland eystra (1919)";11872;12613;13111;15048;16910;18368;19769;22225;25700;26127
-"Ólafsfjörður (1945)";.;.;.;.;.;947;905;1086;1195;1171
-"Dalvík (1974)";.;.;.;.;.;.;.;.;1269;1481
-"Akureyri (1862, 1909, 1920, 1955)";1347;2084;2575;4198;5564;7188;8835;10755;13420;14174
-"Húsavík (1950, 1954)";.;.;.;.;.;1279;1514;1993;2414;2503
-"Hvanneyrarhreppur (1919)";420;654;.;.;.;.;.;.;.;.
-"Grímseyjarhreppur";83;101;104;125;104;73;70;79;106;121
-"Ólafsfjarðarhreppur (1917, 1945)";377;473;524;717;867;.;.;.;.;.
-"Svarfaðardalshreppur (1946)";993;981;1046;1040;1064;385;394;326;288;270
-"Dalvíkurhreppur (1946, 1974)";.;.;.;.;.;803;907;1065;.;.
-"Hríseyjarhreppur (1930)";.;.;.;318;337;313;276;291;289;264
-"Árskógshreppur (1911, 1930)";.;.;551;312;369;320;324;337;295;368
-"Arnarneshreppur (1911, 1916)";1028;914;426;407;414;377;308;256;245;226
-"Skriðuhreppur (1910, 1916)";446;274;230;197;175;184;181;150;147;121
-"Öxnadalshreppur (1910)";.;112;155;139;103;73;81;88;80;55
-"Glæsibæjarhreppur (1955)";761;618;723;772;798;909;278;247;239;237
-"Hrafnagilshreppur (1909, 1920)";284;320;259;283;321;284;251;280;302;322
-"Saurbæjarhreppur";599;537;567;460;391;343;351;292;276;250
-"Öngulsstaðahreppur";368;395;416;406;417;405;394;387;394;405
-"Svalbarðsstrandarhreppur";261;241;242;233;252;237;237;236;277;323
-"Grýtubakkahreppur";575;577;542;516;491;387;362;363;459;419
-"Flateyjarhreppur (1907, 1972)";.;114;106;137;141;107;86;5;.;.
-"Hálshreppur (1907, 1972)";578;375;368;288;251;242;236;249;232;197
-"Ljósavatnshreppur (1907)";572;281;293;295;295;257;282;291;286;248
-"Bárðdælahreppur (1907)";.;228;204;175;197;190;178;195;172;153
-"Skútustaðahreppur";319;276;345;377;353;332;371;478;547;515
-"Reykdælahreppur";396;363;382;441;485;360;389;396;374;313
-"Aðaldælahreppur";408;400;420;351;417;387;392;396;401;336
-"Reykjahreppur (1933, 1954)";.;.;.;.;98;98;92;109;115;110
-"Húsavíkurhreppur (1912, 1922, 1950)";663;926;631;874;1007;.;.;.;.;.
-"Tjörneshreppur (1912, 1922, 1933)";.;.;316;228;128;98;108;114;110;88
-"Kelduneshreppur";247;234;253;226;230;239;243;224;160;122
-"Öxarfjarðarhreppur";185;159;195;178;172;134;147;157;143;119
-"Fjallahreppur";75;66;81;63;63;31;41;25;29;12
-"Presthólahreppur (1945)";285;295;424;547;630;294;300;279;315;248
-"Raufarhafnarhreppur (1945)";.;.;.;.;.;346;472;446;493;387
-"Svalbarðshreppur";252;226;287;256;243;230;226;161;128;122
-"Þórshafnarhreppur (1946)";.;.;.;.;.;363;427;405;439;399
-"Sauðaneshreppur (1946)";350;389;446;489;533;153;111;64;61;48
-"Austurland";10367;9713;10214;10461;10123;9705;10367;11315;12856;13216
-"Seyðisfjörður (1895, 1990)";841;928;871;936;904;744;745;884;998;981
-"Neskaupstaður (1929, 1943, 1949)";.;.;.;1118;1106;1301;1436;1552;1683;1738
-"Eskifjörður (1974, 1988)";.;.;.;.;.;.;.;.;1043;1056
-"Skeggjastaðahreppur";249;223;239;281;262;209;176;130;127;132
-"Vopnafjarðarhreppur";987;742;729;738;713;677;740;808;903;908
-"Hlíðarhreppur";133;124;137;133;139;145;144;159;133;98
-"Jökuldalshreppur";309;232;282;197;230;200;203;175;175;166
-"Fljótsdalshreppur";296;287;303;257;227;207;225;202;156;118
-"Fellahreppur";246;209;219;185;188;165;159;189;296;391
-"Tunguhreppur";294;229;237;215;203;195;201;136;124;99
-"Hjaltastaðarhreppur";306;265;214;207;188;168;177;124;101;86
-"Borgarfjarðarhreppur (1973)";398;432;402;317;294;281;348;282;239;215
-"Loðmundarfjarðarhreppur (1973)";87;67;61;77;50;40;23;1;.;.
-"Seyðisfjarðarhreppur (1990)";280;204;140;159;176;99;60;40;42;.
-"Skriðdalshreppur";206;168;143;197;138;135;134;135;115;110
-"Vallahreppur (1947)";306;273;257;237;257;186;205;182;174;166
-"Egilsstaðir (1947, 1987)";.;.;.;.;.;137;280;718;1140;1457
-"Eiðahreppur (1947)";242;223;253;148;211;183;196;164;154;153
-"Mjóafjarðarhreppur";398;295;201;178;189;159;67;49;34;32
-"Neshreppur (1913, 1929)";.;.;770;.;.;.;.;.;.;.
-"Norðfjarðarhreppur (1913, 1943, 1949)";620;784;254;218;204;170;127;116;103;85
-"Helgustaðahreppur (1907, 1988)";.;261;246;218;142;131;90;43;38;.
-"Eskifjarðarhreppur (1907, 1969, 1974)";.;425;616;759;690;669;741;936;.;.
-"Reyðarfjarðarhreppur (1907, 1969)";945;331;454;478;478;499;554;646;726;727
-"Fáskrúðsfjarðarhreppur (1907)";765;423;426;359;372;284;230;168;122;95
-"Búðahreppur (1907)";.;393;461;637;550;581;631;720;760;757
-"Stöðvarhreppur (1905)";.;167;163;173;186;194;219;292;342;343
-"Breiðdalshreppur (1905)";672;360;364;326;305;251;302;338;372;351
-"Beruneshreppur";221;182;195;152;147;137;150;116;99;79
-"Búlandshreppur (1940)";.;.;.;.;270;303;309;321;393;456
-"Geithellnahreppur (1940)";404;358;419;434;158;116;118;114;87;71
-"Bæjarhreppur";174;211;226;201;157;106;110;90;73;51
-"Nesjahreppur (1946, 1966)";330;328;317;368;449;205;211;216;288;301
-"Höfn (1946, 1966, 1988)";.;.;.;.;.;434;632;901;1455;1668
-"Mýrahreppur";220;191;213;185;165;89;117;111;104;92
-"Borgarhafnarhreppur";206;188;200;181;176;148;153;131;133;115
-"Hofshreppur";232;210;202;192;199;157;154;126;124;119
-"Suðurland";13311;13250;13754;13604;13596;13847;16018;18052;19637;20402
-"Vestmannaeyjar (1919)";607;1319;2426;3393;3587;3726;4643;5186;4727;4926
-"Selfoss (1978)";.;.;.;.;.;.;.;.;3409;3915
-"Hörgslandshreppur (1990)";301;292;297;275;258;218;200;192;180;.
-"Kirkjubæjarhreppur (1990)";283;252;207;222;197;209;226;225;283;.
-"Skaftártunguhreppur (1990)";135;146;110;108;97;76;87;99;94;.
-"Leiðvallarhreppur (1990)";256;182;223;232;221;152;94;96;84;.
-"Álftavershreppur (1990)";115;122;97;106;101;83;72;65;52;.
-"Skaftárhreppur (1990)";.;.;.;.;.;.;.;.;.;612
-"Hvammshreppur (1984)";485;510;572;536;451;492;509;534;492;.
-"Dyrhólahreppur (1984)";369;331;312;244;254;194;185;182;159;.
-"Mýrdalshreppur (1984)";.;.;.;.;.;.;.;.;.;599
-"Austur-Eyjafjallahreppur";419;398;358;308;260;241;257;252;243;195
-"Vestur-Eyjafjallahreppur";533;502;447;463;415;335;316;282;226;211
-"Austur-Landeyjahreppur";405;387;358;348;317;240;199;182;211;210
-"Vestur-Landeyjahreppur";428;300;354;323;269;229;204;179;194;186
-"Fljótshlíðarhreppur";492;469;434;398;392;394;385;330;251;227
-"Hvolhreppur";278;249;239;222;225;270;308;442;702;685
-"Rangárvallahreppur";423;394;341;310;306;345;452;584;733;746
-"Landmannahreppur";310;307;285;262;227;167;157;127;129;134
-"Holtahreppur";369;372;387;291;304;284;274;312;314;270
-"Ásahreppur (1938)";709;646;598;580;248;153;184;170;193;158
-"Djúpárhreppur (1938)";.;.;.;.;329;305;316;339;297;245
-"Gaulverjabæjarhreppur";461;376;340;340;314;256;255;231;159;146
-"Stokkseyrarhreppur";943;897;886;678;749;552;482;476;570;493
-"Eyrarbakkahreppur (1947)";720;840;923;636;495;521;475;511;559;541
-"Sandvíkurhreppur (1947)";299;262;215;216;369;128;139;140;127;113
-"Selfosshreppur (1947, 1978)";.;.;.;.;.;999;1767;2397;.;.
-"Hraungerðishreppur (1947)";376;362;303;249;275;227;233;230;224;194
-"Villingaholtshreppur";365;362;305;284;278;247;218;231;191;193
-"Skeiðahreppur";259;298;314;278;241;239;255;263;254;248
-"Gnúpverjahreppur (1907)";282;231;238;229;219;219;244;381;339;304
-"Hrunamannahreppur (1978, 1987)";498;454;425;398;408;393;431;484;513;612
-"Biskupstungnahreppur (1978, 1987)";591;521;462;403;405;405;468;483;520;483
-"Laugardalshreppur (1905)";.;167;145;278;238;169;226;267;230;237
-"Grímsneshreppur (1905)";599;413;391;320;346;316;316;303;278;261
-"Þingvallahreppur";121;104;95;106;76;79;64;51;48;46
-"Grafningshreppur";106;101;89;79;75;49;98;73;51;51
-"Hveragerði (1946, 1987, 1990)";.;.;.;.;.;529;665;807;1254;1596
-"Ölfushreppur (1946, 1989, 1990)";659;598;475;393;561;345;571;921;1331;1565
-"Selvogshreppur (1989)";115;86;103;96;89;61;43;25;16;.
-"Óstaðsettir ";537;.;.;.;.;.;.;.;.;.
-
-"Stofnárs nýrra kaupstaða, bæja og hreppa er getið í sviga aftan við "
-"heitið svo og árs er breyting varð á mörkum sveitarfélags eða sýslu. "
-"Skráin sem fylgir töflunni sýnir breytingar á mörkum og réttindum "
-"sveitarfélaga á tímabilinu frá 1. nóv. 1901 til 3. des. 1990.  "
-"Breytingum er raðað í tímaröð og er skráin hugsuð til frekari "
-"skýringa við ártölin sem eru aftan við nafn sveitarfélags eða sýslu. "
-
-"Jarðirnar Breiðholt, Bústaðir og Eiði í Seltjarnarneshreppi og hluti "
-"jarðanna Ártún og Árbær í Mosfellshreppi lagðar til Reykjavíkur.  Lög "
-"nr. 46 20. júní 1923.  Í gildi 6. júní 1923. Jarðirnar Ártún og Árbær "
-"í Mosfellshreppi lagðar að fullu til Reykjavíkur.  Lög nr. 49 14. "
-"júní 1929.  Í gildi 1. janúar 1929. Jarðirnar Þormóðsstaðir og "
-"Skildinganes í Seltjarnarneshreppi lagðar til Reykjavíkur svo og "
-"verslunar staðurinn Skildinganes.  Lög nr. 69 8. september 1931.  Í "
-"gildi 1. janúar 1932.Jarðirnar Elliðavatn og Hólmur í "
-"Seltjarnarneshreppi og Gufunes, Keldur, Eiði, Knútskot, "
-"Korpúlfsstaðir, Lambhagi, Reynisvatn og hluti Grafarholts í "
-"Mosfellshreppi lagðar til Reykjavíkur.  Lög nr. 52 14. apríl 1943.  Í "
-"gildi 1. maí 1943. Jörðin Grafarholt í Mosfellshreppi endanlega lögð "
-"undir Reykjavík.  Lög nr. 52 14. apríl 1943.  Í gildi 1. maí 1953. "
-"Eyjarnar Viðey, Engey og Akurey í Seltjarnarneshreppi lagðar til "
-"Reykjavíkur.  Mörk Reykjavíkur og Seltjarnarness breytast með "
-"makaskiptum á landi.  Lög nr. 30 12. maí 1978.  "
-"  "
-"  "
-"  "
-" "
-
-"Hreppurinn fær kaupstaðarréttindi.  Lög nr. 30 11. maí 1955.  "
-" "
-
-"Hreppnum skipt og Kópavogshreppur stofnaður úr hluta hans. "
-"Seltjarnarneshreppur tekur yfir Seltjarnarnes vestan Reykjavíkur og á "
-"sameiginleg mörk með Reykjavík að austan en að öðru leyti ræður "
-"strandlengja nessins þeim hreppi.  Honum fylgja einnig eyjar þær er "
-"áður hafa tilheyrt Seltjarnarneshreppi.  Kópavogshreppur tekur yfir "
-"þann hluta Seltjarnarneshrepps hins forna sem er sunnan og austan "
-"Reykjavíkur og eru hreppamörk hins nýja hrepps þessi:  Að norðan "
-"lögsagnarumdæmi Reykjavíkur að Elliðakotslandi í Mosfellshreppi.  "
-"Eftir það ráða að norðan og austan landamerki jarðanna Elliðakots í "
-"Mosfellshreppi og Gunnarshólma, Geirlands og Lækjarbotna í "
-"Kópavogshreppi.  Að sunnan ráða hreppamörkum landamerki jarðanna "
-"Vífilsstaða, Hofsstaða og Arnarness í Garðahreppi og Vatnsenda, "
-"Fífuhvamms, Smárahvamms og Kópavogs í Kópavogshreppi til sjávar í "
-"Kópavogi.  Þaðan ræður strandlengjan að vestan í Fossvogslækjarós.  "
-"Stjórnarráðsbréf nr. 161 10. desember 1948.  Í gildi 1. janúar 1948.  "
-" "
-
-"Mörk Garðabæjar og Hafnarfjarðar breytast með makaskiptum á landi.  "
-"Lög nr. 34 12. maí 1978.  "
-" "
-
-"Hafnarfjarðarkaupstaður stofnaður úr landi Garðahrepps.  Lög nr. 75 "
-"22. nóvember 1907.  Í gildi 1. júní 1908. Jarðirnar Krísuvík og "
-"Stóri-Nýibær í Grindavíkurhreppi og land úr Garðahreppi lagt undir "
-"Hafnarfjörð.  Lög nr. 11 1. febrúar 1936. Land úr Garðahreppi lagt "
-"undir Hafnarfjörð.  Lög nr. 31 9. maí 1959. Land úr Garðahreppi lagt "
-"undir Hafnarfjörð.  Lög nr. 46 23. maí 1964.  "
-"Land úr Garðahreppi lagt undir Hafnarfjörð.  Lög nr. 46 16. apríl "
-"1971. Land úr Garðahreppi lagt undir Hafnarfjörð.  Lög nr. 110 31. "
-"desember 1974.  "
-"  "
-"  "
-" "
-
-"Hreppurinn skilinn frá Gullbringusýslu og lagður til Kjósarsýslu.  "
-"Lög nr. 43 24. apríl 1973.  Í gildi 1. janúar 1974.  "
-" "
-
-"Hreppurinn fær kaupstaðarréttindi.  Lög nr. 16 9. apríl 1974.  "
-" "
-
-"Hreppurinn verður bær.  Auglýsing nr. 371 31. júlí 1987.  Í gildi 9. "
-"ágúst 1987.  "
-" "
-
-"Berg í Gerðahreppi lagt til Keflavíkur.  Lög nr. 51 13. maí 1966.  "
-" "
-
-"Hreppurinn fær kaupstaðarréttindi.  Lög nr. 18 10. apríl 1974.  "
-" "
-
-"Land úr Nesjahreppi lagt undir Hafnarhrepp.  Lög nr. 49 6. maí 1966. "
-"Hreppurinn verður bær.  Auglýsing nr. 537 15. desember 1988.  Í gildi "
-"31. desember 1988.  "
-" "
-
-"Hreppurinn verður bær og nefnist Sandgerði.  Auglýsing nr. 454 15. "
-"nóvember 1990.  Í gildi 3. desember 1990. "
-
-"Rosmhvalaneshreppur, að fráskilinni jörðinni Keflavík, verður "
-"Gerðahreppur.  Njarðvíkurhreppur og Keflavík sameinast í "
-"Keflavíkurhreppi.  Stjórnarráðsbréf nr. 65 15. júní 1908.  Í gildi "
-"14. maí 1908. "
-
-"Hreppnum skipt og Njarðvíkurhreppur stofnaður úr hluta hans.  "
-"Stjórnarráðsbréf nr. 2 22. janúar 1942.  Í gildi 1. janúar 1942. "
-"Hreppurinn fær kaupstaðarréttindi.  Lög nr. 17 22. mars 1949.  "
-" "
-
-"Hreppurinn fær kaupstaðarréttindi.  Lög nr. 86 24. desember 1975. "
-
-"Hreppurinn skilinn frá Gullbringusýslu og lagður til Kjósarsýslu.  "
-"Lög nr. 43 24. apríl 1973.  Í gildi 1. janúar 1974.Hreppurinn fær "
-"kaupstaðarréttindi og nefnist Garðabær.  Lög nr. 83 24. desember "
-"1975.  Í gildi 1. janúar 1976.  "
-"  "
-" "
-
-"Land úr Innri-Akraneshreppi lagt undir Akranes.  Lög nr. 45 23. maí  "
-"1964. "
-
-"Fróðárhreppur sameinaður Ólafsvík.  Auglýsing nr. 133 16. mars 1990.  "
-"Í gildi 1. apríl 1990.  "
-" "
-
-"Jörðin Grafardalur í Skorradalshreppi lögð undir "
-"Hvalfjarðarstrandarhrepp.  Stjórnarráðsbréf nr. 41 22. mars 1955.  Í "
-"gildi 1. apríl 1955.  "
-" "
-
-"Hreppurinn fær kaupstaðarréttindi og nefnist Akranes.  Lög nr. 45 27. "
-"júní 1941.  Í gildi 1. janúar 1942. "
-
-"Hreppnum skipt og Borgarneshreppur stofnaður úr hluta hans.  "
-"Stjórnarráðsbréf nr. 62 26. mars 1913. "
-
-"Hreppurinn verður bær.  Auglýsing nr. 468 14. október 1987.  Í gildi "
-"24. október 1987.  "
-" "
-
-"Hreppnum skipt í Ólafsvíkurhrepp og Fróðárhrepp.  Stjórnarráðsbréf "
-"nr. 69 12. apríl 1911. "
-
-"Hreppurinn fær kaupstaðarréttindi.  Lög nr. 34 23. mars 1983.  "
-" "
-
-"Hreppurinn verður bær.  Auglýsing nr. 213 18. maí 1987.  "
-" "
-
-"Hreppnum skipt í Klofningshrepp og Skarðshrepp.  Stjórnarráðsbréf nr. "
-"84 13. júlí 1918. "
-
-"Hreppnum skipt, jarðirnar Ballará og Melar lagðar til Skarðshrepps en "
-"aðrar jarðir til Fellsstrandarhrepps.  Auglýsing nr. 370 30. júlí "
-"1986.  Í gildi 1. september 1986.  "
-" "
-
-"Jörðin Seljaland í Eyrarhreppi lögð til Ísafjarðar.  Lög nr. 67 14. "
-"nóvember 1917.  Í gildi 1. janúar 1918. Eyrarhreppur sameinaður "
-"Ísafirði.  Auglýsing nr. 176 20. ágúst 1971.  Í gildi 3. október  "
-"1971. "
-
-"Geiradalshreppur, Gufudalshreppur, Múlahreppur og Flateyjarhreppur "
-"sameinaðir Reykhólahreppi.  Auglýsing nr. 221 15. maí 1987.  Í gildi "
-"4. júlí 1987.  "
-" "
-
-"Hreppnum skipt og Patrekshreppur stofnaður úr hluta hans.  "
-"Stjórnarráðsbréf nr. 46 20. apríl 1907. "
-
-"Hreppurinn verður til þegar Ketildalahreppur er sameinaður "
-"Suðurfjarðahreppi.  Auglýsing nr. 302 23. júní 1987.  Í gildi 1. júlí "
-"1987."
-
-"Auðkúluhreppur sameinaður Þingeyrarhreppi.  Auglýsing nr. 120 2. mars "
-"1990.  Í gildi 1. apríl 1990. "
-
-"Hreppnum skipt og Flateyrarhreppur stofnaður úr hluta hans.  "
-"Stjórnarráðsbréf nr. 56 6. maí 1922. "
-
-"Hreppurinn fær kaupstaðarréttindi og nefnist Bolungarvík.  Lög nr. 17 "
-"10. apríl 1974.  "
-" "
-
-"Grunnavíkurhreppur sameinaður Snæfjallahreppi.  Stjórnarráðsbréf nr. "
-"236 30. desember 1963.  Í gildi 1. janúar 1964.  "
-" "
-
-"Hreppurinn leggst í auðn en réttarstaða hans hélst óviss þar til "
-"Sléttuhreppur var lagður til Ísafjarðar árið 1995.   Lög nr. 131 14. "
-"desember 1995.  Sjá einnig auglýsingu nr. 112 13. febrúar 1996. "
-
-"Hreppnum skipt og Hólmavíkurhreppur stofnaður úr hluta hans.  "
-"Stjórnarráðsbréf nr. 70 19. maí 1943.  "
-" "
-
-"Hrófbergshreppur sameinaður Hólmavíkurhreppi.  Auglýsing nr. 440 24. "
-"október 1986.  Í gildi 1. janúar 1987. "
-
-"Hreppurinn fær kaupstaðarréttindi.  Lög nr. 57 24. maí 1947. "
-
-"Hreppnum skipt og Hvammstangahreppur stofnaður úr hluta hans.  "
-"Stjórnarráðsbréf nr. 12 22. júní 1938.  Í gildi 1. júlí 1938. "
-
-"Hreppnum skipt og Blönduóshreppur stofnaður úr hluta hans.  "
-"Stjórnarráðsbréf nr. 59 27. maí 1914. "
-
-"Blönduóskauptún norðan Blöndu skilið frá Engihlíðarhreppi og sameinað "
-"Blönduóshreppi.  Lög nr. 15 1. febrúar 1936. Hreppurinn verður bær.  "
-"Auglýsing nr. 303 22. júní 1988.  Í gildi 4. júlí 1988.  "
-" "
-
-"Hreppnum skipt og Höfðahreppur og Skagahreppur stofnaðir úr hluta "
-"hans.  Stjórnarráðsbréf nr. 87 22. nóvember 1938.  Í gildi 1. janúar  "
-"1939. "
-
-"Hreppnum skipt í Skarðshrepp og Sauðárkrókshrepp.  Stjórnarráðsbréf "
-"nr. 39 19. apríl 1907. "
-
-"Hreppnum skipt og Hofsóshreppur stofnaður úr hluta hans.  "
-"Stjórnarráðsbréf nr. 101 15. október 1948.  Í gildi 1. janúar 1948. "
-"Hofsóshreppur og Fellshreppur sameinaðir Hofshreppi.  Auglýsing nr. "
-"131 16. mars 1990.  Í gildi 10. júní 1990.  "
-" "
-
-"Hreppurinn verður til við sameiningu Haganeshrepps og Holtshrepps.  "
-"Auglýsing nr. 126 24. febrúar 1988.  Í gildi 1. apríl 1988.  "
-" "
-
-"Jörðin Naust í Hrafnagilshreppi lögð undir Akureyri.  Lög nr. 28 9. "
-"júlí 1909.  Í gildi 6. júní 1909. Jarðirnar Kjarni og Hamrar í "
-"Hrafnagilshreppi lagðar til Akureyrar.  Lög nr. 17 18. maí 1920.  Í "
-"gildi 6. júní 1920.  "
-"Glerárþorp í Glæsibæjarhreppi ásamt jörðunum Bandagerði, "
-"Rangárvöllum, Kollugerði, Hlíðarenda, Glerá, Lögmannshlíð, "
-"Hesjuvöllum, Kífsá, Hrappstöðum, Mýrarlóni, Grænhóli, "
-"Syðra-Krossanesi og Ytra-Krossanesi lagðar til Akureyrar.   "
-"Lög nr. 107 18. desember 1954.  Í gildi 1. janúar 1955.  "
-" "
-
-"Jörðin Kaldbakur í Reykjahreppi lögð undir Húsavík.  Lög nr. 52 20. "
-"apríl 1954.  Í gildi 1. maí 1954. "
-
-"Hreppurinn tilheyrði Eyjafjarðarsýslu til ársins 1919 en fékk þá "
-"kaupstaðarréttindi og nefndist Siglufjörður.  Lög nr. 30 22. nóvember "
-"1918.  Í gildi 20. maí 1919.  Siglufjörður heyrir undir Norðurland "
-"vestra."
-
-"Til ársins 1917 var heiti hreppsins Þóroddsstaðahreppur en fékk þá "
-"nýtt heiti, Ólafsfjarðarhreppur.  Stjórnarráðsbréf nr. 103 26. "
-"október 1917. Hreppurinn fær kaupstaðarréttindi.  Lög nr. 60 31. "
-"október 1944.  Í gildi 1. janúar 1945.  "
-" "
-
-"Hreppnum skipt og Dalvíkurhreppur stofnaður úr hluta hans.  Lög nr. "
-"203 19. desember 1945.  Í gildi 1. janúar 1946.  "
-" "
-
-"Hreppurinn fær kaupstaðarréttindi.  Lög nr. 20 10. apríl 1974.  "
-" "
-
-"Hreppnum skipt og Hríseyjarhreppur stofnaður úr hluta hans.  "
-"Stjórnarráðsbréf nr. 52 24. maí 1930.  "
-" "
-
-"Hreppnum skipt og Árskógshreppur stofnaður úr hluta hans.  "
-"Stjórnarráðsbréf nr. 78 24. maí 1911. Jörðin Dunhagakot í "
-"Skriðuhreppi lögð undir Arnarneshrepp.  Stjórnarráðsbréf nr. 112  21. "
-"nóvember 1916.  Í gildi 6. júní 1916.  "
-" "
-
-"Hreppnum skipt og Öxnadalshreppur stofnaður úr hluta hans.  "
-"Stjórnarráðsbréf nr. 113 25. ágúst 1910. "
-
-"Hreppnum skipt og Flateyjardalshreppur stofnaður úr hluta hans.  Nýi "
-"hreppurinn hefur ævinlega nefnst Flateyjarhreppur í skýrslum "
-"Hagstofunnar.  Stjórnarráðsbréf nr. 2 18. janúar 1907. "
-"Flateyjarhreppur sameinaður Hálshreppi.  Auglýsing nr. 46 23. febrúar "
-"1972.  Í gildi 1. mars 1972.  "
-" "
-
-"Hreppnum skipt og Bárðdælahreppur stofnaður úr hluta hans.  "
-"Stjórnarráðsbréf nr. 38 16. apríl 1907. "
-
-"Hreppnum skipt og Tjörneshreppur stofnaður úr hluta hans.  "
-"Stjórnarráðsbréf nr. 72 4. júní 1912. Jörðin Bakki með Tröllakoti í "
-"Tjörneshreppi lögð til Húsavíkur.  Lög nr. 26 19. júní 1922.  Í gildi "
-"1. júní 1922. Hreppurinn fær kaupstaðarréttindi.  Lög nr. 109 30. "
-"desember 1949. "
-
-"Hreppnum skipt og Reykjahreppur stofnaður úr hluta hans.  "
-"Stjórnarráðsbréf nr. 49 14. júní 1932.  Í gildi 1. janúar 1933. "
-
-"Hreppnum skipt og Raufarhafnarhreppur stofnaður úr hluta hans.  "
-"Stjórnarráðsbréf nr. 107 18. september 1944.  Í gildi 1. janúar 1945. "
-
-"Hreppnum skipt og Þórshafnarhreppur stofnaður úr hluta hans.  "
-"Stjórnarráðsbréf nr. 74 20. júní 1946.  Í gildi 1. janúar 1946.  "
-" "
-
-"Hluti jarðarinnar Ormsstaða í Norðfjarðarhreppi lagður til "
-"Neskaupstaðar.  Lög nr. 28 18. febrúar 1943.  Í gildi 1. apríl 1943. "
-"Landspilda sú er liggur milli Naustalækjar að austan og Ormsstaða að "
-"vestan í Norðfjarðarhreppi lögð til Neskaupstaðar.  Lög nr. 38 23. "
-"maí 1949. "
-
-"Helgustaðahreppur sameinaður Eskifirði.  Auglýsing nr. 595 24. "
-"desember 1987.  Í gildi 1. janúar 1988.  "
-" "
-
-"Loðmundarfjarðarhreppur sameinaður Borgarfjarðarhreppi.  Lög nr. 40 "
-"24. maí 1972.  Í gildi 1. janúar 1973. "
-
-"Seyðisfjarðarhreppur sameinaður Seyðisfirði.  Auglýsing nr. 134 16. "
-"mars 1990.  Í gildi 1. apríl 1990.  "
-" "
-
-"Jarðirnar Egilsstaðir, Kollstaðir og Kollstaðagerði í Vallahreppi og "
-"jarðirnar Eyvindará, Miðhús og Dalhús ásamt eyðibýlinu Þuríðarstöðum "
-"í Eiðahreppi mynda Egilsstaðahrepp.  Lög nr. 58 24. maí 1947.  Í "
-"gildi 1. júlí 1947. Hreppurinn verður bær.  Auglýsing nr. 214 18. maí "
-"1987.  Í gildi 24. maí 1987.  "
-" "
-
-"Hreppurinn fær kaupstaðarréttindi og nefnist Neskaupstaður.  Lög nr. "
-"48 7. maí 1928.  Í gildi 1. janúar 1929. "
-
-"Hreppnum skipt og Neshreppur stofnaður úr hluta hans.  "
-"Stjórnarráðsbréf nr. 78 10. júní 1913. "
-
-"Land úr Reyðarfjarðarhreppi milli Bleiksár og Hólmaháls lagt til "
-"Eskifjarðarhrepps.  Lög nr. 56 25. apríl 1968.  Í gildi 1. janúar "
-"1969. Hreppurinn fær kaupstaðarréttindi.  Lög nr. 19 10. apríl 1974.  "
-" "
-
-"Hreppnum skipt og Helgustaðahreppur og Eskifjarðarhreppur stofnaðir "
-"úr hluta hans.  Helgustaðahreppur nær frá mörkum Norðfjarðarhrepps að "
-"Ytri-Mjóeyrarvík og Eskifjarðarhreppur þaðan að Bleiksá.  "
-"Stjórnarráðsbréf nr. 49 25. maí 1907.  "
-" "
-
-"Hreppnum skipt og Búðahreppur stofnaður úr hluta hans.  "
-"Stjórnarráðsbréf nr. 48 22. maí 1907. "
-
-"Hreppnum skipt og Stöðvarhreppur stofnaður úr hluta hans.  "
-"Stjórnarráðsbréf nr. 126 21. desember 1905. "
-
-"Hreppnum skipt og Búlandshreppur stofnaður úr hluta hans.  "
-"Stjórnarráðsbréf nr. 7 20. mars 1940. "
-
-"Hreppnum skipt og Hafnarhreppur stofnaður úr hluta hans.  "
-"Stjórnarráðsbréf nr. 59 12. apríl 1946.  Í gildi 1. janúar 1946. "
-
-"Vestmannaeyjahreppur fær kaupstaðarréttindi.  Lög nr. 26 22. nóvember "
-"1918.  Í gildi 1. janúar 1919. "
-
-"Hreppurinn verður til við sameiningu Hörgslandshrepps, "
-"Kirkjubæjarhrepps, Skaftártunguhrepps, Leiðvallarhrepps og "
-"Álftavershrepps.  Auglýsing nr. 132 16. mars 1990.  Í gildi 10. júní  "
-"1990. "
-
-"Hreppurinn verður til við sameiningu Hvammshrepps og Dyrhólahrepps.  "
-"Auglýsing nr. 614 17. ágúst 1983.  Í gildi 1. janúar 1984. "
-
-"Hreppnum skipt og Djúpárhreppur stofnaður úr hluta hans.  "
-"Stjórnarráðsbréf nr. 6 13. janúar 1938.  Í gildi 1. janúar 1938. "
-
-"Flóagaflstorfan í Sandvíkurhreppi lögð undir Eyrarbakkahrepp.  Lög "
-"nr. 52 7. maí 1946.  Í gildi 1. janúar 1947.  "
-" "
-
-"Jarðirnar Selfoss og Hagi ásamt Bjarkarspildu í Sandvíkurhreppi og "
-"Hellir ásamt Fossnesi úr Ölfushreppi og sneið af Laugardælalandi í "
-"Hraungerðishreppi mynda Selfosshrepp.  Lög nr. 52 7. maí 1946.  Í "
-"gildi 1. janúar 1947. Hreppurinn fær kaupstaðarréttindi.  Lög nr. 8 "
-"2. maí 1978.  "
-"  "
-" "
-
-"Jörðin Laxárdalur í Hrunamannahreppi lögð undir Gnúpverjahrepp.  "
-"Stjórnarráðsbréf nr. 83 18. sept 1907.  "
-" "
-
-"Jarðirnar Auðsholt I, III og IV í Biskupstungnahreppi lagðar til "
-"Hrunamannahrepps.  Auglýsing nr. 366 29. september 1978. Jörðin "
-"Auðsholt V í Biskupstungnahreppi lögð til Hrunamannahrepps.  "
-"Auglýsing nr. 257 3. júní 1987.  "
-"  "
-" "
-
-"Hreppnum skipt og Laugardalshreppur stofnaður úr hluta hans.  "
-"Stjórnarráðsbréf nr. 116 21. nóvember 1905. "
-
-"Hreppurinn verður bær.  Auglýsing nr. 294 24. júní 1987.  Í gildi 1. "
-"júlí 1987. Tvær landspildur úr Ölfushreppi lagðar til Hveragerðis.  "
-"Auglýsing nr. 435 17. október 1990.  "
-" "
-
-"Hreppnum skipt og Hveragerðishreppur stofnaður úr hluta hans.  "
-"Stjórnarráðsbréf nr. 43 13. mars 1946.  Í gildi 1. janúar 1946. "
-"Selvogshreppur sameinaður Ölfushreppi.  Auglýsing nr. 353 7. júlí "
-"1988.  Í gildi 1. janúar 1989.  "
-" "
-
-"Flestir óstaðsettir árið 1901 voru farþegar og áhafnir skipa í "
-"íslenskum höfnum á manntalsdegi 1. nóvember. "
-
+Reykjavík;6667;11600;17679;28304;38196;56251;72407;81693;83766;97569
+Kópavogur;.;.;.;.;.;.;6213;11165;13819;16186
+Seltjarnarnes;.;.;.;.;.;.;.;.;3100;4143
+Garðabær;.;.;.;.;.;.;.;.;4909;6954
+Hafnarfjörður;.;1547;2366;3591;3686;5087;7160;9696;12205;15151
+Bessastaðahreppur;.;.;.;.;.;.;.;.;480;1082
+Kópavogshreppur;.;.;.;.;.;1647;.;.;.;.
+Seltjarnarneshreppur;491;440;440;1062;627;686;1310;2153;.;.
+Mosfellsbær;335;313;268;373;492;605;727;986;2928;4259
+Kjalarneshreppur;470;258;254;225;195;261;225;201;290;469
+Kjósarhreppur;258;376;340;312;287;276;273;258;201;167
+Suðurnes;3761;3061;2976;3321;3977;5835;10102;13670;13302;15202
+Grindavík;.;.;.;.;.;.;.;.;1929;2172
+Keflavík;.;.;.;.;.;2395;4700;5663;6622;7525
+Njarðvík;.;.;.;.;.;.;.;.;2008;2405
+Grindavíkurhreppur;391;358;438;505;509;527;740;1169;.;.
+Hafnahreppur;182;200;170;153;144;186;250;182;143;127
+Miðneshreppur;341;377;448;500;551;613;924;1050;1124;1253
+Rosmhvalaneshreppur;953;.;.;.;.;.;.;.;.;.
+Gerðahreppur;.;647;536;396;442;506;625;621;912;1074
+Keflavíkurhreppur;.;575;650;976;1578;.;.;.;.;.
+Njarðvíkurhreppur;210;.;.;.;.;568;1312;1512;.;.
+Vatnsleysustrandarhreppur;441;432;339;289;254;298;373;387;564;646
+Garðahreppur;932;264;226;347;379;583;1013;2868;.;.
+Bessastaðahreppur;311;208;169;155;120;159;165;218;.;.
+Vesturland;9772;10268;10102;9577;9936;9975;11973;13205;14884;14537
+Akranes;.;.;.;.;.;2583;3822;4253;5200;5230
+Ólafsvík;.;.;.;.;.;.;.;.;.;1216
+Hvalfjarðarstrandarhreppur;213;203;184;170;157;198;189;181;163;158
+Skilmannahreppur;118;108;103;83;99;88;129;126;130;152
+Innri-Akraneshreppur;291;232;206;188;143;149;143;117;116;138
+Ytri-Akraneshreppur;747;808;929;1270;1840;.;.;.;.;.
+Leirár- og Melahreppur;197;220;177;155;132;147;143;152;153;157
+Andakílshreppur;289;326;299;272;266;213;249;236;273;250
+Skorradalshreppur;137;152;134;132;132;109;99;65;69;64
+Lundarreykjadalshreppur;145;156;120;116;118;101;120;117;120;101
+Reykholtsdalshreppur;244;235;215;187;270;256;272;312;317;265
+Hálsahreppur;139;121;112;102;104;88;85;101;107;93
+Hvítársíðuhreppur;153;135;131;124;126;89;99;107;86;73
+Þverárhlíðarhreppur;135;129;114;122;93;77;85;101;95;78
+Norðurárdalshreppur;175;185;154;139;121;113;134;129;132;113
+Stafholtstungnahreppur;302;287;290;250;216;227;219;221;190;196
+Borgarhreppur;378;478;307;251;251;198;182;183;175;144
+Borgarnes;.;.;361;428;642;774;883;1157;1619;1725
+Álftaneshreppur;268;237;215;202;172;142;127;135;123;104
+Hraunhreppur;274;302;308;248;193;161;154;112;117;110
+Kolbeinsstaðahreppur;243;231;193;220;220;168;144;143;149;128
+Eyjahreppur;81;116;115;105;97;94;91;80;70;65
+Miklaholtshreppur;170;196;193;170;175;149;156;166;142;112
+Staðarsveit;274;297;276;247;244;190;180;153;128;97
+Breiðuvíkurhreppur;248;181;174;226;239;180;144;120;103;59
+Neshreppur utan Ennis;381;491;641;614;485;348;456;587;627;617
+Neshreppur innan Ennis;807;705;.;.;.;.;.;.;.;.
+Ólafsvíkurhreppur;.;.;442;438;473;468;806;995;1180;.
+Fróðárhreppur;.;.;177;144;93;62;45;30;26;.
+Eyrarsveit;298;457;453;394;379;391;542;722;788;817
+Helgafellssveit;281;267;261;197;191;110;105;102;87;90
+Stykkishólmur;453;721;733;605;675;856;906;1042;1205;1209
+Skógarstrandarhreppur;269;271;231;176;181;117;124;83;92;57
+Hörðudalshreppur;178;175;153;136;121;87;76;61;54;45
+Miðdalahreppur;345;343;304;227;199;184;168;173;153;100
+Haukadalshreppur;178;157;161;168;118;70;104;90;69;48
+Laxárdalshreppur;293;322;345;264;235;208;277;358;411;388
+Hvammshreppur;188;211;196;142;135;123;111;110;108;91
+Fellsstrandarhreppur;187;189;169;172;141;101;94;81;83;82
+Skarðsstrandarhreppur;397;333;.;.;.;.;.;.;.;.
+Klofningshreppur;.;.;116;104;103;65;48;35;30;.
+Skarðshreppur;.;.;170;139;123;81;72;73;52;55
+Saurbæjarhreppur;296;291;240;250;234;210;190;196;142;110
+Vestfirðir;12347;13386;13397;13071;12953;11166;10507;10050;10479;9798
+Bolungarvík;.;.;.;.;.;.;.;.;1266;1187
+Ísafjarðarbær;1111;1854;1980;2533;2833;2808;2725;2680;3352;3498
+Geiradalshreppur;111;111;104;87;101;93;95;118;91;.
+Reykhólahreppur;311;311;275;241;247;243;226;205;225;360
+Gufudalshreppur;172;172;176;154;143;81;69;68;49;.
+Múlahreppur;170;150;138;126;110;88;58;31;21;.
+Flateyjarhreppur;433;397;355;314;276;187;79;53;30;.
+Barðastrandarhreppur;303;321;335;338;261;192;209;196;188;150
+Rauðasandshreppur;813;465;435;331;300;175;154;125;110;92
+Patrekshreppur;.;475;436;606;716;860;911;996;1032;926
+Tálknafjarðarhreppur;325;321;332;275;248;180;212;236;340;371
+Ketildalahreppur;262;209;246;204;178;73;58;33;26;.
+Suðurfjarðahreppur;469;449;482;443;417;438;437;362;349;.
+Bíldudalshreppur;.;.;.;.;.;.;.;.;.;372
+Auðkúluhreppur;319;294;253;201;154;90;53;41;33;.
+Þingeyrarhreppur;630;755;790;706;645;486;471;463;477;487
+Mýrahreppur;502;414;389;344;313;216;196;163;146;77
+Mosvallahreppur;718;608;705;254;216;176;147;100;95;71
+Flateyrarhreppur;.;.;.;392;490;459;529;455;459;396
+Suðureyrarhreppur;179;361;444;436;437;411;430;503;500;365
+Hólshreppur;546;1021;953;816;751;784;858;978;.;.
+Eyrarhreppur;539;592;677;557;442;402;367;397;.;.
+Súðavíkurhreppur;535;581;529;444;335;305;259;255;253;229
+Ögurhreppur;380;383;277;261;194;125;127;63;51;36
+Reykjarfjarðarhreppur;237;198;185;126;157;105;99;121;93;43
+Nauteyrarhreppur;273;220;231;179;160;107;81;79;70;59
+Snæfjallahreppur;362;223;163;145;119;63;48;41;39;13
+Grunnavíkurhreppur;396;281;255;255;223;77;33;.;.;.
+Sléttuhreppur;439;463;476;470;405;34;-;-;-;-
+Árneshreppur;444;431;479;434;515;408;287;216;176;121
+Kaldrananeshreppur;342;322;325;383;473;478;347;228;193;167
+Hrófbergshreppur;201;230;258;344;473;70;59;47;28;.
+Hólmavíkurhreppur;.;.;.;.;.;443;420;331;398;475
+Kirkjubólshreppur;251;220;186;168;137;111;105;100;80;57
+Fellshreppur;99;114;108;99;102;100;78;75;66;66
+Óspakseyrarhreppur;109;120;97;104;95;70;71;67;58;46
+Bæjarhreppur;366;320;323;301;287;228;209;224;185;134
+Norðurland vestra;8282;8358;9789;9912;10496;10264;10241;9909;10631;10446
+Sauðárkrókskaupstaður;.;.;.;.;.;1023;1205;1600;2188;2534
+Siglufjörður;.;.;1159;2022;2884;3015;2680;2161;2003;1815
+Staðarhreppur;187;150;148;151;134;105;125;146;135;103
+Fremri-Torfustaðahreppur;306;236;256;212;174;138;125;105;88;78
+Ytri-Torfustaðahreppur;227;304;292;242;196;180;206;226;258;216
+Hvammstangahreppur;.;.;.;.;314;305;336;361;591;706
+Kirkjuhvammshreppur;331;412;474;496;253;208;228;179;160;109
+Þverárhreppur;359;303;331;283;239;159;178;166;141;106
+Þorkelshólshreppur;258;260;296;264;212;182;183;206;198;163
+Áshreppur;232;209;234;233;183;160;159;153;140;111
+Sveinsstaðahreppur;230;230;219;178;156;135;129;137;116;106
+Torfalækjarhreppur;322;404;183;165;132;116;145;158;129;121
+Blönduósbær;.;.;260;287;436;454;585;690;934;1084
+Svínavatnshreppur;264;260;281;212;179;167;162;157;157;126
+Bólstaðarhlíðarhreppur;317;312;325;246;230;199;191;191;171;132
+Engihlíðarhreppur;246;296;321;241;183;132;129;121;112;87
+Vindhælishreppur;623;646;653;668;127;91;94;78;72;53
+Höfðahreppur;.;.;.;.;315;617;593;532;649;658
+Skagahreppur;.;.;.;.;208;151;122;107;91;64
+Skefilsstaðahreppur;216;209;204;174;152;88;101;77;61;48
+Sauðárhreppur;715;.;.;.;.;.;.;.;.;.
+Skarðshreppur;.;199;176;145;107;129;119;101;109;115
+Sauðárkrókshreppur;.;473;513;780;964;.;.;.;.;.
+Staðarhreppur;211;209;215;203;166;166;145;146;129;117
+Seyluhreppur;280;271;275;265;249;244;265;243;293;305
+Lýtingsstaðahreppur;510;448;414;367;356;359;357;328;305;285
+Akrahreppur;432;496;497;415;385;327;357;363;323;271
+Rípurhreppur;161;147;143;127;117;112;131;117;107;94
+Viðvíkurhreppur;218;215;205;178;159;115;94;88;90;95
+Hólahreppur;182;250;283;189;209;168;159;164;168;143
+Hofshreppur;638;611;628;573;540;243;241;225;181;423
+Hofsóshreppur;.;.;.;.;.;291;309;280;298;.
+Fellshreppur;170;167;170;127;108;88;68;47;45;.
+Haganeshreppur;329;325;324;232;193;185;148;123;87;.
+Holtshreppur;318;316;310;237;236;212;172;133;102;.
+Fljótahreppur;.;.;.;.;.;.;.;.;.;178
+Norðurland eystra;11872;12613;13111;15048;16910;18368;19769;22225;25700;26127
+Ólafsfjörður;.;.;.;.;.;947;905;1086;1195;1171
+Dalvík;.;.;.;.;.;.;.;.;1269;1481
+Akureyri;1347;2084;2575;4198;5564;7188;8835;10755;13420;14174
+Húsavík;.;.;.;.;.;1279;1514;1993;2414;2503
+Hvanneyrarhreppur;420;654;.;.;.;.;.;.;.;.
+Grímseyjarhreppur;83;101;104;125;104;73;70;79;106;121
+Ólafsfjarðarhreppur;377;473;524;717;867;.;.;.;.;.
+Svarfaðardalshreppur;993;981;1046;1040;1064;385;394;326;288;270
+Dalvíkurhreppur;.;.;.;.;.;803;907;1065;.;.
+Hríseyjarhreppur;.;.;.;318;337;313;276;291;289;264
+Árskógshreppur;.;.;551;312;369;320;324;337;295;368
+Arnarneshreppur;1028;914;426;407;414;377;308;256;245;226
+Skriðuhreppur;446;274;230;197;175;184;181;150;147;121
+Öxnadalshreppur;.;112;155;139;103;73;81;88;80;55
+Glæsibæjarhreppur;761;618;723;772;798;909;278;247;239;237
+Hrafnagilshreppur;284;320;259;283;321;284;251;280;302;322
+Saurbæjarhreppur;599;537;567;460;391;343;351;292;276;250
+Öngulsstaðahreppur;368;395;416;406;417;405;394;387;394;405
+Svalbarðsstrandarhreppur;261;241;242;233;252;237;237;236;277;323
+Grýtubakkahreppur;575;577;542;516;491;387;362;363;459;419
+Flateyjarhreppur;.;114;106;137;141;107;86;5;.;.
+Hálshreppur;578;375;368;288;251;242;236;249;232;197
+Ljósavatnshreppur;572;281;293;295;295;257;282;291;286;248
+Bárðdælahreppur;.;228;204;175;197;190;178;195;172;153
+Skútustaðahreppur;319;276;345;377;353;332;371;478;547;515
+Reykdælahreppur;396;363;382;441;485;360;389;396;374;313
+Aðaldælahreppur;408;400;420;351;417;387;392;396;401;336
+Reykjahreppur;.;.;.;.;98;98;92;109;115;110
+Húsavíkurhreppur;663;926;631;874;1007;.;.;.;.;.
+Tjörneshreppur;.;.;316;228;128;98;108;114;110;88
+Kelduneshreppur;247;234;253;226;230;239;243;224;160;122
+Öxarfjarðarhreppur;185;159;195;178;172;134;147;157;143;119
+Fjallahreppur;75;66;81;63;63;31;41;25;29;12
+Presthólahreppur;285;295;424;547;630;294;300;279;315;248
+Raufarhafnarhreppur;.;.;.;.;.;346;472;446;493;387
+Svalbarðshreppur;252;226;287;256;243;230;226;161;128;122
+Þórshafnarhreppur;.;.;.;.;.;363;427;405;439;399
+Sauðaneshreppur;350;389;446;489;533;153;111;64;61;48
+Austurland;10367;9713;10214;10461;10123;9705;10367;11315;12856;13216
+Seyðisfjörður;841;928;871;936;904;744;745;884;998;981
+Neskaupstaður;.;.;.;1118;1106;1301;1436;1552;1683;1738
+Eskifjörður;.;.;.;.;.;.;.;.;1043;1056
+Skeggjastaðahreppur;249;223;239;281;262;209;176;130;127;132
+Vopnafjarðarhreppur;987;742;729;738;713;677;740;808;903;908
+Hlíðarhreppur;133;124;137;133;139;145;144;159;133;98
+Jökuldalshreppur;309;232;282;197;230;200;203;175;175;166
+Fljótsdalshreppur;296;287;303;257;227;207;225;202;156;118
+Fellahreppur;246;209;219;185;188;165;159;189;296;391
+Tunguhreppur;294;229;237;215;203;195;201;136;124;99
+Hjaltastaðarhreppur;306;265;214;207;188;168;177;124;101;86
+Borgarfjarðarhreppur;398;432;402;317;294;281;348;282;239;215
+Loðmundarfjarðarhreppur;87;67;61;77;50;40;23;1;.;.
+Seyðisfjarðarhreppur;280;204;140;159;176;99;60;40;42;.
+Skriðdalshreppur;206;168;143;197;138;135;134;135;115;110
+Vallahreppur;306;273;257;237;257;186;205;182;174;166
+Egilsstaðir;.;.;.;.;.;137;280;718;1140;1457
+Eiðahreppur;242;223;253;148;211;183;196;164;154;153
+Mjóafjarðarhreppur;398;295;201;178;189;159;67;49;34;32
+Neshreppur;.;.;770;.;.;.;.;.;.;.
+Norðfjarðarhreppur;620;784;254;218;204;170;127;116;103;85
+Helgustaðahreppur;.;261;246;218;142;131;90;43;38;.
+Eskifjarðarhreppur;.;425;616;759;690;669;741;936;.;.
+Reyðarfjarðarhreppur;945;331;454;478;478;499;554;646;726;727
+Fáskrúðsfjarðarhreppur;765;423;426;359;372;284;230;168;122;95
+Búðahreppur;.;393;461;637;550;581;631;720;760;757
+Stöðvarhreppur;.;167;163;173;186;194;219;292;342;343
+Breiðdalshreppur;672;360;364;326;305;251;302;338;372;351
+Beruneshreppur;221;182;195;152;147;137;150;116;99;79
+Búlandshreppur;.;.;.;.;270;303;309;321;393;456
+Geithellnahreppur;404;358;419;434;158;116;118;114;87;71
+Bæjarhreppur;174;211;226;201;157;106;110;90;73;51
+Nesjahreppur;330;328;317;368;449;205;211;216;288;301
+Höfn;.;.;.;.;.;434;632;901;1455;1668
+Mýrahreppur;220;191;213;185;165;89;117;111;104;92
+Borgarhafnarhreppur;206;188;200;181;176;148;153;131;133;115
+Hofshreppur;232;210;202;192;199;157;154;126;124;119
+Suðurland;13311;13250;13754;13604;13596;13847;16018;18052;19637;20402
+Vestmannaeyjar;607;1319;2426;3393;3587;3726;4643;5186;4727;4926
+Selfoss;.;.;.;.;.;.;.;.;3409;3915
+Hörgslandshreppur;301;292;297;275;258;218;200;192;180;.
+Kirkjubæjarhreppur;283;252;207;222;197;209;226;225;283;.
+Skaftártunguhreppur;135;146;110;108;97;76;87;99;94;.
+Leiðvallarhreppur;256;182;223;232;221;152;94;96;84;.
+Álftavershreppur;115;122;97;106;101;83;72;65;52;.
+Skaftárhreppur;.;.;.;.;.;.;.;.;.;612
+Hvammshreppur;485;510;572;536;451;492;509;534;492;.
+Dyrhólahreppur;369;331;312;244;254;194;185;182;159;.
+Mýrdalshreppur;.;.;.;.;.;.;.;.;.;599
+Austur-Eyjafjallahreppur;419;398;358;308;260;241;257;252;243;195
+Vestur-Eyjafjallahreppur;533;502;447;463;415;335;316;282;226;211
+Austur-Landeyjahreppur;405;387;358;348;317;240;199;182;211;210
+Vestur-Landeyjahreppur;428;300;354;323;269;229;204;179;194;186
+Fljótshlíðarhreppur;492;469;434;398;392;394;385;330;251;227
+Hvolhreppur;278;249;239;222;225;270;308;442;702;685
+Rangárvallahreppur;423;394;341;310;306;345;452;584;733;746
+Landmannahreppur;310;307;285;262;227;167;157;127;129;134
+Holtahreppur;369;372;387;291;304;284;274;312;314;270
+Ásahreppur;709;646;598;580;248;153;184;170;193;158
+Djúpárhreppur;.;.;.;.;329;305;316;339;297;245
+Gaulverjabæjarhreppur;461;376;340;340;314;256;255;231;159;146
+Stokkseyrarhreppur;943;897;886;678;749;552;482;476;570;493
+Eyrarbakkahreppur;720;840;923;636;495;521;475;511;559;541
+Sandvíkurhreppur;299;262;215;216;369;128;139;140;127;113
+Selfoss;.;.;.;.;.;999;1767;2397;.;.
+Hraungerðishreppur;376;362;303;249;275;227;233;230;224;194
+Villingaholtshreppur;365;362;305;284;278;247;218;231;191;193
+Skeiðahreppur;259;298;314;278;241;239;255;263;254;248
+Gnúpverjahreppur;282;231;238;229;219;219;244;381;339;304
+Hrunamannahreppur;498;454;425;398;408;393;431;484;513;612
+Biskupstungnahreppur;591;521;462;403;405;405;468;483;520;483
+Laugardalshreppur;.;167;145;278;238;169;226;267;230;237
+Grímsneshreppur;599;413;391;320;346;316;316;303;278;261
+Þingvallahreppur;121;104;95;106;76;79;64;51;48;46
+Grafningshreppur;106;101;89;79;75;49;98;73;51;51
+Hveragerði;.;.;.;.;.;529;665;807;1254;1596
+Ölfushreppur;659;598;475;393;561;345;571;921;1331;1565
+Selvogshreppur;115;86;103;96;89;61;43;25;16;.
+Óstaðsettir;537;.;.;.;.;.;.;.;.;.
