@@ -98,7 +98,7 @@ def toModern():
 def printdic(dic):
 	#Years hardcoded!
 	s = 'Sveitarfélag'
-	for i in range(2004,2015):
+	for i in range(1990,2005):
 		s += ';' + str(i)
 	print(s)
 
@@ -110,5 +110,5 @@ def printdic(dic):
 
 
 if __name__ == '__main__':
-	#printdic(toModern())
-	print(toModern())
+	printdic(toModern())
+	#print(toModern())

@@ -75,7 +75,7 @@ Snæfjallahreppur í N-Ísafjarðarsýslu,Ísafjarðarkaupstaður,1994
 Helgafellssveit,Stykkishólmur,1994
 Höfn,Hornafjarðarbær,1994
 Nesjahreppur,Hornafjarðarbær,1994
-Mýrahreppur ,Hornafjarðarbær,1994
+Mýrahreppur Skaftafellssýslu,Hornafjarðarbær,1994
 Ögurhreppur,Súðavíkurhreppur,1995
 Reykjarfjarðarhreppur,Súðavíkurhreppur,1995
 Ísafjarðarkaupstaður,Ísafjarðarbær,1996
@@ -114,8 +114,8 @@ Neskaupstaður,Fjarðabyggð,1998
 Eskifjarðarkaupstaður,Fjarðabyggð,1998
 Reyðarfjarðarhreppur,Fjarðabyggð,1998
 Staðarhreppur V-Húnavatnssýslu,Húnaþing vestra,1998
-Fremri Torfustaðahreppur,Húnaþing vestra,1998
-Ytri Torfustaðahreppur,Húnaþing vestra,1998
+Fremri-Torfustaðahreppur,Húnaþing vestra,1998
+Ytri-Torfustaðahreppur,Húnaþing vestra,1998
 Hvammstangahreppur,Húnaþing vestra,1998
 Kirkjuhvammshreppur,Húnaþing vestra,1998
 Þverárhreppur,Húnaþing vestra,1998
