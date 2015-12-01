@@ -71,6 +71,10 @@ def toModern():
 		data = fint(s[2:])
 		if nullis(data): return
 
+		if index == 'Alls':
+			moderndata[index] = data
+			return
+
 		#REYKJAVÍK -> REYKJAVÍKURBORG :S
 		#print(modern)
 
@@ -89,10 +93,26 @@ def toModern():
 	with open('../data/2004-2014.csv') as f:
 		reader = csv.reader(f, delimiter=';')
 		for i in reader:
-			if i[0] == 'Sveitarfélag' or i[0] == 'Alls': continue
+			if i[0] == 'Sveitarfélag': continue
 			addline(i)
 
 	return moderndata
+
+def percentdic(dic):
+	s = 'Sveitarfélag'
+	for i in range(2004,2015):
+		s += ';' + str(i)
+	print(s)
+
+	alls = dic['Alls']
+
+	for i in dic:
+		if i == 'Alls': continue
+		s = str(i)
+		for k,j in enumerate(dic[i]):
+			j = j*100 / float(alls[k])
+			s += ';' + str(j)
+		print(s)
 
 def printdic(dic):
 	#Years hardcoded!
@@ -102,6 +122,7 @@ def printdic(dic):
 	print(s)
 
 	for i in dic:
+		if i == 'Alls': continue
 		s = str(i)
 		for j in dic[i]:
 			s += ';' + str(j)
@@ -109,4 +130,5 @@ def printdic(dic):
 
 
 if __name__ == '__main__':
-	printdic(toModern())
+	#printdic(toModern())
+	percentdic(toModern())
