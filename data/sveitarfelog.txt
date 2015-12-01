@@ -6,7 +6,7 @@
 1604,Mosfellsbær
 1606,Kjósarhreppur
 2000,Reykjanesbær
-2300,Grindavíkurbær
+2300,Grindavík
 2503,Sandgerði
 2504,Sveitarfélagið Garður
 2506,Sveitarfélagið Vogar
