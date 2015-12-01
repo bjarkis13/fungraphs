@@ -256,10 +256,10 @@ Njarðvíkurhreppur,Njarðvík,1976
 Borgarnes,Borgarbyggð,1994
 Neshreppur utan Ennis,Snæfellsbær,1994
 Ólafsvíkurhreppur,Ólafsvík,1983
-Eyrarsveit,Grundarfjarðarbær,????
+Eyrarsveit,Grundarfjarðarbær,2002
 Staðarhreppur Skagafjarðarsýslu,Sveitarfélagið Skagafjörður,1998
 Suðurfjarðahreppur,Vesturbyggð,1994
-Hólshreppur,Bolungarvík,????
+Hólshreppur,Bolungarvík,1974
 Sauðárkrókshreppur,Sauðárkrókskaupstaður,1947
 Ólafsfjörður,Fjallabyggð,2006
 Dalvíkurhreppur,Dalvíkurbyggð,1974
