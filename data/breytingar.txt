@@ -102,7 +102,6 @@ Grafningshreppur,Grímsnes- og Grafningshreppur,1998
 Sauðárkrókskaupstaður,Sveitarfélagið Skagafjörður,1998
 Skefilsstaðahreppur,Sveitarfélagið Skagafjörður,1998
 Skarðshreppur Skagafjarðarsýslu,Sveitarfélagið Skagafjörður,1998
-Staðarhreppur Skagafjarðarsýslu,Sveitarfélagið Skagafjörður,1998
 Seyluhreppur,Sveitarfélagið Skagafjörður,1998
 Lýtingsstaðahreppur,Sveitarfélagið Skagafjörður,1998
 Rípurhreppur,Sveitarfélagið Skagafjörður,1998
@@ -218,7 +217,7 @@ Grímsneshreppur,Grímshreppur,Laugardalshreppur,1905
 Breiðdalshreppur,Breiðdalshreppur,Stöðvarhreppur,1905
 Hálshreppur,Flateyjarhreppur,Hálshreppur,1907
 Ljósavatnshreppur,Bárðdælahreppur,Ljósavatnshreppur,1907
-Sauðárhreppur,Sauðárkrókshreppur,Skarðshreppur,1907
+Sauðárhreppur,Sauðárkrókshreppur,Skarðshreppur Skagafjarðarsýslu,1907
 Rauðasandshreppur,Patrekshreppur,Rauðasandshreppur,1907
 Fáskrúðsfjarðarhreppur,Búðahreppur,Fáskrúðsfjarðarhreppur,1907
 Reyðarfjarðarhreppur,Eskifjarðarhreppur,Helgustaðahreppur,Reyðarfjarðarhreppur,1907
@@ -229,7 +228,7 @@ Húsavíkurhreppur,Húsavíkurhreppur,Tjörneshreppur,1912
 Borgarhreppur,Borgarhreppur,Borgarneshreppur,1913
 Norðurfjarðarhreppur S-Múlasýslu,Neshreppur,Norðurfjarðarhreppur,1913
 Torfalækjarhreppur,Blönduósshreppur,Torfalækjarhreppur,1914
-Skarðsstrandarhreppur,Klofningshreppur,Skarðshreppur,1918
+Skarðsstrandarhreppur,Klofningshreppur,Skarðshreppur Dalasýslu,1918
 Mosvallahreppur,Flateyrarhreppur,Mosvallahreppur,1922
 Árskógshreppur,Árskógshreppur,Hríseyjarhreppur,1930
 Tjörneshreppur,Reykjahreppur,Tjörneshreppur,1932
@@ -258,7 +257,7 @@ Borgarnes,Borgarbyggð,1994
 Neshreppur utan Ennis,Snæfellsbær,1994
 Ólafsvíkurhreppur,Ólafsvík,1983
 Eyrarsveit,Grundarfjarðarbær,????
-Staðarhreppur,Sveitarfélagið Skagafjörður,1998
+Staðarhreppur Skagafjarðarsýslu,Sveitarfélagið Skagafjörður,1998
 Suðurfjarðahreppur,Vesturbyggð,1994
 Hólshreppur,Bolungarvík,????
 Sauðárkrókshreppur,Sauðárkrókskaupstaður,1947
@@ -267,3 +266,4 @@ Dalvíkurhreppur,Dalvíkurbyggð,1974
 Hvanneyrarhreppur,Siglufjörður,1918
 Eskifjörður,Eskifjarðarhreppur,1907
 Eskifjarðarhreppur,Helgustaðahreppur,1988
+Ólafsfjarðarhreppur,Fjallabyggð,2006
