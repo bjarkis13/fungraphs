@@ -3,6 +3,7 @@ This file is used for creating a dictionary to convert
 municipalities to their modern equivelant
 '''
 import csv
+import codecs
 
 def listSveito():
 	s = []
@@ -44,7 +45,7 @@ def convertDict(end=True):
 #Makes no data = 0
 def fint(lis):
 	for i in range(len(lis)):
-		if lis[i] == '-': lis[i] = 0
+		if lis[i] == '-' or lis[i] == '.': lis[i] = 0
 		else: lis[i] = int(lis[i])
 	return lis
 
@@ -86,7 +87,7 @@ def toModern():
 		else: moderndata[index] = data
 
 	#Currently the file opened is hardcoded
-	with open('../data/2004-2014.csv') as f:
+	with codecs.open('../data/1990-2004.csv', encoding='iso-8859-1') as f:
 		reader = csv.reader(f, delimiter=';')
 		for i in reader:
 			if i[0] == 'Sveitarfélag' or i[0] == 'Alls': continue
@@ -97,7 +98,7 @@ def toModern():
 def printdic(dic):
 	#Years hardcoded!
 	s = 'Sveitarfélag'
-	for i in range(2004,2015):
+	for i in range(1990,2005):
 		s += ';' + str(i)
 	print(s)
 
@@ -110,3 +111,4 @@ def printdic(dic):
 
 if __name__ == '__main__':
 	printdic(toModern())
+	#print(toModern())
