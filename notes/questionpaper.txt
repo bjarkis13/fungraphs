@@ -1,0 +1,11 @@
+1.  Descriptive, Exploratory, Inferential, Predictive, Causal, Mechanistic
+2.  
+3.  
+4.  Histogram
+5.  *what the hell is a projection here?*
+6.  
+7.  The larger the object appears on the map, the larger the map's scale
+8.  Sequential
+9. 
+10. Column headers are values, not variable names. Multiple variable are stored in one column. Variables are stored in both rows and columns. Multiple types of observational units are stored in the same table. A single observational unit isstored in multiple tables.
+11. In the first chart there is a cut-off. In graph three the lines are not labeld, USD is redundant, way too many zeros. MORE !
