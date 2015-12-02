@@ -54,7 +54,6 @@ Dyrhólahreppur,Mýrdalshreppur,1984
 Hvammshreppur V-Skaftafellssýslu,Mýrdalshreppur,1984
 Klofningshreppur,Fellsstrandarhreppur,1986
 Geiradalshreppur,Reykhólahreppur,1987
-Reykhólahreppur,Reykhólahreppur,1987
 Gufudalshreppur,Reykhólahreppur,1987
 Múlahreppur,Reykhólahreppur,1987
 Flateyjarhreppur,Reykhólahreppur,1987
@@ -182,7 +181,6 @@ Stokkseyrarhreppur,Sveitarfélagið Árborg,1998
 Eyrarbakkahreppur,Sveitarfélagið Árborg,1998
 Sandvíkurhreppur,Sveitarfélagið Árborg,1998
 Þverárhlíðarhreppur,Borgarbyggð,1998
-Borgarbyggð,Borgarbyggð,1998
 Borgarhreppur,Borgarbyggð,1998
 Álftaneshreppur,Borgarbyggð,1998
 Lundarreykjadalshreppur,Borgarfjarðarsveit,1998
