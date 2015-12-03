@@ -36,7 +36,7 @@ Selfossbyggð,Selfoss,1947
 Sauðaneshreppur,Sauðaneshreppur,Þórshafnarhreppur,1947
 Sauðárkrókshreppur,Sauðárkrókskaupstaður,1947
 Hofshreppur,Hofshreppur,Hofsóshreppur,1948
-Seltjarnarneshreppur,Kópavogur,Seltjarnarneshreppur,1948
+Seltjarnarneshreppur,Kópavogshreppur,Seltjarnarneshreppur,1948
 Kópavogshreppur,Kópavogur,1955
 Grunnavíkurhreppur,Snæfjallahreppur,1964
 Snæfjallahreppur,Ísafjarðarkaupstaður,1964
