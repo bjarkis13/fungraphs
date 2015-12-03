@@ -1,0 +1,32 @@
+Grímsneshreppur,599;Grímsneshreppur,413;Laugardalshreppur,167;-19
+Breiðdalshreppur,672;Breiðdalshreppur,360;Stöðvarhreppur,167;-145
+Hálshreppur,578;Flateyjarhreppur,114;Hálshreppur,375;-89
+Ljósavatnshreppur,572;Bárðdælahreppur,288;Ljósavatnshreppur,281;-3
+Sauðárhreppur,715;Sauðárkrókshreppur,473;Skarðshreppur Skagafjarðarsýslu,199;-43
+Rauðasandshreppur,813;Patrekshreppur,475;Rauðasandshreppur,465;127
+Fáskrúðsfjarðarhreppur,765;Búðahreppur,393;Fáskrúðsfjarðarhreppur,423;53
+Reyðarfjarðarhreppur,945;Eskifjarðarhreppur,425;Helgustaðahreppur,261;Reyðarfjarðarhreppur,331;72
+Skriðuhreppur,446;Skriðuhreppur,112;Öxnadalshreppur,274;-60
+Neshreppur innan Ennis,705;Fróðárhreppur,177;Ólafsvíkurhreppur,442;-86
+Arnarneshreppur,914;Arnarneshreppur,426;Árskógshreppur,551;63
+Húsavíkurhreppur,926;Húsavíkurhreppur,631;Tjörneshreppur,316;21
+Borgarhreppur,478;Borgarhreppur,361;Borgarneshreppur,307;190
+Norðfjarðarhreppur S-Múlasýslu,784;Neshreppur,770;Norðfjarðarhreppur,254;240
+Torfalækjarhreppur,404;Blönduóshreppur,260;Torfalækjarhreppur,183;39
+Skarðsstrandarhreppur,333;Klofningshreppur,116;Skarðshreppur Dalasýslu,170;-47
+Mosvallahreppur,705;Flateyrarhreppur,392;Mosvallahreppur,254;-59
+Árskógshreppur,551;Árskógshreppur,312;Hríseyjarhreppur,318;79
+Tjörneshreppur,228;Reykjahreppur,98;Tjörneshreppur,128;-2
+Ásahreppur,580;Ásahreppur,248;Djúpárhreppur,329;-3
+Kirkjuhvammshreppur,496;Hvammstangahreppur,314;Kirkjuhvammshreppur,253;71
+Vindhælishreppur,668;Höfðahreppur,315;Skagahreppur,208;Vindhælishreppur,127;-18
+Geithellnahreppur,434;Búlandshreppur,270;Geithellnahreppur,158;-6
+Keflavíkurhreppur,1578;Keflavík,2395;Njarðvíkurhreppur,568;1385
+Presthólahreppur,630;Presthólahreppur,294;Raufarhafnarhreppur,346;10
+Svarfaðardalshreppur,1064;Dalvíkurhreppur,803;Svarfaðardalshreppur,385;124
+Ölfushreppur,561;Hveragerðishreppur,529;Ölfushreppur,345;313
+Sandvíkurhreppur,369;Sandvíkurhreppur,128;Selfoss,999;758
+Nesjahreppur,449;Höfn,434;Nesjahreppur,205;190
+Sauðaneshreppur,533;Sauðaneshreppur,153;Þórshafnarhreppur,363;-17
+Hofshreppur,540;Hofshreppur,243;Hofsóshreppur,291;-6
+Seltjarnarneshreppur,627;Kópavogur,1647;Seltjarnarneshreppur,686;1706
