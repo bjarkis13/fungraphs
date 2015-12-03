@@ -1,3 +1,4 @@
+Fyrir skiptingu,fjöldi;Eftir skiptingu,fjöldi;Eftir skiptingu,fjöldi;mismunur
 Grímsneshreppur,599;Grímsneshreppur,413;Laugardalshreppur,167;-19
 Breiðdalshreppur,672;Breiðdalshreppur,360;Stöðvarhreppur,167;-145
 Hálshreppur,578;Flateyjarhreppur,114;Hálshreppur,375;-89
