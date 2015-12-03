@@ -13,14 +13,14 @@ Neshreppur innan Ennis,Fróðárhreppur,Ólafsvíkurhreppur,1911
 Arnarneshreppur,Arnarneshreppur,Árskógshreppur,1911
 Húsavíkurhreppur,Húsavíkurhreppur,Tjörneshreppur,1912
 Borgarhreppur,Borgarhreppur,Borgarneshreppur,1913
-Norðfjarðarhreppur S-Múlasýslu,Neshreppur,Norðfjarðarhreppur,1913
-Torfalækjarhreppur,Blönduóshreppur,Torfalækjarhreppur,1914
+Norðfjarðarhreppur,Neshreppur,Norðfjarðarhreppur,1913
+Torfalækjarhreppur,Blönduósbær,Torfalækjarhreppur,1914
 Skarðsstrandarhreppur,Klofningshreppur,Skarðshreppur Dalasýslu,1918
 Hvanneyrarhreppur,Siglufjörður,1918
 Mosvallahreppur,Flateyrarhreppur,Mosvallahreppur,1922
 Árskógshreppur,Árskógshreppur,Hríseyjarhreppur,1930
 Tjörneshreppur,Reykjahreppur,Tjörneshreppur,1932
-Blönduóskauptún,Blönduóshreppur,1936
+Engihlíðarhreppur,Blönduósbær,1936
 Ásahreppur,Ásahreppur,Djúpárhreppur,1938
 Kirkjuhvammshreppur,Hvammstangahreppur,Kirkjuhvammshreppur,1938
 Vindhælishreppur,Höfðahreppur,Skagahreppur,Vindhælishreppur,1939

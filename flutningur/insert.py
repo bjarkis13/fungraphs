@@ -1,5 +1,3 @@
-#Tilraun til að setja í db
-
 import csv
 from population.models import Municipality, Changes, Population
 
@@ -50,6 +48,7 @@ def addPopulation():
         reader = csv.reader(f, delimiter=';')
         for i in reader:
             mun = getMun(i[0])
+            print(i[0])
             data = i[1:]
             for y, val in enumerate(data):
                 if val == '.' or val == '-': val = 0

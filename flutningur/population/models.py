@@ -15,3 +15,6 @@ class Population(models.Model):
     municipality = models.ForeignKey(Municipality)
     year = models.IntegerField()
     val = models.IntegerField(null=True)
+
+    class Meta:
+        unique_together = ('municipality', 'year')
