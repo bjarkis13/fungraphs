@@ -225,7 +225,7 @@
 
       var segmentized = location.search === "?segmentized",
           url = ["data",
-            segmentized ? "iceland-segmentized.topojson" : "iceland.topojson"
+            segmentized ? "iceland-segmentized.topojson" : "iceland-10.topojson"
           ].join("/");
       d3.json(url, function(topo) {
         topology = topo;
@@ -303,7 +303,7 @@
 
         var color = d3.scale.linear()
           .range(colors)
-          .domain(lo < 0
+          .domain(lo > 0
             ? [lo, 0, hi]
             : [lo, d3.mean(values), hi]);
 
@@ -328,7 +328,7 @@
             });
 
         states.transition()
-          .duration(750)
+          .duration(250)
           .ease("linear")
           .attr("fill", function(d) {
             return color(value(d));
