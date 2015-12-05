@@ -102,6 +102,7 @@
         <img id="placeholder" alt="placeholder image for old browsers" src="placeholder.png">
         <svg id="map"></svg>
       </div>
+      <!--
       <div id="about">
         <h2>About</h2>
         <p><a href="cartogram.js">cartogram.js</a> is a JavaScript implementation of
@@ -128,6 +129,7 @@
 
       <a href="https://github.com/shawnbot/d3-cartogram/"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png" alt="Fork me on GitHub"></a>
     </div>
+      -->
     <script>
 
       // hide the form if the browser doesn't do SVG,
@@ -147,8 +149,9 @@
             // {name: "Census Population", id: "censuspop", key: "%d", years: [2010]},
             // {name: "Estimate Base", id: "censuspop", key: "ESTIMATESBASE%d", years: [2010]},
             {name: "Population Estimate", id: "censuspop", key: "%d"},
+            {name: "Population Percentage", id: "poppercent", key: "%d"},
           ],
-          years = [1911, 1921, 1931, 1941, 1951, 1961, 1971, 1981, 1990, 2001, 2011],
+          years = [1911, 1921, 1931, 1941, 1951, 1961, 1971, 1981, 1991, 2001, 2011],
           fieldsById = d3.nest()
             .key(function(d) { return d.id; })
             .rollup(function(d) { return d[0]; })
@@ -191,7 +194,7 @@
       var map = d3.select("#map");
       
       var proj = d3.geo.albers()
-          .origin([-21.1, 65.3])
+          .origin([-18, 65])
           .scale(6000)
           .translate([400, 250]);
       var path = d3.geo.path().projection(proj);
