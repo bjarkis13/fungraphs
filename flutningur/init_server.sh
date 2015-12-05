@@ -21,4 +21,4 @@ if [ -d lib/d3 ] ; then
 fi
 
 #Insert data into database
-python manage.py shell -c "import insert;import convert;insert.addChanges();insert.addPopulation();convert.updateAll()"
+python manage.py shell -c "import insert,convert;insert.addChanges();insert.addPopulation();convert.updateAll()"

@@ -35,7 +35,12 @@ def getChanges(year, toYear=2015, verbose=False):
 
 
 def updateAll():
-    years = range(1900,1991,10)
+    #1900 to 1990, every 10 years
+    years = [i for i in range(1900,1991,10)]
+
+    #1991 to 2014, every year
+    years += [i for i in range(1991,2015)]
+
     for i in years:
         getChanges(i)
 

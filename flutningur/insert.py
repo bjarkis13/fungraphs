@@ -1,10 +1,11 @@
 import csv
+import os.path
 from django.db import IntegrityError
 from population.models import Municipality, Changes, Population
 
 BRPATH = '../data/breytingar.txt'
 PCPATH = '../data/skiptingar.csv'
-PATH = '../data/1901-1990.csv'
+DPATH = '../data'
 
 def getMun(name):
 	try:
@@ -61,7 +62,8 @@ def addChanges():
 			
 
 def addPopulation():
-	with open(PATH) as f:
+	#1900 to 1990, every 10 years
+	with open(os.path.join(DPATH, '1901-1990.csv')) as f:
 		reader = csv.reader(f, delimiter=';')
 		for i in reader:
 			mun = getMun(i[0])
@@ -72,7 +74,38 @@ def addPopulation():
 					pop = Population(municipality=mun,year=1900+y*10,val=val)
 					pop.save()
 				except IntegrityError:
-					print(i[0])
+					print('Integrity error {}'.format(i[0]))
+
+
+	#1991 to 2004 every year
+	with open(os.path.join(DPATH, '1990-2004')) as f:
+		reader = csv.reader(f, delimiter=';')
+		for i in reader:
+			mun = getMun(i[0])
+			data = i[1:]
+			for y, val in enumerate(data):
+				if val == '.' or val == '-': val = 0
+				try:
+					pop = Population(municipality=mun,year=1991+y,val=val)
+					pop.save()
+				except IntegrityError:
+					print('Integrity error {}'.format(i[0]))
+
+
+	#2005 to 2014 every year
+	with open(os.path.join(DPATH, '2004-2014.csv')) as f:
+		reader = csv.reader(f, delimiter=';')
+		for i in reader:
+			mun = getMun(i[0])
+			data = i[1:]
+			for y, val in enumerate(data):
+				if val == '.' or val == '-': val = 0
+				try:
+					pop = Population(municipality=mun,year=2005+y,val=val)
+					pop.save()
+				except IntegrityError:
+					print('Integrity error {}'.format(i[0]))
+
 
 if __name__ == '__main__':
 	addChanges()
