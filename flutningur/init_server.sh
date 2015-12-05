@@ -19,3 +19,6 @@ if [ -d lib/d3 ] ; then
     unzip d3.zip -d d3
     rm d3.zip
 fi
+
+#Insert data into database
+python manage.py shell -c "import insert;import convert;insert.addChanges();insert.addPopulation();convert.updateAll()"

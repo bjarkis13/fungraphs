@@ -1,4 +1,3 @@
-#FUCK THIS SHIT
 from population.models import Municipality, Changes, Population
 
 def getChanges(year, toYear=2015, verbose=False):
