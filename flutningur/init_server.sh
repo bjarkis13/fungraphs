@@ -3,7 +3,7 @@
 python3 manage.py makemigrations population
 python3 manage.py migrate
 # Get d3 and nvd3 libs
-if [ -d lib/nvd3 ] ; then
+if [ ! -d lib/nvd3 ] ; then
     cd lib
     wget https://github.com/novus/nvd3/zipball/master -O nvd3.zip
     mkdir nvd3
@@ -12,12 +12,15 @@ if [ -d lib/nvd3 ] ; then
     mv nvd3/$subdir/* nvd3
     rmdir nvd3/$subdir
     rm nvd3.zip
+    cd -
 fi
-if [ -d lib/d3 ] ; then
+if [ ! -d lib/d3 ] ; then
+    cd lib
     wget https://github.com/mbostock/d3/releases/download/v3.5.10/d3.zip -O d3.zip
     mkdir d3
     unzip d3.zip -d d3
     rm d3.zip
+    cd -
 fi
 
 #Insert data into database

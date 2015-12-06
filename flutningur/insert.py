@@ -78,7 +78,7 @@ def addPopulation():
 
 
 	#1991 to 2004 every year
-	with open(os.path.join(DPATH, '1990-2004')) as f:
+	with open(os.path.join(DPATH, '1990-2004.csv')) as f:
 		reader = csv.reader(f, delimiter=';')
 		for i in reader:
 			mun = getMun(i[0])
