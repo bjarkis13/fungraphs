@@ -395,6 +395,10 @@ $(function() {
          )
         .appendTo('body');
     })
+    .click(function (e) {
+        var region_data=$(this).data('region');
+        $('#info').append(region_data.region_name);
+    })
     .mouseleave(function () {
         $('.info_panel').remove();
     })
