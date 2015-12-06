@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 from population.models import Municipality, Changes, Population
 
 def getChanges(year, toYear=2015, verbose=False):
@@ -44,3 +45,7 @@ def updateAll():
     for i in years:
         getChanges(i)
 
+if __name__ == '__main__':
+	import django
+	django.setup()
+	updateAll()

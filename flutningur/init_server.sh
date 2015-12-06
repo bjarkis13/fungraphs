@@ -25,4 +25,5 @@ if [ ! -d lib/d3 ] ; then
 fi
 
 #Insert data into database
-python -c "import django; django.setup();import insert,convert;insert.addChanges();insert.addPopulation();convert.updateAll()"
+./insert.py
+./convert.py

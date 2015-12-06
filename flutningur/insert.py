@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import csv
 import os.path
 from django.db import IntegrityError
@@ -108,4 +109,7 @@ def addPopulation():
 
 
 if __name__ == '__main__':
+	import django
+	django.setup()
 	addChanges()
+	addPopulation()
