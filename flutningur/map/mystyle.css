@@ -18,7 +18,7 @@
     cursor: help;
 }
 #map-container {
-    width: 1200px;
+    width: 100%;
     margin: 20px auto;
 }
 path.st4{fill:#FEFEFE; stroke:#A4A4A4; stroke-width:0.0;}
