@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
+export DJANGO_SETTINGS_MODULE="flutningur.settings"
 python3 manage.py makemigrations population
 python3 manage.py migrate
 # Get d3 and nvd3 libs
@@ -24,4 +25,4 @@ if [ ! -d lib/d3 ] ; then
 fi
 
 #Insert data into database
-python manage.py shell -c "import insert,convert;insert.addChanges();insert.addPopulation();convert.updateAll()"
+python -c "import django; django.setup();import insert,convert;insert.addChanges();insert.addPopulation();convert.updateAll()"
