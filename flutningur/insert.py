@@ -7,12 +7,14 @@ from population.models import Municipality, Changes, Population
 BRPATH = '../data/breytingar.txt'
 PCPATH = '../data/skiptingar.csv'
 DPATH = '../data'
+MIDPATH = 'sveitarfelog.txt'
+ID = {}
 
 def getMun(name):
 	try:
 		mun = Municipality.objects.get(name=name)
 	except Municipality.DoesNotExist:
-		mun = Municipality(name=name)
+		mun = Municipality(name=name, mid = ID.get(id))
 		mun.save()
 	return mun
 
@@ -111,5 +113,9 @@ def addPopulation():
 if __name__ == '__main__':
 	import django
 	django.setup()
+	with open(os.path.join(DPATH, MIDPATH)) as f:
+		reader = csv.reader(f, delimiter=',')
+		for i in reader:
+			ID[i[1]] = i[0]
 	addChanges()
 	addPopulation()
