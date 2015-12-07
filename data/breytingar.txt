@@ -103,7 +103,6 @@ Fellsstrandarhreppur,Dalabyggð,1994
 Fjallahreppur,Öxarfjarðarhreppur,1994
 Hafnahreppur,Reykjanesbær,1994
 Haukadalshreppur,Dalabyggð,1994
-Helgafellssveit,Stykkishólmur,1994
 Höfn,Hornafjarðarbær,1994
 Hólmavíkurhreppur í Strandasýslu,Hólmavíkurhreppur,1994
 Holtahreppur,Holta- og Landsveit,1994
