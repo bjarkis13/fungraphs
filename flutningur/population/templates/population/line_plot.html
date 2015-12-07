@@ -43,12 +43,15 @@ var histcatexplong = [ {% for key, val in data.items %}
 nv.addGraph(function() {
   var chart = nv.models.lineWithFocusChart()
             .x(function(d) { return d[0] })
-            .y(function(d) { return d[1] });
+            .y(function(d) { return d[1] === 0 ? 1 : d[1] })
+            .yScale(d3.scale.log())
+            .forceY([1]);
 
   chart.xAxis
       .tickFormat(d3.format(''));
 
   chart.yAxis
+      .tickValues([1,10,100,1000,10000,1000000])
       .tickFormat(d3.format(''));
 
   chart.y2Axis
