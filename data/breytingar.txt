@@ -1,22 +1,22 @@
 Fyrir,Eftir,Ártal
-Grímsneshreppur,Grímsneshreppur,Laugardalshreppur,1905
 Breiðdalshreppur,Breiðdalshreppur,Stöðvarhreppur,1905
+Grímsneshreppur,Grímsneshreppur,Laugardalshreppur,1905
+Eskifjörður,Eskifjarðarhreppur,1907
+Fáskrúðsfjarðarhreppur,Búðahreppur,Fáskrúðsfjarðarhreppur,1907
 Hálshreppur,Flateyjarhreppur í S-Þingeyjarsýslu,Hálshreppur,1907
 Ljósavatnshreppur,Bárðdælahreppur,Ljósavatnshreppur,1907
-Sauðárhreppur,Sauðárkrókshreppur,Skarðshreppur Skagafjarðarsýslu,1907
 Rauðasandshreppur,Patrekshreppur,Rauðasandshreppur,1907
-Fáskrúðsfjarðarhreppur,Búðahreppur,Fáskrúðsfjarðarhreppur,1907
 Reyðarfjarðarhreppur,Eskifjarðarhreppur,Helgustaðahreppur,Reyðarfjarðarhreppur,1907
-Eskifjörður,Eskifjarðarhreppur,1907
+Sauðárhreppur,Sauðárkrókshreppur,Skarðshreppur Skagafjarðarsýslu,1907
 Skriðuhreppur,Skriðuhreppur,Öxnadalshreppur,1910
-Neshreppur innan Ennis,Fróðárhreppur,Ólafsvíkurhreppur,1911
 Arnarneshreppur,Arnarneshreppur,Árskógshreppur,1911
+Neshreppur innan Ennis,Fróðárhreppur,Ólafsvíkurhreppur,1911
 Húsavíkurhreppur,Húsavíkurhreppur,Tjörneshreppur,1912
 Borgarhreppur,Borgarhreppur,Borgarneshreppur,1913
 Norðfjarðarhreppur,Neshreppur,Norðfjarðarhreppur,1913
 Torfalækjarhreppur,Blönduósbær,Torfalækjarhreppur,1914
-Skarðsstrandarhreppur,Klofningshreppur,Skarðshreppur Dalasýslu,1918
 Hvanneyrarhreppur,Siglufjörður,1918
+Skarðsstrandarhreppur,Klofningshreppur,Skarðshreppur Dalasýslu,1918
 Mosvallahreppur,Flateyrarhreppur,Mosvallahreppur,1922
 Árskógshreppur,Árskógshreppur,Hríseyjarhreppur,1930
 Tjörneshreppur,Reykjahreppur,Tjörneshreppur,1932
@@ -27,15 +27,15 @@ Vindhælishreppur,Höfðahreppur,Skagahreppur,Vindhælishreppur,1939
 Geithellnahreppur,Búlandshreppur,Geithellnahreppur,1940
 Keflavíkurhreppur,Keflavíkurhreppur,Njarðvík,1942
 Ytri-Akraneshreppur,Akranes,1942
-Presthólahreppur,Presthólahreppur,Raufarhafnarhreppur,1945
 Húsavíkurhreppur,Húsavík,1945
-Svarfaðardalshreppur,Dalvíkurhreppur,Svarfaðardalshreppur,1946
+Presthólahreppur,Presthólahreppur,Raufarhafnarhreppur,1945
+Nesjahreppur,Hafnarhreppur,Nesjahreppur,1946
 Ölfushreppur,Hveragerðishreppur,Ölfushreppur,1946
 Sandvíkurhreppur,Sandvíkurhreppur,Selfoss,1946
-Nesjahreppur,Hafnarhreppur,Nesjahreppur,1946
-Selfossbyggð,Selfoss,1947
+Svarfaðardalshreppur,Dalvíkurhreppur,Svarfaðardalshreppur,1946
 Sauðaneshreppur,Sauðaneshreppur,Þórshafnarhreppur,1947
 Sauðárkrókshreppur,Sauðárkrókskaupstaður,1947
+Selfossbyggð,Selfoss,1947
 Hofshreppur Skagafjarðarsýslu,Hofshreppur Skagafjarðarsýslu,Hofsóshreppur,1948
 Seltjarnarneshreppur,Kópavogshreppur,Seltjarnarneshreppur,1948
 Kópavogshreppur,Kópavogur,1955
@@ -45,9 +45,9 @@ Eyrarhreppur,Ísafjarðarkaupstaður,1971
 Hnífsdalur,Ísafjarðarkaupstaður,1971
 Flateyjarhreppur í S-Þingeyjarsýslu,Hálshreppur,1972
 Loðmundarfjarðarhreppur,Borgarfjarðarhreppur,1972
+Dalvíkurhreppur,Dalvíkurbyggð,1974
 Grindavíkurhreppur,Grindavík,1974
 Hólshreppur,Bolungarvík,1974
-Dalvíkurhreppur,Dalvíkurbyggð,1974
 Seltjarnarneshreppur,Seltjarnarnes,1975
 Garðahreppur,Garðabær,1976
 Njarðvíkurhreppur,Njarðvík,1976
@@ -55,217 +55,217 @@ Njarðvíkurhreppur,Njarðvík,1976
 Dyrhólahreppur,Mýrdalshreppur,1984
 Hvammshreppur V-Skaftafellssýslu,Mýrdalshreppur,1984
 Klofningshreppur,Fellsstrandarhreppur,1986
+Flateyjarhreppur í A-Barðastrandarsýslu,Reykhólahreppur,1987
 Geiradalshreppur,Reykhólahreppur,1987
 Gufudalshreppur,Reykhólahreppur,1987
-Múlahreppur,Reykhólahreppur,1987
-Flateyjarhreppur í A-Barðastrandarsýslu,Reykhólahreppur,1987
-Ketildalahreppur,Bíldudalshreppur,1987
-Suðurfjarðarhreppur,Bíldudalshreppur,1987
 Hrófbergshreppur,Hólmavíkurhreppur,1987
 Hveragerðishreppur,Hveragerði,1987
-Haganeshreppur,Fljótahreppur,1988
-Holtshreppur,Fljótahreppur,1988
-Helgustaðahreppur,Eskifjarðarkaupstaður,1988
-Eskifjarðarhreppur,Helgustaðahreppur,1988
+Ketildalahreppur,Bíldudalshreppur,1987
+Múlahreppur,Reykhólahreppur,1987
+Suðurfjarðarhreppur,Bíldudalshreppur,1987
 Blönduóshreppur,Blönduósbær,1988
+Eskifjarðarhreppur,Helgustaðahreppur,1988
+Haganeshreppur,Fljótahreppur,1988
+Helgustaðahreppur,Eskifjarðarkaupstaður,1988
+Holtshreppur,Fljótahreppur,1988
 Selvogshreppur,Ölfushreppur,1989
-Fróðárhreppur,Ólafsvíkurkaupstaður,1990
+Álftavershreppur,Skaftárhreppur,1990
 Auðkúluhreppur,Þingeyrarhreppur,1990
-Seyðisfjarðarhreppur,Seyðisfjörður,1990
-Hofsóshreppur,Hofshreppur Skagafjarðarsýslu,1990
 Fellshreppur í Skagafjarðarsýslu,Hofshreppur Skagafjarðarsýslu,1990
+Fróðárhreppur,Ólafsvíkurkaupstaður,1990
+Hofsóshreppur,Hofshreppur Skagafjarðarsýslu,1990
 Hörgslandshreppur,Skaftárhreppur,1990
 Kirkjubæjarhreppur,Skaftárhreppur,1990
-Skaftártunguhreppur,Skaftárhreppur,1990
 Leiðvallarhreppur,Skaftárhreppur,1990
-Álftavershreppur,Skaftárhreppur,1990
 Miðneshreppur,Sandgerði,1990
+Seyðisfjarðarhreppur,Seyðisfjörður,1990
+Skaftártunguhreppur,Skaftárhreppur,1990
 Hrafnagilshreppur,Eyjafjarðarsveit,1991
-Saurbæjarhreppur Eyjafjarðarsýslu,Eyjafjarðarsveit,1991
 Öngulsstaðahreppur,Eyjafjarðarsveit,1991
 Presthólahreppur,Öxarfjarðarhreppur,1991
+Saurbæjarhreppur Eyjafjarðarsýslu,Eyjafjarðarsveit,1991
+Beruneshreppur,Djúpavogshreppur,1992
+Búlandshreppur,Djúpavogshreppur,1992
+Fellshreppur í Strandasýslu,Broddaneshreppur,1992
+Geithellnahreppur,Djúpavogshreppur,1992
 Hörðudalshreppur,Suðurdalahreppur,1992
 Miðdalahreppur,Suðurdalahreppur,1992
-Fellshreppur í Strandasýslu,Broddaneshreppur,1992
 Óspakseyrarhreppur,Broddaneshreppur,1992
-Beruneshreppur,Djúpavogshreppur,1992
-Geithellnahreppur,Djúpavogshreppur,1992
-Búlandshreppur,Djúpavogshreppur,1992
 Landmannahreppur,Holta- og Landsveit,1993
-Holtahreppur,Holta- og Landsveit,1994
-Fjallahreppur,Öxarfjarðarhreppur,1994
-Suðurdalahreppur,Dalabyggð,1994
-Haukadalshreppur,Dalabyggð,1994
-Laxárdalshreppur,Dalabyggð,1994
-Hvammshreppur Dalasýslu,Dalabyggð,1994
-Fellsstrandarhreppur,Dalabyggð,1994
-Skarðshreppur Dalasýslu,Dalabyggð,1994
-Staðarsveit,Snæfellsbær,1994
-Breiðuvíkurhreppur,Snæfellsbær,1994
-Neshreppur,Snæfellsbær,1994
-Ólafsvík,Snæfellsbær,1994
-Hafnahreppur,Reykjanesbær,1994
-Keflavík,Reykjanesbær,1994
-Njarðvík,Reykjanesbær,1994
-Norðfjarðarhreppur,Neskaupstaður,1994
 Barðastrandarhreppur,Vesturbyggð,1994
-Rauðasandshreppur,Vesturbyggð,1994
-Patrekshreppur,Vesturbyggð,1994
 Bíldudalshreppur,Vesturbyggð,1994
-Sauðaneshreppur,Þórshafnarhreppur,1994
-Norðurárdalshreppur,Borgarbyggð,1994
-Stafholtstungnahreppur,Borgarbyggð,1994
 Borgarnesbær,Borgarbyggð,1994
-Hraunhreppur,Borgarbyggð,1994
+Borgarnes,Borgarbyggð,1994
+Breiðuvíkurhreppur,Snæfellsbær,1994
 Eyjahreppur,Eyja- og Miklaholtshreppur,1994
-Miklaholtshreppur,Eyja- og Miklaholtshreppur,1994
-Nauteyrarhreppur,Hólmavíkurhreppur,1994
-Hólmavíkurhreppur í Strandasýslu,Hólmavíkurhreppur,1994
-Snæfjallahreppur í N-Ísafjarðarsýslu,Ísafjarðarkaupstaður,1994
+Fellsstrandarhreppur,Dalabyggð,1994
+Fjallahreppur,Öxarfjarðarhreppur,1994
+Hafnahreppur,Reykjanesbær,1994
+Haukadalshreppur,Dalabyggð,1994
 Helgafellssveit,Stykkishólmur,1994
 Höfn,Hornafjarðarbær,1994
-Nesjahreppur,Hornafjarðarbær,1994
+Hólmavíkurhreppur í Strandasýslu,Hólmavíkurhreppur,1994
+Holtahreppur,Holta- og Landsveit,1994
+Hraunhreppur,Borgarbyggð,1994
+Hvammshreppur Dalasýslu,Dalabyggð,1994
+Keflavík,Reykjanesbær,1994
+Laxárdalshreppur,Dalabyggð,1994
+Miklaholtshreppur,Eyja- og Miklaholtshreppur,1994
 Mýrahreppur Skaftafellssýslu,Hornafjarðarbær,1994
-Ólafsvíkurkaupstaður,Snæfellsbær,1994
-Borgarnes,Borgarbyggð,1994
+Nauteyrarhreppur,Hólmavíkurhreppur,1994
+Neshreppur,Snæfellsbær,1994
 Neshreppur utan Ennis,Snæfellsbær,1994
+Nesjahreppur,Hornafjarðarbær,1994
+Njarðvík,Reykjanesbær,1994
+Norðfjarðarhreppur,Neskaupstaður,1994
+Norðurárdalshreppur,Borgarbyggð,1994
+Ólafsvík,Snæfellsbær,1994
+Ólafsvíkurkaupstaður,Snæfellsbær,1994
+Patrekshreppur,Vesturbyggð,1994
+Rauðasandshreppur,Vesturbyggð,1994
+Sauðaneshreppur,Þórshafnarhreppur,1994
+Skarðshreppur Dalasýslu,Dalabyggð,1994
+Snæfjallahreppur í N-Ísafjarðarsýslu,Ísafjarðarkaupstaður,1994
+Staðarsveit,Snæfellsbær,1994
+Stafholtstungnahreppur,Borgarbyggð,1994
+Suðurdalahreppur,Dalabyggð,1994
 Suðurfjarðahreppur,Vesturbyggð,1994
-Sléttuhreppur,Ísafjarðarkaupstaður,1995
 Ögurhreppur,Súðavíkurhreppur,1995
 Reykjarfjarðarhreppur,Súðavíkurhreppur,1995
-Ísafjarðarkaupstaður,Ísafjarðarbær,1996
-Þingeyrarhreppur,Ísafjarðarbær,1996
-Mýrahreppur V-Ísafjarðarsýslu,Ísafjarðarbær,1996
+Sléttuhreppur,Ísafjarðarkaupstaður,1995
 Flateyrarhreppur,Ísafjarðarbær,1996
+Ísafjarðarkaupstaður,Ísafjarðarbær,1996
 Mosvallahreppur,Ísafjarðarbær,1996
+Mýrahreppur V-Ísafjarðarsýslu,Ísafjarðarbær,1996
 Suðureyrarhreppur,Ísafjarðarbær,1996
+Þingeyrarhreppur,Ísafjarðarbær,1996
 Hlíðarhreppur,Norður- Hérað,1997
 Jökuldalshreppur,Norður- Hérað,1997
 Tunguhreppur,Norður- Hérað,1997
-Skógarstrandarhreppur,Dalabyggð,1998
-Kjalarneshreppur,Reykjavík,1998
-Skriðdalshreppur,Austur- Hérað,1998
-Vallahreppur,Austur- Hérað,1998
-Egilsstaðir,Austur- Hérað,1998
-Eiðahreppur,Austur- Hérað,1998
-Hjaltastaðarhreppur,Austur- Hérað,1998
-Dalvík,Dalvíkurbyggð,1998
-Svarfaðardalshreppur,Dalvíkurbyggð,1998
+Álftaneshreppur,Borgarbyggð,1998
+Andakílshreppur,Borgarfjarðarsveit,1998
 Árskógshreppur,Dalvíkurbyggð,1998
-Grímsneshreppur,Grímsnes- og Grafningshreppur,1998
-Grafningshreppur,Grímsnes- og Grafningshreppur,1998
-Sauðárkrókskaupstaður,Sveitarfélagið Skagafjörður,1998
-Skefilsstaðahreppur,Sveitarfélagið Skagafjörður,1998
-Skarðshreppur Skagafjarðarsýslu,Sveitarfélagið Skagafjörður,1998
-Seyluhreppur,Sveitarfélagið Skagafjörður,1998
-Lýtingsstaðahreppur,Sveitarfélagið Skagafjörður,1998
-Rípurhreppur,Sveitarfélagið Skagafjörður,1998
-Viðvíkurhreppur,Sveitarfélagið Skagafjörður,1998
-Hólahreppur,Sveitarfélagið Skagafjörður,1998
-Hofshreppur Skagafjarðarsýslu,Sveitarfélagið Skagafjörður,1998
-Fljótahreppur,Sveitarfélagið Skagafjörður,1998
-Neskaupstaður,Fjarðabyggð,1998
-Eskifjarðarkaupstaður,Fjarðabyggð,1998
-Reyðarfjarðarhreppur,Fjarðabyggð,1998
-Staðarhreppur V-Húnavatnssýslu,Húnaþing vestra,1998
-Fremri-Torfustaðahreppur,Húnaþing vestra,1998
-Ytri-Torfustaðahreppur,Húnaþing vestra,1998
-Hvammstangahreppur,Húnaþing vestra,1998
-Kirkjuhvammshreppur,Húnaþing vestra,1998
-Þverárhreppur,Húnaþing vestra,1998
-Þorkelshólshreppur,Húnaþing vestra,1998
 Bæjarhreppur Skaftafellssýslu,Sveitarfélagið Hornafjörður,1998
 Borgarhafnarhreppur,Sveitarfélagið Hornafjörður,1998
-Hofshreppur Skaftafellssýslu,Sveitarfélagið Hornafjörður,1998
-Hornafjarðarbær,Sveitarfélagið Hornafjörður,1998
-Selfoss,Sveitarfélagið Árborg,1998
-Stokkseyrarhreppur,Sveitarfélagið Árborg,1998
-Eyrarbakkahreppur,Sveitarfélagið Árborg,1998
-Sandvíkurhreppur,Sveitarfélagið Árborg,1998
-Þverárhlíðarhreppur,Borgarbyggð,1998
 Borgarhreppur,Borgarbyggð,1998
-Álftaneshreppur,Borgarbyggð,1998
-Lundarreykjadalshreppur,Borgarfjarðarsveit,1998
+Dalvík,Dalvíkurbyggð,1998
+Egilsstaðir,Austur- Hérað,1998
+Eiðahreppur,Austur- Hérað,1998
+Eskifjarðarkaupstaður,Fjarðabyggð,1998
+Eyrarbakkahreppur,Sveitarfélagið Árborg,1998
+Fljótahreppur,Sveitarfélagið Skagafjörður,1998
+Fremri-Torfustaðahreppur,Húnaþing vestra,1998
+Grafningshreppur,Grímsnes- og Grafningshreppur,1998
+Grímsneshreppur,Grímsnes- og Grafningshreppur,1998
 Hálsahreppur,Borgarfjarðarsveit,1998
-Reykholtsdalshreppur,Borgarfjarðarsveit,1998
-Andakílshreppur,Borgarfjarðarsveit,1998
+Hjaltastaðarhreppur,Austur- Hérað,1998
+Hofshreppur Skaftafellssýslu,Sveitarfélagið Hornafjörður,1998
 Hofshreppur Skagafjarðarsýslu,Sveitarfélagið Skagafjörður,1998
+Hofshreppur Skagafjarðarsýslu,Sveitarfélagið Skagafjörður,1998
+Hólahreppur,Sveitarfélagið Skagafjörður,1998
+Hornafjarðarbær,Sveitarfélagið Hornafjörður,1998
+Hvammstangahreppur,Húnaþing vestra,1998
+Kirkjuhvammshreppur,Húnaþing vestra,1998
+Kjalarneshreppur,Reykjavík,1998
+Lundarreykjadalshreppur,Borgarfjarðarsveit,1998
+Lýtingsstaðahreppur,Sveitarfélagið Skagafjörður,1998
+Neskaupstaður,Fjarðabyggð,1998
+Reyðarfjarðarhreppur,Fjarðabyggð,1998
+Reykholtsdalshreppur,Borgarfjarðarsveit,1998
+Rípurhreppur,Sveitarfélagið Skagafjörður,1998
+Sandvíkurhreppur,Sveitarfélagið Árborg,1998
+Sauðárkrókskaupstaður,Sveitarfélagið Skagafjörður,1998
+Selfoss,Sveitarfélagið Árborg,1998
+Seyluhreppur,Sveitarfélagið Skagafjörður,1998
+Skarðshreppur Skagafjarðarsýslu,Sveitarfélagið Skagafjörður,1998
+Skefilsstaðahreppur,Sveitarfélagið Skagafjörður,1998
+Skógarstrandarhreppur,Dalabyggð,1998
+Skriðdalshreppur,Austur- Hérað,1998
 Staðarhreppur Skagafjarðarsýslu,Sveitarfélagið Skagafjörður,1998
-Skriðuhreppur,Hörgárbyggð,2001
-Öxnadalshreppur,Hörgárbyggð,2001
-Glæsibæjarhreppur,Hörgárbyggð,2001
-Engihlíðarhreppur,Blönduósbær,2001
-Hálshreppur,Þingeyjarsveit,2001
-Ljósavatnshreppur,Þingeyjarsveit,2001
-Bárðdælahreppur,Þingeyjarsveit,2001
-Reykdælahreppur,Þingeyjarsveit,2001
+Staðarhreppur V-Húnavatnssýslu,Húnaþing vestra,1998
+Stokkseyrarhreppur,Sveitarfélagið Árborg,1998
+Svarfaðardalshreppur,Dalvíkurbyggð,1998
+Vallahreppur,Austur- Hérað,1998
+Viðvíkurhreppur,Sveitarfélagið Skagafjörður,1998
+Ytri-Torfustaðahreppur,Húnaþing vestra,1998
+Þorkelshólshreppur,Húnaþing vestra,1998
+Þverárhlíðarhreppur,Borgarbyggð,1998
+Þverárhreppur,Húnaþing vestra,1998
 Austur-Eyjafjallahreppur,Rangárþing eystra,2001
-Vestur-Eyjafjallahreppur,Rangárþing eystra,2001
 Austur-Landeyjahreppur,Rangárþing eystra,2001
-Vestur-Landeyjahreppur,Rangárþing eystra,2001
+Bárðdælahreppur,Þingeyjarsveit,2001
+Engihlíðarhreppur,Blönduósbær,2001
 Fljótshlíðarhreppur,Rangárþing eystra,2001
+Glæsibæjarhreppur,Hörgárbyggð,2001
+Hálshreppur,Þingeyjarsveit,2001
 Hvolhreppur,Rangárþing eystra,2001
-Vindhælishreppur,Skagabyggð,2001
+Ljósavatnshreppur,Þingeyjarsveit,2001
+Öxnadalshreppur,Hörgárbyggð,2001
+Reykdælahreppur,Þingeyjarsveit,2001
 Skagahreppur,Skagabyggð,2001
-Skeiðahreppur,Skeiða- og Gnúpverjahreppur,2002
-Gnúpverjahreppur,Skeiða- og Gnúpverjahreppur,2002
-Þingvallahreppur,Bláskógabyggð,2002
+Skriðuhreppur,Hörgárbyggð,2001
+Vestur-Eyjafjallahreppur,Rangárþing eystra,2001
+Vestur-Landeyjahreppur,Rangárþing eystra,2001
+Vindhælishreppur,Skagabyggð,2001
 Biskupstungnahreppur,Bláskógabyggð,2002
-Laugardalshreppur,Bláskógabyggð,2002
-Húsavík,Húsavíkurbær,2005
-Reykjahreppur,Húsavíkurbær,2002
-Holta- og Landsveit,Rangárþing ytra,2002
 Djúpárhreppur,Rangárþing ytra,2002
-Rangárvallahreppur,Rangárþing ytra,2002
-Kirkjubólshreppur,Hólmavíkurhreppur,2002
 Eyrarsveit,Grundarfjarðarbær,2002
-Stöðvarhreppur,Austurbyggð,2003
+Gnúpverjahreppur,Skeiða- og Gnúpverjahreppur,2002
+Holta- og Landsveit,Rangárþing ytra,2002
+Kirkjubólshreppur,Hólmavíkurhreppur,2002
+Laugardalshreppur,Bláskógabyggð,2002
+Rangárvallahreppur,Rangárþing ytra,2002
+Reykjahreppur,Húsavíkurbær,2002
+Skeiðahreppur,Skeiða- og Gnúpverjahreppur,2002
+Þingvallahreppur,Bláskógabyggð,2002
 Búðahreppur,Austurbyggð,2003
-Gerðahreppur,Sveitarfélagið Garður,2004
-Bessastaðahreppur,Sveitarfélagið Álftanes,2004
-Hríseyjarhreppur,Akureyri,2004
-Austur-Hérað,Fljótsdalshérað,2004
-Fellahreppur,Fljótsdalshérað,2004
-Norður-Hérað,Fljótsdalshérað,2004
-Bólstaðarhlíðarhreppur,Húnavatnshreppur,2004
-Sveinsstaðahreppur,Húnavatnshreppur,2005
-Svínavatnshreppur,Húnavatnshreppur,2005
-Torfalækjarhreppur,Húnavatnshreppur,2005
-Hvalfjarðarstrandarhreppur,Hvalfjarðarsveit,2006
-Innri-Akraneshreppur,Hvalfjarðarsveit,2006
-Leirár- og Melahreppur,Hvalfjarðarsveit,2006
-Skilmannahreppur,Hvalfjarðarsveit,2006
+Stöðvarhreppur,Austurbyggð,2003
 Austur- Hérað,Fljótsdalshérað,2004
+Austur-Hérað,Fljótsdalshérað,2004
+Bessastaðahreppur,Sveitarfélagið Álftanes,2004
+Bólstaðarhlíðarhreppur,Húnavatnshreppur,2004
+Fellahreppur,Fljótsdalshérað,2004
+Gerðahreppur,Sveitarfélagið Garður,2004
+Hríseyjarhreppur,Akureyri,2004
 Norður- Hérað,Fljótsdalshérað,2004
+Norður-Hérað,Fljótsdalshérað,2004
 Ölfushreppur,Sveitarfélagið Ölfus,2004
+Austurbyggð,Fjarðabyggð,2005
 Borgarfjarðarsveit,Borgarbyggð,2005
+Fáskrúðsfjarðarhreppur,Fjarðabyggð,2005
+Húsavík,Húsavíkurbær,2005
 Hvítársíðuhreppur,Borgarbyggð,2005
 Kolbeinsstaðahreppur,Borgarbyggð,2005
 Mjóafjarðarhreppur,Fjarðabyggð,2005
-Fáskrúðsfjarðarhreppur,Fjarðabyggð,2005
-Austurbyggð,Fjarðabyggð,2005
-Vatnsleysustrandarhreppur,Sveitarfélagið Vogar,2006
+Sveinsstaðahreppur,Húnavatnshreppur,2005
+Svínavatnshreppur,Húnavatnshreppur,2005
+Torfalækjarhreppur,Húnavatnshreppur,2005
+Áshreppur,Húnavatnshreppur,2006
+Broddaneshreppur,Strandabyggð,2006
+Gaulverjabæjarhreppur,Flóahreppur,2006
+Hólmavíkurhreppur,Strandabyggð,2006
+Hraungerðishreppur,Flóahreppur,2006
 Húsavíkurbær,Norðurþing,2006
+Hvalfjarðarstrandarhreppur,Hvalfjarðarsveit,2006
+Innri-Akraneshreppur,Hvalfjarðarsveit,2006
 Kelduneshreppur,Norðurþing,2006
+Leirár- og Melahreppur,Hvalfjarðarsveit,2006
+Ólafsfjarðarbær,Fjallabyggð,2006
+Ólafsfjarðarhreppur,Fjallabyggð,2006
+Ólafsfjörður,Fjallabyggð,2006
 Öxarfjarðarhreppur,Norðurþing,2006
 Raufarhafnarhreppur,Norðurþing,2006
-Siglufjörður,Fjallabyggð,2006
-Ólafsfjarðarbær,Fjallabyggð,2006
-Gaulverjabæjarhreppur,Flóahreppur,2006
-Hraungerðishreppur,Flóahreppur,2006
-Villingaholtshreppur,Flóahreppur,2006
 Saurbæjarhreppur Dalasýslu,Dalabyggð,2006
-Áshreppur,Húnavatnshreppur,2006
-Hólmavíkurhreppur,Strandabyggð,2006
-Broddaneshreppur,Strandabyggð,2006
+Siglufjörður,Fjallabyggð,2006
 Skeggjastaðahreppur,Langanesbyggð,2006
+Skilmannahreppur,Hvalfjarðarsveit,2006
+Vatnsleysustrandarhreppur,Sveitarfélagið Vogar,2006
+Villingaholtshreppur,Flóahreppur,2006
 Þórshafnarhreppur,Langanesbyggð,2006
-Ólafsfjörður,Fjallabyggð,2006
-Ólafsfjarðarhreppur,Fjallabyggð,2006
 Höfðahreppur,Sveitarfélagið Skagaströnd,2007
 Aðaldælahreppur,Þingeyjarsveit,2008
 Grímseyjarhreppur,Akureyri,2009
-Hörgárbyggð,Hörgársveit,2010
 Arnarneshreppur,Hörgársveit,2010
+Hörgárbyggð,Hörgársveit,2010
 Bæjarhreppur Strandasýslu,Húnaþing vestra,2012
 Sveitarfélagið Álftanes,Garðabær,2013
