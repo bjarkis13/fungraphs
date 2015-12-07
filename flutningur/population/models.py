@@ -3,6 +3,7 @@ from django.db import models
 # Create your models here.
 class Municipality(models.Model): 
     name = models.CharField(max_length=200, unique=True)
+    mid = models.IntegerField(unique=True, null=True)
     change = models.ManyToManyField('self', symmetrical=False, through='Changes', through_fields=('old','new'))
 
 class Changes(models.Model):

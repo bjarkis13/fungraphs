@@ -397,7 +397,7 @@ $(function() {
     })
     .click(function (e) {
         var region_data=$(this).data('region');
-        $('#info').append(region_data.region_name);
+        $('#info').text(region_data.region_name+'(' + region_data.region_code + ')');
     })
     .mouseleave(function () {
         $('.info_panel').remove();

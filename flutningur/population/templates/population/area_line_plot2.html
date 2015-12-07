@@ -39,6 +39,40 @@ var histcatexplong = [ {% for key, val in data.items %}
 { "key" : "{{ key }}", "values" : [
 {% for a,b in val %}[{{ a }},{{ b }}],{% endfor %}]},{% endfor %}
 ];
+
+nv.addGraph(function() {
+  var chart = nv.models.lineWithFocusChart()
+            .x(function(d) { return d[0] })
+            .y(function(d) { return d[1] });
+
+  chart.xAxis
+      .tickFormat(d3.format(''));
+
+  chart.yAxis
+      .tickFormat(d3.format(''));
+
+  chart.y2Axis
+      .tickFormat(d3.format(''));
+
+  d3.select('#chart1')
+      .datum(histcatexplong)
+      .transition().duration(500)
+      .call(chart);
+
+  nv.utils.windowResize(chart.update);
+
+  return chart;
+});
+
+function testData() {
+  return stream_layers(3,128,.1).map(function(data, i) {
+    return { 
+      key: 'Stream' + i,
+      values: data
+    };
+  });
+}
+/*
     var colors = d3.scale.category20();
 
     var chart;
@@ -71,6 +105,7 @@ var histcatexplong = [ {% for key, val in data.items %}
         nv.utils.windowResize(chart.update);
         return chart;
     });
+*/
 
 </script>
 </body>
