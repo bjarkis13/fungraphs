@@ -12,7 +12,7 @@ Skriðuhreppur,Skriðuhreppur,Öxnadalshreppur,1910
 Neshreppur innan Ennis,Fróðárhreppur,Ólafsvíkurhreppur,1911
 Arnarneshreppur,Arnarneshreppur,Árskógshreppur,1911
 Húsavíkurhreppur,Húsavíkurhreppur,Tjörneshreppur,1912
-Borgarhreppur,Borgarhreppur,Borgarneshreppur,1913
+Borgarhreppur,Borgarhreppur,Borgarnes,1913
 Norðfjarðarhreppur,Neshreppur,Norðfjarðarhreppur,1913
 Torfalækjarhreppur,Blönduósbær,Torfalækjarhreppur,1914
 Skarðsstrandarhreppur,Klofningshreppur,Skarðshreppur Dalasýslu,1918
