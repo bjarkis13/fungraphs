@@ -14,7 +14,7 @@ def getMun(name):
 	try:
 		mun = Municipality.objects.get(name=name)
 	except Municipality.DoesNotExist:
-		mun = Municipality(name=name, mid = ID.get(id))
+		mun = Municipality(name=name, mid = ID.get(name))
 		mun.save()
 	return mun
 
@@ -117,5 +117,6 @@ if __name__ == '__main__':
 		reader = csv.reader(f, delimiter=',')
 		for i in reader:
 			ID[i[1]] = i[0]
+	print(ID)
 	addChanges()
 	addPopulation()
