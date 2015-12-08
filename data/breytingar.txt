@@ -8,7 +8,8 @@ Ljósavatnshreppur,Bárðdælahreppur,Ljósavatnshreppur,1907
 Rauðasandshreppur,Patrekshreppur,Rauðasandshreppur,1907
 Reyðarfjarðarhreppur,Eskifjarðarhreppur,Helgustaðahreppur,Reyðarfjarðarhreppur,1907
 Sauðárhreppur,Sauðárkrókshreppur,Skarðshreppur Skagafjarðarsýslu,1907
-Rosmhvalaneshreppur,Keflavíkurhreppur,1908
+Rosmhvalaneshreppur,Gerðahreppur,Keflavíkurhreppur,1908
+Garðahreppur,Garðahreppur,Hafnarfjörður,1908
 Skriðuhreppur,Skriðuhreppur,Öxnadalshreppur,1910
 Arnarneshreppur,Arnarneshreppur,Árskógshreppur,1911
 Neshreppur innan Ennis,Fróðárhreppur,Ólafsvíkurhreppur,1911
