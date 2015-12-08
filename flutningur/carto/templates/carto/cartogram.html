@@ -1,3 +1,4 @@
+{% load staticfiles %}
 <!DOCTYPE html>
 <html>
   <head>
@@ -5,9 +6,9 @@
     <meta charset="utf-8">
     <meta property="og:image" content="placeholder.png">
     <script src="http://d3js.org/d3.v2.min.js"></script>
-    <script src="/lib/colorbrewer.js"></script>
-    <script src="/lib/topojson.js"></script>
-    <script src="cartogram.js"></script>
+    <script src="{% static "lib/colorbrewer.js" %}"></script>
+    <script src="{% static "lib/topojson.js" %}"></script>
+    <script src="{% static "cartogram.js" %}"></script>
     <style type="text/css">
 
       body {
@@ -99,7 +100,7 @@
         </p>
       </form>
       <div id="map-container">
-        <img id="placeholder" alt="placeholder image for old browsers" src="placeholder.png">
+          <!-- <img id="placeholder" alt="placeholder image for old browsers" src="placeholder.png"> -->
         <svg id="map"></svg>
       </div>
       <!--
@@ -223,14 +224,11 @@
         parseHash();
       };
 
-      var segmentized = location.search === "?segmentized",
-          url = ["data",
-            segmentized ? "iceland-segmentized.topojson" : "iceland-10.topojson"
-          ].join("/");
+      var url ="{% static "maps/iceland-5.topojson" %}";
       d3.json(url, function(topo) {
         topology = topo;
         geometries = topology.objects.states.geometries;
-        d3.csv("data/landsskipting.csv", function(data) {
+        d3.csv("{% static "data/landsskipting.csv" %}", function(data) {
           rawData = data;
           dataById = d3.nest()
             .key(function(d) { return d.NAME; })
