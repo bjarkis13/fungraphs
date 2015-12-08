@@ -20,10 +20,26 @@ def line(request):
         data[name].append((line.year,line.val))
     print(data)
 
-    template = loader.get_template("population/area_line_plot2.html")
+    template = loader.get_template("population/line_plot.html")
     #return HttpResponse("".join(["{}({}):{}, ".format(m.municipality.name, m.year, m.val) for m in data]))
     context = RequestContext(request, { 'data' : data }, processors = [])
     return HttpResponse(template.render(context))
+
+def heatmap(request):
+    raw = Population.objects.filter(municipality__mid__isnull=False).order_by('municipality__name', 'year')
+    data = {}
+    for line in raw:
+        name = line.municipality.name
+        if not name in data:
+            data[name] = []
+        data[name].append((line.year,line.val))
+    print(data)
+
+    template = loader.get_template("population/line_plot.html")
+    #return HttpResponse("".join(["{}({}):{}, ".format(m.municipality.name, m.year, m.val) for m in data]))
+    context = RequestContext(request, { 'data' : data }, processors = [])
+    return HttpResponse(template.render(context))
+
 
 
 def index2(request):
