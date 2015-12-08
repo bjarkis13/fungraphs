@@ -44,22 +44,21 @@ nv.addGraph(function() {
   var chart = nv.models.lineWithFocusChart()
             .x(function(d) { return d[0] })
             .y(function(d) { return d[1] === 0 ? 1 : d[1] })
-            .yScale(d3.scale.log())
             .forceY([1]);
 
   chart.xAxis
-      .tickFormat(d3.format(''));
+      .tickFormat(d3.format('d'));
 
   chart.yAxis
-      .tickValues([1,10,100,1000,10000,1000000])
-      .tickFormat(d3.format(''));
+      .tickValues([1,10,100,1000,10000,100000])
+      .tickFormat(d3.format('d'));
 
   chart.y2Axis
-      .tickFormat(d3.format(''));
+      .tickFormat(d3.format('d'));
 
   d3.select('#chart1')
       .datum(histcatexplong)
-      .transition().duration(500)
+      .transition().duration(5)
       .call(chart);
 
   nv.utils.windowResize(chart.update);
@@ -67,14 +66,6 @@ nv.addGraph(function() {
   return chart;
 });
 
-function testData() {
-  return stream_layers(3,128,.1).map(function(data, i) {
-    return { 
-      key: 'Stream' + i,
-      values: data
-    };
-  });
-}
 /*
     var colors = d3.scale.category20();
 
