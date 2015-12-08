@@ -22,7 +22,7 @@ def getChanges(year, toYear=2015, verbose=False):
         try:
             npop = Population.objects.get(municipality=i.new,year=year)
         except Population.DoesNotExist:
-            print('Created value for {} at {}'.format(i.new.name,year))
+            if verbose: print('Created value for {} at {}'.format(i.new.name,year))
             npop = Population(municipality=i.new,year=year,val=0)
 
         
