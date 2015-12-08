@@ -1,0 +1,51 @@
+.map #iceland {
+   fill:#DADADA;
+   stroke:#787878;
+   stroke-width:0.1;
+}
+.map #capital_area {
+   fill:#DADADA;
+   stroke:#787878;
+   stroke-width:0.5;
+}
+.map #glaciers {
+    fill:#FEFEFE;
+    stroke:#A4A4A4;
+    stroke-width:0.0;
+}
+.map g g:hover {
+    fill:#ff0000 !important;
+    cursor: help;
+}
+#map-container {
+    width: 100%;
+    margin: 20px auto;
+}
+path.st4{fill:#FEFEFE; stroke:#A4A4A4; stroke-width:0.0;}
+path.st2{fill:#FF0000; stroke:#000000; stroke-width:0.01;}
+.info_panel {
+  background-color: rgba(255,255,255, .8);
+  padding: 5px;
+  font-size: 12px;
+  font-family: Helvetica, Arial, sans-serif;
+  position: absolute;
+  border: 1px solid #333;
+  color: #333;
+  white-space: nowrap;
+}
+
+.info_panel::first-line {
+  font-weight: bold;
+}
+/*
+path.st1{fill:#DADADA; stroke:#787878; stroke-width:0.5;}
+path.st0{fill:#DADADA; stroke:#787878; stroke-width:0.1;}
+path.st3{}
+path.st5{}
+path.st6{}
+path.st7{}
+path.st8{}
+g path.st2:hover, g path.st4:hover{
+           fill:   blue; 
+      }
+*/
