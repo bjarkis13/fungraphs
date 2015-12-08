@@ -9,4 +9,10 @@ def index(request):
     return HttpResponse("Sveito index")
 
 def sveito(request, mid):
-    return HttpResponse("Sveito nr " + args)
+    try:
+        data = {"title" : Municipality.objects.get(mid=int(mid)).name}
+    except Municipality.DoesNotExist:
+        raise Http404('Municipality does not exist')
+    template = loader.get_template("sveito/sveito.html")
+    context = RequestContext(request,{"data": data},processors=[])
+    return HttpResponse(template.render(context))
