@@ -41,6 +41,7 @@ Sauðárkrókshreppur,Sauðárkrókskaupstaður,1947
 Selfossbyggð,Selfoss,1947
 Hofshreppur Skagafjarðarsýslu,Hofshreppur Skagafjarðarsýslu,Hofsóshreppur,1948
 Seltjarnarneshreppur,Kópavogshreppur,Seltjarnarneshreppur,1948
+Glæsibæjarhreppur,Glæsibæjarhreppur,Akureyri,1954
 Kópavogshreppur,Kópavogur,1955
 Grunnavíkurhreppur,Snæfjallahreppur,1964
 Eyrarhreppur,Ísafjarðarkaupstaður,1971
