@@ -1,4 +1,5 @@
-Skilgreining byggðarstofnunar á viðvarandi fólksfækkun er 15% fækkun íbúa eða meira á 15 ára tímabili. Við tökum fyrir tímabilið 2000-2015.
+Skilgreining byggðarstofnunar á viðvarandi fólksfækkun er 15% fækkun íbúa eða meira á 15 ára tímabili. 
+Við tökum fyrir tímabilið 2000-2015.
 
 Ísafjarðarbær 			15.2%
 Djúpavogshreppur 		16.3%
