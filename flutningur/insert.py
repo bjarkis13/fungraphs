@@ -133,6 +133,9 @@ def addGender():
 	municipalities = listMun()
 	toSave = []
 
+	#Alls added here
+	getMun('Alls')
+
 	classdic = {'100 ára og eldri':20}
 	for i in range(20):
 		classdic['{}-{} ára'.format(i*5,i*5+4)] = i
