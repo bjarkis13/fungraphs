@@ -23,8 +23,8 @@ class Population(models.Model):
 class GenderPop(models.Model):
 	municipality = models.ForeignKey(Municipality)	
 	ageclass = models.IntegerField() #0 for 0-4, 1 for 5-9 etc.
-	val_m = models.IntegerField()
-	val_f = models.IntegerField()
+	valm = models.IntegerField()
+	valf = models.IntegerField()
 	year = models.IntegerField()
 
 	class Meta:

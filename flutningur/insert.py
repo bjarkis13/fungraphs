@@ -125,23 +125,28 @@ def addGender():
 	for i in range(20):
 		classdic['{}-{} ára'.format(i*5,i*5+4)] = i
 	s = []
+	unknown = []
 	with open(os.path.join(DPATH,GPATH)) as f:
 		reader = csv.reader(f, delimiter=';')
 		for i in reader:
-		#There is probably a better way to do this
-		if i[0] == 'Sveitarfélag' or i[1] == 'Alls': continue
-		try:
-			mun = Municipality.objects.get(name=i[0])
-		except Municipality.DoesNotExist:
-			print('Unknown municipality {}'.format(i[0]))
-			continue
+			#There is probably a better way to do this
+			if i[0] == 'Sveitarfélag' or i[1] == 'Alls': continue
+			try:
+				mun = Municipality.objects.get(name=i[0])
+			except Municipality.DoesNotExist:
+				#print('Unknown municipality {}'.format(i[0]))
+				unknown.append(i[0])
+				continue
 	
-		ageclass = classdic[i[1]]
+			ageclass = classdic[i[1]]
 
-		#should this be -1?
-		for y in range(2,len(i)-1, 2):
-			gpop = (municipality=mun,ageclass=ageclass,valm=i[y],valf=i[y+1],year=1997+y//2)
-			gpop.save()
+			#should this be -1?
+			for y in range(2,len(i)-1, 2):
+				gpop = GenderPop(municipality=mun,ageclass=ageclass,valm=i[y],valf=i[y+1],year=1997+y//2)
+				gpop.save()
+
+	for i in set(unknown):
+		print('Unknown municipality {}'.format(i))
 
 if __name__ == '__main__':
 	import django
@@ -150,7 +155,7 @@ if __name__ == '__main__':
 		reader = csv.reader(f, delimiter=',')
 		for i in reader:
 			ID[i[1]] = i[0]
-	print(ID)
+	#print(ID)
 	addChanges()
 	addPopulation()
 	addGender()
