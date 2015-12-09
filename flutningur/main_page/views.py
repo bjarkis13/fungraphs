@@ -6,5 +6,7 @@ from population.models import Municipality, Population
 # Create your views here.
 
 def index(request):
-    return HttpResponse("Welcome to our amazing site")
+    template = loader.get_template("main_page/home.html")
+    context = RequestContext(request, { 'title' : 'beni plz', 'homeactive': True, 'css' : [] }, processors = [])
+    return HttpResponse(template.render(context))
 
