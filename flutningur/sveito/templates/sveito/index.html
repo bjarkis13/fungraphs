@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+{% block title %} Municipalities of Iceland {% endblock %}
+{% block content %}
+<div class="row">
+<div class="nine columns">
+    <h4> Info </h4>
+    <p>
+    Here you can access all municipalities that exist today and see local data. Such as how they have merged and split up for the since the 20th century. Population pyramids and simple line plot of normalized population changes.
+    </p>
+</div>
+<div class="three columns" >
+<h4> List </h4>
+<ul>
+    {% for obj in data %}
+        <li>
+            <a href="{{ obj.mid|stringformat:"04d" }}">
+                {{ obj.name }}
+            </a>
+        </li>
+    {% endfor %}
+</ul>
+</div>
+</div>
+{% endblock %}

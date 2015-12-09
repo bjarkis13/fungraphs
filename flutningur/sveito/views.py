@@ -6,7 +6,10 @@ from population.models import Municipality, Population
 # Create your views here.
 
 def index(request):
-    return HttpResponse("Sveito index")
+    template = loader.get_template("sveito/index.html")
+    data = Municipality.objects.filter(mid__isnull=False).order_by('name')
+    context = RequestContext(request, { 'title' : 'Municipalities', 'sveitoactive': True, 'css' : [], 'data' : data}, processors = [])
+    return HttpResponse(template.render(context))
 
 def sveito(request, mid):
     try:
