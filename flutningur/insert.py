@@ -176,4 +176,3 @@ if __name__ == '__main__':
 	addPopulation()
 	print('Adding genderpop')
 	addGender()
-	print('Done adding')

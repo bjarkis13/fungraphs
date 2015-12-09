@@ -48,4 +48,5 @@ def updateAll():
 if __name__ == '__main__':
 	import django
 	django.setup()
+	print('Updating all')
 	updateAll()
