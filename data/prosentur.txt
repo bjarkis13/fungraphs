@@ -1,0 +1,76 @@
+Rangárþing eystra, 4.919016196760648
+Eyjafjarðarsveit, 7.053941908713693
+Borgarbyggð, 7.37257281553398
+Hrunamannahreppur, 10.584958217270195
+Reykjavík, 10.861157370753592
+Rangárþing ytra, 12.336719883889694
+Sveitarfélagið Ölfus, 13.622664255575648
+Fjarðabyggð, 14.220404234841194
+Hvalfjarðarsveit, 16.087751371115175
+Akureyri, 17.6953933747412
+Bláskógabyggð, 17.769607843137255
+Sandgerði, 19.245283018867926
+Sveitarfélagið Garður, 20.456466610312766
+Svalbarðsstrandarhreppur, 21.407624633431084
+Grímsnes- og Grafningshreppur, 23.142857142857142
+Fljótsdalshérað, 24.199928083423227
+Eyja- og Miklaholtshreppur, 25.217391304347824
+Akranes, 26.722846441947567
+Flóahreppur, 31.343283582089555
+Grindavíkurbær, 33.58608385370205
+Hveragerði, 35.45454545454545
+Skorradalshreppur, 37.77777777777778
+Reykjanesbær, 40.47439759036144
+Sveitarfélagið Árborg, 41.486557722720086
+Hafnarfjörður, 45.50057417266938
+Kópavogur, 46.32265456308113
+Sveitarfélagið Vogar, 50.54644808743169
+Kjósarhreppur, 52.112676056338024
+Garðabær, 54.116016208146725
+Mosfellsbær, 58.459703527006305
+Ásahreppur, 67.44186046511628
+-------------------------------------------------
+Hörgársveit, 2.2413793103448274
+Snæfellsbær, 2.326934264107039
+Skeiða- og Gnúpverjahreppur, 2.631578947368421
+Grýtubakkahreppur, 2.6737967914438503
+Skagabyggð, 2.941176470588235
+Borgarfjarðarhreppur, 4.929577464788732
+Helgafellssveit, 5.357142857142857
+Seltjarnarnes, 5.444801714898178
+Grundarfjarðarbær, 5.46218487394958
+Sveitarfélagið Skagafjörður, 6.615715309290661
+Vestmannaeyjar, 6.745252128356253
+Mýrdalshreppur, 7.6923076923076925
+Bolungarvík, 7.792207792207792
+Stykkishólmur, 9.038619556285948
+Dalvíkurbyggð, 9.21951219512195
+Sveitarfélagið Hornafjörður, 10.22964509394572
+Reykhólahreppur, 10.367892976588628
+Þingeyjarsveit, 12.213740458015266
+Húnaþing vestra, 12.21889055472264
+Dalabyggð, 12.258064516129032
+Skútustaðahreppur, 12.416851441241686
+Akrahreppur, 13.392857142857142
+Blönduóssbær, 13.55421686746988
+Vopnafjarðarhreppur, 14.575411913814957
+Langanesbyggð, 14.64226289517471
+Ísafjarðarbær, 15.210280373831775
+Djúpavogshreppur, 16.26984126984127
+Fljótsdalshreppur, 16.666666666666664
+Tálknafjarðarhreppur, 16.893732970027248
+Norðurþing, 17.227138643067846
+Strandabyggð, 18.02426343154246
+Vesturbyggð, 18.470301057770545
+Svalbarðshreppur, 19.00826446280992
+Húnavatnshreppur, 19.140625
+Tjörneshreppur, 19.17808219178082
+Árneshreppur, 19.402985074626866
+Súðavíkurhreppur, 20.0
+Sveitarfélagið Skagaströnd, 20.650406504065042
+Seyðisfjörður, 21.135265700483092
+Skaftárhreppur, 21.367521367521366
+Kaldrananeshreppur, 22.22222222222222
+Fjallabyggð, 22.63577668059248
+Breiðdalshreppur, 33.093525179856115
+
