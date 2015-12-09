@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 import csv
 import os.path
-from django.db import IntegrityError
+from django.db import IntegrityError, transaction
 from population.models import Municipality, Changes, Population, GenderPop
 
 BRPATH = 'breytingar.txt'
@@ -27,6 +27,13 @@ def getMun(name):
 		mun.save()
 	return mun
 
+@transaction.atomic
+def saveAll(s):
+	print('Saving all')
+	for i in s:
+		i.save()
+	print('Done saving')
+
 def getPercent():
 	dic = {}
 	with open(os.path.join(DPATH,PCPATH)) as f:
@@ -36,6 +43,7 @@ def getPercent():
 	return dic
 
 def addChanges():
+	toSave = []
 	#Add the cnages to a database
 	pdic = getPercent()
 	#Create a list of changes
@@ -62,17 +70,19 @@ def addChanges():
 					print('Need percent for {}: {}, {}'.format(old,j,y))
 				newMun = getMun(j)
 				change = Changes(old=oldMun,new=newMun,percent=per,year=y)
-				change.save()
+				toSave.append(change)
 		else:
 			new = new[0]
 			if old == new: print('{} goes into only itself'.format(old))
 			newMun = getMun(new)
-			newMun.save()
 			change = Changes(old=oldMun,new=newMun,percent=100,year=y)
-			change.save()
+			toSave.append(change)
+
+	saveAll(toSave)
 			
 
 def addPopulation():
+	toSave = []
 	#1900 to 1990, every 10 years
 	with open(os.path.join(DPATH, '1901-1990.csv')) as f:
 		reader = csv.reader(f, delimiter=';')
@@ -83,7 +93,7 @@ def addPopulation():
 				if val == '.' or val == '-': val = 0
 				try:
 					pop = Population(municipality=mun,year=1900+y*10,val=val)
-					pop.save()
+					toSave.append(pop)
 				except IntegrityError:
 					print('Integrity error {}'.format(i[0]))
 
@@ -98,7 +108,7 @@ def addPopulation():
 				if val == '.' or val == '-': val = 0
 				try:
 					pop = Population(municipality=mun,year=1991+y,val=val)
-					pop.save()
+					toSave.append(pop)
 				except IntegrityError:
 					print('Integrity error {}'.format(i[0]))
 
@@ -113,14 +123,16 @@ def addPopulation():
 				if val == '.' or val == '-': val = 0
 				try:
 					pop = Population(municipality=mun,year=2005+y,val=val)
-					pop.save()
+					toSave.append(pop)
 				except IntegrityError:
 					print('Integrity error {}'.format(i[0]))
 
+	saveAll(toSave)
 
 def addGender():
 	municipalities = listMun()
-	
+	toSave = []
+
 	classdic = {'100 ára og eldri':20}
 	for i in range(20):
 		classdic['{}-{} ára'.format(i*5,i*5+4)] = i
@@ -143,10 +155,12 @@ def addGender():
 			#should this be -1?
 			for y in range(2,len(i)-1, 2):
 				gpop = GenderPop(municipality=mun,ageclass=ageclass,valm=i[y],valf=i[y+1],year=1997+y//2)
-				gpop.save()
+				toSave.append(gpop)
 
 	for i in set(unknown):
 		print('Unknown municipality {}'.format(i))
+
+	saveAll(toSave)
 
 if __name__ == '__main__':
 	import django
@@ -156,6 +170,10 @@ if __name__ == '__main__':
 		for i in reader:
 			ID[i[1]] = i[0]
 	#print(ID)
+	print('Adding changes')
 	addChanges()
+	print('Adding population')
 	addPopulation()
+	print('Adding genderpop')
 	addGender()
+	print('Done adding')
