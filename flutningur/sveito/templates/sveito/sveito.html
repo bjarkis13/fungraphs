@@ -2,7 +2,7 @@
 <head>
 	<script src="http://d3js.org/d3.v3.min.js"></script>
 	<meta charset="utf-8">
-	<title>{{ data.title }}</title>
+	<title>{{ title }}</title>
 	<style>
 		svg {
 				border: 1px solid #ccc;
@@ -33,7 +33,7 @@
 
 <body>
 	<header>
-		<h1> {{ data.title }} </h1>
+		<h1> {{ title }} </h1>
 	</header>
 
 	<div id="agepyramid"> 
@@ -61,17 +61,9 @@ var pointA = regionWidth,
 
 // some contrived data
 var exampleData = [
-{group: '0-9', male: 10, female: 12},
-{group: '10-19', male: 14, female: 15},
-{group: '20-29', male: 15, female: 18},
-{group: '30-39', male: 18, female: 18},
-{group: '40-49', male: 21, female: 22},
-{group: '50-59', male: 19, female: 24},
-{group: '60-69', male: 15, female: 14},
-{group: '70-79', male: 8, female: 10},
-{group: '80-89', male: 4, female: 5},
-{group: '90-99', male: 2, female: 3},
-{group: '100-109', male: 1, female: 1},
+{% for i in gpop %}
+{group: '{{ i.0 }}', male: {{ i.1 }}, female: {{ i.2 }}},
+{% endfor %}
 ];
 
 // GET THE TOTAL POPULATION SIZE AND CREATE A FUNCTION FOR RETURNING THE PERCENTAGE
