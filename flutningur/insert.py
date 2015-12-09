@@ -2,13 +2,22 @@
 import csv
 import os.path
 from django.db import IntegrityError
-from population.models import Municipality, Changes, Population
+from population.models import Municipality, Changes, Population, GenderPop
 
-BRPATH = '../data/breytingar.txt'
-PCPATH = '../data/skiptingar.csv'
+BRPATH = 'breytingar.txt'
+PCPATH = 'skiptingar.csv'
 DPATH = '../data'
 MIDPATH = 'sveitarfelog.txt'
+GPATH = 'mannfjoldi98-15.csv'
+SVEITOPATH = 'sveitarfelog.txt'
 ID = {}
+
+def listMun():
+	s = []
+	with open(os.path.join(DPATH,SVEITOPATH)) as f:
+		for i in f:
+			s.append(i.strip().split(',')[1])
+	return s
 
 def getMun(name):
 	try:
@@ -20,19 +29,18 @@ def getMun(name):
 
 def getPercent():
 	dic = {}
-	with open(PCPATH) as f:
+	with open(os.path.join(DPATH,PCPATH)) as f:
 		for i in f:
 			i = i.strip().split(',')
 			dic[','.join(i[0:2])] = int(i[2])
 	return dic
-
 
 def addChanges():
 	#Add the cnages to a database
 	pdic = getPercent()
 	#Create a list of changes
 	s = []
-	with open(BRPATH) as f:
+	with open(os.path.join(DPATH,BRPATH)) as f:
 		for i in f:
 			if i == 'Fyrir,Eftir,Ártal\n': continue
 			i = i.split(',')
@@ -110,6 +118,31 @@ def addPopulation():
 					print('Integrity error {}'.format(i[0]))
 
 
+def addGender():
+	municipalities = listMun()
+	
+	classdic = {'100 ára og eldri':20}
+	for i in range(20):
+		classdic['{}-{} ára'.format(i*5,i*5+4)] = i
+	s = []
+	with open(os.path.join(DPATH,GPATH)) as f:
+		reader = csv.reader(f, delimiter=';')
+		for i in reader:
+		#There is probably a better way to do this
+		if i[0] == 'Sveitarfélag' or i[1] == 'Alls': continue
+		try:
+			mun = Municipality.objects.get(name=i[0])
+		except Municipality.DoesNotExist:
+			print('Unknown municipality {}'.format(i[0]))
+			continue
+	
+		ageclass = classdic[i[1]]
+
+		#should this be -1?
+		for y in range(2,len(i)-1, 2):
+			gpop = (municipality=mun,ageclass=ageclass,valm=i[y],valf=i[y+1],year=1997+y//2)
+			gpop.save()
+
 if __name__ == '__main__':
 	import django
 	django.setup()
@@ -120,3 +153,4 @@ if __name__ == '__main__':
 	print(ID)
 	addChanges()
 	addPopulation()
+	addGender()
