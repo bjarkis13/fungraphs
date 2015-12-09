@@ -1,0 +1,32 @@
+#bannernav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 0px solid #bbb;
+    background-color: #f3f3f3;
+}
+
+#bannernav li {
+    float: left;
+}
+
+#bannernav li a {
+    display: inline;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+#bannernav li a.active {
+    color: #fff;
+    background-color: #33c3f0;
+}
+#bannernav li a.active:hover {
+    background-color: #1EAEDB;
+}
+#bannernav li a:hover:not(.active) {
+    background-color: #ddd;
+}

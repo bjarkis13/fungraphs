@@ -1,0 +1,66 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>{{ title }}</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="{% static "css/extra.css" %}">
+  <link rel="stylesheet" href="{% static "css/normalize.css" %}">
+  <link rel="stylesheet" href="{% static "css/skeleton.css" %}">
+  {% for path in css %}
+  <link rel="stylesheet" href="{% static path %}">
+  {% endfor %}
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="{% static "images/favicon.png" %}">
+
+</head>
+<body>
+<header>
+    <div class="container">
+    <nav id="bannernav">
+      <ul>
+        <li><a {% if homeactive %} class="active" {% endif %} href="/">Home</a></li>
+        <li><a {% if sveitoactive %} class="active" {% endif %} href="/municipalities">Municipalities</a></li>
+        <li><a {% if mapsactive %} class="active" {% endif %} href="/cartogram">Maps</a></li>
+        <li><a {% if plotactive %} class="active" {% endif %} href="/plot">Plot</a></li>
+        <li><a {% if presactive %} class="active" {% endif %} href="#">Presentation</a></li>
+        <ul style="float:right;list-style-type:none;">
+        <li><a {% if queryactive %} class="active" {% endif %} href="#">Queries</a></li>
+        <li><a {% if aboutactive %} class="active" {% endif %} href="#">About</a></li>
+        <ul>
+      </ul>
+    </nav>
+    </div>
+</header>
+
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container">
+      {% autoescape off %}
+      <div class="title"><h2>{% block title %}{% endblock %}</h2></div>
+      {% block content %} {% endblock %}
+      {% endautoescape %}
+  </div>
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>
