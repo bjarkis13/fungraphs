@@ -21,5 +21,5 @@ urlpatterns = [
     url(r'^plot/', include('plot.urls')),
     url(r'^municipalities/', include('sveito.urls')),
     url(r'^cartogram/', include('carto.urls')),
-    url(r'^heatmap/', include('heat.urls')),
+    url(r'^maps/', include('heat.urls')),
 ]

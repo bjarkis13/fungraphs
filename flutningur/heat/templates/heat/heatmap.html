@@ -1,15 +1,14 @@
-{% load staticfiles %}
-<!DOCTYPE html>
-<html>
-<head>
-	<title>maps test</title>
-	<meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="{% static "mystyle.css" %}">
-	<script src="http://d3js.org/d3.v2.min.js"></script>
-	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-	<script src="hoverinfo.js"></script>
-</head>
-<body>
-{% include 'iceland.svg.html'%}
-</body>
-</html>
+{% extends 'base.html' %}
+
+{% block content %}
+
+<h4>{{ subtitle }} <span id="year"></span></h4>
+
+{% include 'iceland.svg.html' %}
+ <form>
+     <input style="width:100%" value="0" type="range" id="slider" min="0" max="{{ choroplethdata|length|add:"-1" }}">
+</form>
+
+
+
+{% endblock %}

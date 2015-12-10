@@ -1,33 +1,50 @@
 <script>
 var regions=[
-{% for obj in data %}
+{% for year,data in choroplethdata %}
     {
-        "region_name": "{{ obj.municipality.name }}",
-        "region_code": "{{ obj.municipality.mid|stringformat:"04d" }}",
-        "population": {{ obj.val }}
+        "year" : {{ year }},
+        "data" : [
+                {% for name,mid,val in data %}
+                    {
+                        "region_name": "{{ name }}",
+                        "region_code": "{{ mid|stringformat:"04d" }}",
+                        "population": {{ val }}
+                    },
+                {% endfor %}
+                  ]
     },
 {% empty %}
-    {% include 'iceland.svg.default.html' %}
+    {
+     "year": 0,
+     "data": [
+            {% include 'iceland.svg.default.html' %}
+     ],
+    }
 {% endfor %}
 ]
 
-var temp_array= regions.map(function(item){
-    return item.population;
+var temp_array= regions[0].data.map(function(item){
     return item.population;
 });
 var highest_value = Math.max.apply(Math, temp_array);
 
 
+
 $(function() {
-
-    for(i = 0; i < regions.length; i++) {
-
-        $('#'+ regions[i].region_code)
-        //.css({'fill': 'rgba(11, 104, 170,' + regions[i].population/highest_value +')'})
-        //.css({'fill': ['#fef0d9','#fdcc8a','#fc8d59','#e34a33','#b30000'][Math.floor(5*regions[i].population/(highest_value+1))]})
-        .css({'fill': ['#ffffcc','#c2e699','#78c679','#31a354','#006837'][Math.floor(5*regions[i].population/(highest_value+1))]})
-        .data('region', regions[i]);
+    function map_color(r) {
+        for(i = 0; i < r.length; i++) {
+            $('#'+ r[i].region_code)
+            //.css({'fill': 'rgba(11, 104, 170,' + regions[i].population/highest_value +')'})
+            //.css({'fill': ['#fef0d9','#fdcc8a','#fc8d59','#e34a33','#b30000'][Math.floor(5*regions[i].population/(highest_value+1))]})
+            .css({'fill': ['#ffffcc','#c2e699','#78c679','#31a354','#006837'][Math.floor(5*r[i].population/(highest_value+1))]})
+            .data('region', r[i]);
+        }
     }
+    map_color(regions[0].data)
+    $('#slider').change(function(){
+        map_color(regions[this.value].data)
+        $('#year').text(regions[this.value].year);
+    })
 
     $('.map g').mouseover(function (e) {
         var region_data=$(this).data('region');
@@ -40,7 +57,7 @@ $(function() {
     })
     .click(function (e) {
         var region_data=$(this).data('region');
-        window.open(region_data.region_code);
+        window.open('/municipalities/' + region_data.region_code);
     })
     .mouseleave(function () {
         $('.info_panel').remove();
@@ -50,8 +67,8 @@ $(function() {
             mouseY = e.pageY;
 
         $('.info_panel').css({
-            top: mouseY-50,
-            left: mouseX - ($('.info_panel').width()/2)
+            top: mouseY-60,
+            left: mouseX
         });
     });
 
