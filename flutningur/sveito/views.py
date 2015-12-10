@@ -8,7 +8,13 @@ from population.models import Municipality, Population, GenderPop
 def index(request):
     template = loader.get_template("sveito/index.html")
     data = Municipality.objects.filter(mid__isnull=False).order_by('name')
-    context = RequestContext(request, { 'title' : 'Municipalities', 'sveitoactive': True, 'css' : [], 'data' : data}, processors = [])
+    context = RequestContext(request, { 
+            'title' : 'Municipalities',
+            'sveitoactive': True,
+            'css' : ["mystyle.css"],
+            'municipalities' : data, 
+            'js':['hoverinfo.js', "jquery-1.10.2.min.js", "d3.v2.min.js"]
+        }, processors = [])
     return HttpResponse(template.render(context))
 
 def sveito(request, mid):

@@ -26,6 +26,10 @@
   <link rel="stylesheet" href="{% static path %}">
   {% endfor %}
 
+  {% for path in js %}
+  <script src="{% static path %}"> </script>
+  {% endfor %}
+
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="{% static "images/favicon.png" %}">
