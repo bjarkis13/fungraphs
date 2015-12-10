@@ -41,7 +41,7 @@ $(function() {
         }
     }
     map_color(regions[0].data)
-    $('#slider').change(function(){
+    $('#slider').on("input", function(){
         map_color(regions[this.value].data)
         $('#year').text(regions[this.value].year);
     })
