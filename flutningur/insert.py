@@ -2,7 +2,7 @@
 import csv
 import os.path
 from django.db import IntegrityError, transaction
-from population.models import Municipality, Changes, Population, GenderPop, Regions, SpendingPerCapita
+from population.models import Municipality, Changes, Population, GenderPop, Regions, SpendingPerCapita, Education
 
 BRPATH = 'breytingar.txt'
 PCPATH = 'skiptingar.csv'
@@ -12,6 +12,7 @@ GPATH = 'mannfjoldi98-15.csv'
 SVEITOPATH = 'sveitarfelog.txt'
 REGIONPATH = 'landshlutar.csv'
 SPENDPATH = 'saga/framlogSkatttekjur.csv'
+EDUPATH = 'saga/menntamal.csv'
 ID = {}
 REGIONS = []
 
@@ -154,9 +155,6 @@ def addGender():
 	municipalities = listMun()
 	toSave = []
 
-	#Alls added here
-	getMun('Alls')
-
 	classdic = {'100 ára og eldri':20}
 	for i in range(20):
 		classdic['{}-{} ára'.format(i*5,i*5+4)] = i
@@ -208,6 +206,25 @@ def addSpending():
 	saveAll(toSave)
 
 
+def addEdu():
+	toSave = []
+	with open(os.path.join(DPATH,EDUPATH)) as f:
+		reader = csv.reader(f, delimiter=',')
+		for i in reader:
+			if i[0] == 'Landsvæði': continue
+			try:
+				if i[0] == 'Alls': reg = None
+				else: reg = Regions.objects.get(name=i[0])
+			except Regions.DoesNotExist:
+				print('Unknown region {}'.format(i[0]))
+				continue
+
+			for j in range(1, len(i)):
+				i[j] = int(i[j])
+			edu = Education(region=reg,totalPop=i[1],childPop=i[2],grunn=i[3],framhalds=i[4],ha=i[5])
+			toSave.append(edu)
+	saveAll(toSave)
+
 if __name__ == '__main__':
 	import django
 	django.setup()
@@ -215,6 +232,9 @@ if __name__ == '__main__':
 		reader = csv.reader(f, delimiter=',')
 		for i in reader:
 			ID[i[1]] = int(i[0])
+	#Alls added here
+	getMun('Alls')
+
 	print('Adding regions')
 	addRegions()
 	print('Adding changes')
@@ -225,3 +245,5 @@ if __name__ == '__main__':
 	addGender()
 	print('Adding spending')
 	addSpending()
+	print('Adding education')
+	addEdu()
