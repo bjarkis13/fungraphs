@@ -24,16 +24,13 @@ def sveito(request, mid):
         raise Http404('Municipality does not exist')
 
     #Year is temporarily hardcoded
-    #Create a dictionary for age ranges
-    popdic = {20:'100+'}
-    for i in range(20):
-        popdic[i] = '{}-{}'.format(i*5,i*5+4)
-
     #We create the data for population pyramids
     data["gpop"] = []
-    gpop = GenderPop.objects.filter(municipality__mid=int(mid),year=2010)
+    gpop = GenderPop.objects.filter(municipality__mid=int(mid),year=2015)
     for i in gpop:
-        data["gpop"].append([popdic[i.ageclass],i.valm,i.valf])
+        data["gpop"].append([i.ageclass,i.valm,i.valf,i.year])
+
+
 
     template = loader.get_template("sveito/sveito.html")
     context = RequestContext(request,data,processors=[])
