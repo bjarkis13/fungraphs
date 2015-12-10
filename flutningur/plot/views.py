@@ -20,7 +20,7 @@ def plot(request, args):
             data[name] = []
         data[name].append((line.year,line.val))
 
-    template = loader.get_template("plot/line_plot.html")
+    template = loader.get_template("plot/logline_plot.html")
     context = RequestContext(request, { 'data' : data }, processors = [])
     return HttpResponse(template.render(context))
 

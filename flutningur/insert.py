@@ -2,7 +2,7 @@
 import csv
 import os.path
 from django.db import IntegrityError, transaction
-from population.models import Municipality, Changes, Population, GenderPop
+from population.models import Municipality, Changes, Population, GenderPop, Regions
 
 BRPATH = 'breytingar.txt'
 PCPATH = 'skiptingar.csv'
@@ -10,7 +10,18 @@ DPATH = '../data'
 MIDPATH = 'sveitarfelog.txt'
 GPATH = 'mannfjoldi98-15.csv'
 SVEITOPATH = 'sveitarfelog.txt'
+REGIONPATH = 'landshlutar.txt'
 ID = {}
+REGIONS = []
+
+def getRegion(mid):
+	if mid is None:
+		return None
+	for R in REGIONS:
+		if R.low <= mid and mid <= R.high:
+			return R
+	print('Error region for {} not found'.format(mid))
+	return None
 
 def listMun():
 	s = []
@@ -23,7 +34,8 @@ def getMun(name):
 	try:
 		mun = Municipality.objects.get(name=name)
 	except Municipality.DoesNotExist:
-		mun = Municipality(name=name, mid = ID.get(name))
+		mun = Municipality(name=name, mid = ID.get(name), region = getRegion(ID.get(name)))
+
 		mun.save()
 	return mun
 
@@ -129,6 +141,14 @@ def addPopulation():
 
 	saveAll(toSave)
 
+def addRegions():
+	global REGIONS
+	with open(os.path.join(DPATH, REGIONPATH)) as f:
+		reader = csv.reader(f, delimiter=',')
+		for l in reader:
+			REGIONS.append(Regions(name=l[0],low=int(l[1]), high=int(l[2])))
+	saveAll(REGIONS)
+
 def addGender():
 	municipalities = listMun()
 	toSave = []
@@ -172,7 +192,8 @@ if __name__ == '__main__':
 		reader = csv.reader(f, delimiter=',')
 		for i in reader:
 			ID[i[1]] = i[0]
-	#print(ID)
+	print('Adding regions')
+	addRegions()
 	print('Adding changes')
 	addChanges()
 	print('Adding population')
