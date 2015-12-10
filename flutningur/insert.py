@@ -11,7 +11,7 @@ MIDPATH = 'sveitarfelog.txt'
 GPATH = 'mannfjoldi98-15.csv'
 SVEITOPATH = 'sveitarfelog.txt'
 REGIONPATH = 'landshlutar.csv'
-SPENDPATH = 'saga/framlogSkatttekjur.csv'
+SPENDPATH = ['saga/framlog2002.csv','saga/framlog2014.csv']
 EDUPATH = 'saga/menntamal.csv'
 ID = {}
 REGIONS = []
@@ -185,10 +185,10 @@ def addGender():
 	saveAll(toSave)
 
 
-def addSpending():
+def addSpending(path, year):
 	toSave = []
-	with open(os.path.join(DPATH,SPENDPATH)) as f:
-		reader = csv.reader(f, delimiter=';')
+	with open(os.path.join(DPATH,path)) as f:
+		reader = csv.reader(f, delimiter=',')
 		for i in reader:
 			if i[0] == 'Sveitarfélag': continue
 			try:
@@ -200,7 +200,7 @@ def addSpending():
 			for j in range(2,7):
 				i[j] = float(i[j])
 
-			spending = SpendingPerCapita(municipality=mun,taxIncome=i[2],social=i[3],health=i[4],culture=i[5],sports=i[6])
+			spending = SpendingPerCapita(municipality=mun,taxIncome=i[2],social=i[3],health=i[4],culture=i[5],sports=i[6],year=year)
 			toSave.append(spending)
 
 	saveAll(toSave)
@@ -244,6 +244,7 @@ if __name__ == '__main__':
 	print('Adding genderpop')
 	addGender()
 	print('Adding spending')
-	addSpending()
+	addSpending(SPENDPATH[0],2002)
+	addSpending(SPENDPATH[1],2014)
 	print('Adding education')
 	addEdu()

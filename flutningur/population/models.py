@@ -35,14 +35,14 @@ class GenderPop(models.Model):
     class Meta:
         unique_together = ('municipality', 'year', 'ageclass')
 
-#All values are per capita, 2014
 class SpendingPerCapita(models.Model):
-	municipality = models.OneToOneField(Municipality)
+	municipality = models.ForeignKey(Municipality)
 	taxIncome = models.IntegerField()
 	social = models.IntegerField()
 	health = models.IntegerField()
 	culture = models.IntegerField()
 	sports = models.IntegerField()
+	year = models.IntegerField()
 
 #Data from 2012
 class Education(models.Model):
