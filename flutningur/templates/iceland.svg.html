@@ -40,7 +40,9 @@ $(function() {
             .data('region', r[i]);
         }
     }
-    map_color(regions[0].data)
+    var cur_pos = $('#slider').val()
+    map_color(regions[cur_pos].data)
+    $('#year').text(regions[cur_pos].year)
     $('#slider').on("input", function(){
         map_color(regions[this.value].data)
         $('#year').text(regions[this.value].year);
