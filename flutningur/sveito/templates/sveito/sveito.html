@@ -109,22 +109,29 @@ var regionWidth = w/2 - margin.middle;
 var pointA = regionWidth,
 	pointB = w - regionWidth;
 
+// dictionary to create y-axis label
 var dic = {20:"100+"};
-
 for(i=0;i<20;i++)
 {
 	dic[i] = (i*5).toString()+"-"+(i*5+4).toString()
 }
 
-// some contrived data
-var exampleData = [
+// data for the current municipality
+var muniData = [
 {% for i in gpop %}
 {group: dic[{{ i.0 }}], male: {{ i.1 }}, female: {{ i.2 }}},
 {% endfor %}
 ];
 
+// data for all of iceland
+var allData = [
+{% for i in allgpop %}
+{group: dic[{{ i.0 }}], male: {{ i.1 }}, female: {{ i.2 }}},
+{% endfor %}
+];
+
 // GET THE TOTAL POPULATION SIZE AND CREATE A FUNCTION FOR RETURNING THE PERCENTAGE
-var totalPopulation = d3.sum(exampleData, function(d) { return d.male + d.female; }),
+var totalPopulation = d3.sum(muniData, function(d) { return d.male + d.female; }),
 	percentage = function(d) { return d / totalPopulation; };
 
 
@@ -139,8 +146,8 @@ var svg = d3.select('body').append('svg')
 // find the maximum data value on either side
 //  since this will be shared by both of the x-axes
 var maxValue = Math.max(
-				d3.max(exampleData, function(d) { return percentage(d.male); }),
-				d3.max(exampleData, function(d) { return percentage(d.female); })
+				d3.max(muniData, function(d) { return percentage(d.male); }),
+				d3.max(muniData, function(d) { return percentage(d.female); })
 				);
 
 // SET UP SCALES
@@ -161,7 +168,7 @@ var maxValue = Math.max(
 		.range([0, regionWidth]);
 
 var yScale = d3.scale.ordinal()
-		.domain(exampleData.map(function(d) { return d.group; }))
+		.domain(muniData.map(function(d) { return d.group; }))
 		.rangeRoundBands([h,0], 0.1);
 
 
@@ -182,6 +189,7 @@ var yScale = d3.scale.ordinal()
 .scale(xScale)
 		.orient('bottom')
 		.tickFormat(d3.format('%'));
+
 
 var xAxisLeft = d3.svg.axis()
 		// REVERSE THE X-AXIS SCALE ON THE LEFT SIDE BY REVERSING THE RANGE
@@ -219,9 +227,21 @@ var xAxisLeft = d3.svg.axis()
 		.attr('transform', translation(pointB, h))
 		.call(xAxisRight);
 
+
 		// DRAW BARS
 		leftBarGroup.selectAll('.bar.left')
-.data(exampleData)
+.data(muniData)
+		.enter().append('rect')
+		.attr('class', 'bar left')
+		.attr('x', 0)
+		.attr('y', function(d) { return yScale(d.group); })
+		.attr('width', function(d) { return xScale(percentage(d.male)); })
+		.attr('height', yScale.rangeBand());
+
+
+		// DRAW BARS
+		leftBarGroup.selectAll('.bar.left')
+.data(allData)
 		.enter().append('rect')
 		.attr('class', 'bar left')
 		.attr('x', 0)
@@ -230,7 +250,7 @@ var xAxisLeft = d3.svg.axis()
 		.attr('height', yScale.rangeBand());
 
 		rightBarGroup.selectAll('.bar.right')
-.data(exampleData)
+.data(muniData)
 		.enter().append('rect')
 		.attr('class', 'bar right')
 		.attr('x', 0)
