@@ -3,14 +3,21 @@
 {% block content %}
 <div class="row">
 <div class="three columns" >
-<h4> List </h4>
+    <!-- <h4> List </h4> -->
 <ul>
-    {% for obj in municipalities %}
+    {% for rname,val in regions.items %}
         <li>
-            <a href="{{ obj.mid|stringformat:"04d" }}">
-                {{ obj.name }}
-            </a>
+            {{ rname }}
         </li>
+        <ul>
+        {% for name,mid in val %}
+            <li style="margin-bottom:0rem">
+                <a href="{{ mid|stringformat:"04d" }}">
+                    {{ name }}
+                </a>
+            </li>
+        {% endfor %}
+        </ul>
     {% endfor %}
 </ul>
 </div>
