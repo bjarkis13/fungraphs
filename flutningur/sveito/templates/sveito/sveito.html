@@ -28,6 +28,9 @@
 			.bar.right {
 				fill: red;
 			}
+			.bar.all {	
+				fill: green;	
+			}
 	</style>
 
 	
@@ -131,8 +134,10 @@ var allData = [
 ];
 
 // GET THE TOTAL POPULATION SIZE AND CREATE A FUNCTION FOR RETURNING THE PERCENTAGE
-var totalPopulation = d3.sum(muniData, function(d) { return d.male + d.female; }),
-	percentage = function(d) { return d / totalPopulation; };
+var totalMuni = d3.sum(muniData, function(d) { return d.male + d.female; });
+var totalAll = d3.sum(allData, function(d) { return d.male + d.female; });
+	percentageMuni = function(d) { return d / totalMuni; };
+	percentageAll = function(d) { return d / totalAll; };
 
 
 // CREATE SVG
@@ -146,8 +151,8 @@ var svg = d3.select('body').append('svg')
 // find the maximum data value on either side
 //  since this will be shared by both of the x-axes
 var maxValue = Math.max(
-				d3.max(muniData, function(d) { return percentage(d.male); }),
-				d3.max(muniData, function(d) { return percentage(d.female); })
+				d3.max(muniData, function(d) { return percentageMuni(d.male); }),
+				d3.max(muniData, function(d) { return percentageMuni(d.female); })
 				);
 
 // SET UP SCALES
@@ -199,10 +204,15 @@ var xAxisLeft = d3.svg.axis()
 
 		// MAKE GROUPS FOR EACH SIDE OF CHART
 		// scale(-1,1) is used to reverse the left side so the bars grow left instead of right
+		var leftAllGroup = svg.append('g')
+		.attr('transform', translation(pointA, 0) + 'scale(-1,1)');
+		var rightAllGroup = svg.append('g')
+		.attr('transform', translation(pointB, 0));
 		var leftBarGroup = svg.append('g')
 		.attr('transform', translation(pointA, 0) + 'scale(-1,1)');
 		var rightBarGroup = svg.append('g')
 		.attr('transform', translation(pointB, 0));
+
 
 		// DRAW AXES
 		svg.append('g')
@@ -235,19 +245,20 @@ var xAxisLeft = d3.svg.axis()
 		.attr('class', 'bar left')
 		.attr('x', 0)
 		.attr('y', function(d) { return yScale(d.group); })
-		.attr('width', function(d) { return xScale(percentage(d.male)); })
+		.attr('width', function(d) { return xScale(percentageMuni(d.male)); })
 		.attr('height', yScale.rangeBand());
 
 
-		// DRAW BARS
-		leftBarGroup.selectAll('.bar.left')
+		
+		leftAllGroup.selectAll('.bar.all')
 .data(allData)
 		.enter().append('rect')
-		.attr('class', 'bar left')
+		.attr('class', 'bar all')
 		.attr('x', 0)
 		.attr('y', function(d) { return yScale(d.group); })
-		.attr('width', function(d) { return xScale(percentage(d.male)); })
+		.attr('width', function(d) { return xScale(percentageAll(d.male)); })
 		.attr('height', yScale.rangeBand());
+
 
 		rightBarGroup.selectAll('.bar.right')
 .data(muniData)
@@ -255,9 +266,18 @@ var xAxisLeft = d3.svg.axis()
 		.attr('class', 'bar right')
 		.attr('x', 0)
 		.attr('y', function(d) { return yScale(d.group); })
-		.attr('width', function(d) { return xScale(percentage(d.female)); })
+		.attr('width', function(d) { return xScale(percentageMuni(d.female)); })
 		.attr('height', yScale.rangeBand());
 
+
+		rightAllGroup.selectAll('.bar.all')
+.data(allData)
+		.enter().append('rect')
+		.attr('class', 'bar all')
+		.attr('x', 0)
+		.attr('y', function(d) { return yScale(d.group); })
+		.attr('width', function(d) { return xScale(percentageAll(d.female)); })
+		.attr('height', yScale.rangeBand());
 
 		// so sick of string concatenation for translations
 		function translation(x,y) {
