@@ -4,3 +4,6 @@ https://www.innanrikisraduneyti.is/media/sveitarstjornarmal/Listi-yfir-br.-a--sv
 http://www.lmi.is/wp-content/uploads/2015/05/sveito.pdf
 https://github.com/ufoe/d3js-geojson
 hagskinna
+http://hagstofa.is/
+http://gagnatorg.capacent.is
+http://upplysingaveita.samband.is

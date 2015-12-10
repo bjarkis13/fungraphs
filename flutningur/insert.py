@@ -2,7 +2,7 @@
 import csv
 import os.path
 from django.db import IntegrityError, transaction
-from population.models import Municipality, Changes, Population, GenderPop, Regions
+from population.models import Municipality, Changes, Population, GenderPop, Regions, SpendingPerCapita, Education
 
 BRPATH = 'breytingar.txt'
 PCPATH = 'skiptingar.csv'
@@ -11,6 +11,8 @@ MIDPATH = 'sveitarfelog.txt'
 GPATH = 'mannfjoldi98-15.csv'
 SVEITOPATH = 'sveitarfelog.txt'
 REGIONPATH = 'landshlutar.csv'
+SPENDPATH = ['saga/framlog2002.csv','saga/framlog2014.csv']
+EDUPATH = 'saga/menntamal.csv'
 ID = {}
 REGIONS = []
 
@@ -146,17 +148,12 @@ def addRegions():
 	with open(os.path.join(DPATH, REGIONPATH)) as f:
 		reader = csv.reader(f, delimiter=',')
 		for l in reader:
-			REGIONS.append(Regions(name=l[0],low=int(l[1]), high=int(l[2])))
-	for r in REGIONS:
-		print(r.name,r.low,r.high)
+			REGIONS.append(Regions(name=l[0],low=int(l[1]), high=int(l[2])))	
 	saveAll(REGIONS)
 
 def addGender():
 	municipalities = listMun()
 	toSave = []
-
-	#Alls added here
-	getMun('Alls')
 
 	classdic = {'100 ára og eldri':20}
 	for i in range(20):
@@ -187,6 +184,47 @@ def addGender():
 
 	saveAll(toSave)
 
+
+def addSpending(path, year):
+	toSave = []
+	with open(os.path.join(DPATH,path)) as f:
+		reader = csv.reader(f, delimiter=',')
+		for i in reader:
+			if i[0] == 'Sveitarfélag': continue
+			try:
+				mun = Municipality.objects.get(name=i[0])
+			except Municipality.DoesNotExist:
+				print('Unknown municipality {}'.format(i[0]))
+				continue
+
+			for j in range(2,7):
+				i[j] = float(i[j])
+
+			spending = SpendingPerCapita(municipality=mun,taxIncome=i[2],social=i[3],health=i[4],culture=i[5],sports=i[6],year=year)
+			toSave.append(spending)
+
+	saveAll(toSave)
+
+
+def addEdu():
+	toSave = []
+	with open(os.path.join(DPATH,EDUPATH)) as f:
+		reader = csv.reader(f, delimiter=',')
+		for i in reader:
+			if i[0] == 'Landsvæði': continue
+			try:
+				if i[0] == 'Alls': reg = None
+				else: reg = Regions.objects.get(name=i[0])
+			except Regions.DoesNotExist:
+				print('Unknown region {}'.format(i[0]))
+				continue
+
+			for j in range(1, len(i)):
+				i[j] = int(i[j])
+			edu = Education(region=reg,totalPop=i[1],childPop=i[2],grunn=i[3],framhalds=i[4],ha=i[5])
+			toSave.append(edu)
+	saveAll(toSave)
+
 if __name__ == '__main__':
 	import django
 	django.setup()
@@ -194,6 +232,9 @@ if __name__ == '__main__':
 		reader = csv.reader(f, delimiter=',')
 		for i in reader:
 			ID[i[1]] = int(i[0])
+	#Alls added here
+	getMun('Alls')
+
 	print('Adding regions')
 	addRegions()
 	print('Adding changes')
@@ -202,3 +243,8 @@ if __name__ == '__main__':
 	addPopulation()
 	print('Adding genderpop')
 	addGender()
+	print('Adding spending')
+	addSpending(SPENDPATH[0],2002)
+	addSpending(SPENDPATH[1],2014)
+	print('Adding education')
+	addEdu()
