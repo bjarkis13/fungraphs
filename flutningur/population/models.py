@@ -9,7 +9,7 @@ class Municipality(models.Model):
     name = models.CharField(max_length=200, unique=True)
     mid = models.IntegerField(unique=True, null=True)
     change = models.ManyToManyField('self', symmetrical=False, through='Changes', through_fields=('old','new'))
-    region = ForeignKey(Region, null=True)
+    region = models.ForeignKey(Regions, null=True)
 
 class Changes(models.Model):
     old = models.ForeignKey(Municipality, related_name='municipality_old')

@@ -10,7 +10,7 @@ DPATH = '../data'
 MIDPATH = 'sveitarfelog.txt'
 GPATH = 'mannfjoldi98-15.csv'
 SVEITOPATH = 'sveitarfelog.txt'
-REGIONPATH = 'landshlutar.txt'
+REGIONPATH = 'landshlutar.csv'
 ID = {}
 REGIONS = []
 
@@ -147,6 +147,8 @@ def addRegions():
 		reader = csv.reader(f, delimiter=',')
 		for l in reader:
 			REGIONS.append(Regions(name=l[0],low=int(l[1]), high=int(l[2])))
+	for r in REGIONS:
+		print(r.name,r.low,r.high)
 	saveAll(REGIONS)
 
 def addGender():
@@ -191,7 +193,7 @@ if __name__ == '__main__':
 	with open(os.path.join(DPATH, MIDPATH)) as f:
 		reader = csv.reader(f, delimiter=',')
 		for i in reader:
-			ID[i[1]] = i[0]
+			ID[i[1]] = int(i[0])
 	print('Adding regions')
 	addRegions()
 	print('Adding changes')
