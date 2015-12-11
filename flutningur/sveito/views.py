@@ -18,7 +18,7 @@ def index(request):
             'sveitoactive': True,
             'css' : ["mystyle.css"],
             'regions' : data,
-            'js':['hoverinfo.js', "jquery-1.10.2.min.js", "d3.v2.min.js"]
+            'js':["jquery-1.10.2.min.js", "d3.v2.min.js"]
         }, processors = [])
     return HttpResponse(template.render(context))
 
@@ -44,6 +44,8 @@ def sveito(request, mid):
         data["allgpop"].append([i.ageclass,i.valm,i.valf,i.year])
 
 
+    data["sveitoactive"] = True
+    data["js"] = ['lib/d3/d3.min.js']
     template = loader.get_template("sveito/sveito.html")
     context = RequestContext(request,data,processors=[])
     return HttpResponse(template.render(context))
