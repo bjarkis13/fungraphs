@@ -7,3 +7,5 @@ hagskinna
 http://hagstofa.is/
 http://gagnatorg.capacent.is
 http://upplysingaveita.samband.is
+https://is.wikipedia.org/wiki/%C3%8Dslensk_sveitarf%C3%A9l%C3%B6g_eftir_mannfj%C3%B6lda
+https://is.wikipedia.org/wiki/%C3%8Dslensk_sveitarf%C3%A9l%C3%B6g_fyrr_og_s%C3%AD%C3%B0ar
