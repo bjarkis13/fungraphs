@@ -23,6 +23,17 @@
           fill: #666;
 }
 
+.gender {
+	font-size: 22px;
+	font-weight: bold;
+	text-anchor: middle;
+	fill: #666
+}
+
+.legend {
+	font-size: 16px;
+}
+
 .birthyear,
     .age {
         text-anchor: middle;
@@ -52,7 +63,7 @@ var w = 500,
 var margin = {
     top: 20,
     right: 20,
-    bottom: 24,
+    bottom: 24, //24
     left: 20,
     middle: 28
 };
@@ -99,6 +110,43 @@ var svg = d3.select('div.pyramid').append('svg')
 // ADD A GROUP FOR THE SPACE WITHIN THE MARGINS
 .append('g')
 .attr('transform', translation(margin.left, margin.top));
+
+
+// Sets some text
+svg.append("text").text("male")
+.attr("class","gender")
+.attr("x", w/5)
+.attr("y", 20);
+
+svg.append("text").text("female")
+.attr("class","gender")
+.attr("x", w-w/5)
+.attr("y", 20); //h+38
+
+// Set legend not done
+var legendRectSize = 18;
+var legendSpacing = 4;
+
+var legend = svg.selectAll('.legend')
+//.data(color.domain())
+//.enter()
+.append('g')
+.attr('class', 'legend')
+.attr('transform', function(d, i) {
+	var height = legendRectSize + legendSpacing;
+	var offset =  h / 2;
+	var horz = -2 * legendRectSize;
+	var vert = i * height - offset;
+	return 'translate(' + horz + ',' + vert + ')';
+});
+
+legend.append('rect')
+.attr('width', legendRectSize)
+.attr('height', legendRectSize)
+.style('fill', 'red')
+.style('stroke', 'red');
+
+
 
 // find the maximum data value on either side
 //  since this will be shared by both of the x-axes
@@ -235,5 +283,6 @@ var xAxisLeft = d3.svg.axis()
     function translation(x,y) {
         return 'translate(' + x + ',' + y + ')';
                 };
+
 </script>
 
