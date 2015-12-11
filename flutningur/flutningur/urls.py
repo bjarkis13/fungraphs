@@ -16,7 +16,7 @@ Including another URLconf
 from django.conf.urls import include, url
 
 urlpatterns = [
-    url(r'^$', include('main_page.urls')),
+    url(r'^', include('main_page.urls')),
     url(r'^test/', include('population.urls')),
     url(r'^plot/', include('plot.urls')),
     url(r'^municipalities/', include('sveito.urls')),

@@ -6,12 +6,13 @@
 	<div id="agepyramid"> 
 		<h2> Age Pyramid </h2>
         <div class="pyramid"> </div>
+        {% include 'sveito/pyramid.js' %}
 	</div>
 
     <div id="gendercolumn">
         <h2> Gender Comparison </h2>
         <div class='gendercomp'> </div>
-{% include 'sveito/gender.js' %}
+        {% include 'sveito/gender.js' %}
     </div>
 
 	<div id="lineplot">
@@ -22,5 +23,4 @@
 		<h2> Municipality Merges </h2>
 	</div>
 
-{% include 'sveito/pyramid.js' %}
 {% endblock %}
