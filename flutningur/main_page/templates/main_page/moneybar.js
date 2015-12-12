@@ -15,12 +15,18 @@
   display: none;
 }
 
+.titlegraph { 
+  font-size: 24px;
+  font-weight: bold;
+  text-anchor: middle;
+}
+
 </style>
 <script>
 
-var margin = {top: 20, right: 20, bottom: 30, left: 40},
+var margin = {top: 40, right: 20, bottom: 30, left: 40},
     width = 960 - margin.left - margin.right,
-    height = 500 - margin.top - margin.bottom;
+    height = 520 - margin.top - margin.bottom;
 
 var x0 = d3.scale.ordinal()
     .rangeRoundBands([0, width], .1);
@@ -40,7 +46,7 @@ var xAxis = d3.svg.axis()
 var yAxis = d3.svg.axis()
     .scale(y)
     .orient("left")
-    .tickFormat(d3.format(".2s"));
+    //.tickFormat(d3.format(".2s"));
 
 var svg = d3.select("span.moneybar").append("svg")
     .attr("width", width + margin.left + margin.right)
@@ -79,11 +85,17 @@ var data = [
       .attr("class", "y axis")
       .call(yAxis)
     .append("text")
-      .attr("transform", "rotate(-90)")
-      .attr("y", 6)
+      //.attr("transform", "rotate(-90)")
+      .attr("y", 22-margin.top)
+      .attr("x", -margin.left)
       .attr("dy", ".71em")
-      .style("text-anchor", "end")
-      .text("BENIS");
+      .style("text-anchor", "start")
+      .text("Thousands of ISK per capita");
+
+	svg.append("text").text("Spending 2014")
+	  .attr("class","titlegraph")
+	  .attr("x", width/2)
+	  .attr("y", 28-margin.top)
 
   var state = svg.selectAll(".state")
       .data(data)

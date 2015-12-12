@@ -16,9 +16,9 @@ def pres(request):
     #Here we need to know what sveito it is for now let's choose one
     mid = 8000
     
-    mun = Municipality.objects.get(mid=8000).name
+    mun = Municipality.objects.get(mid=mid).name
     for i in Regions.objects.all():
-        if i.low < mid < i.high:
+        if i.low <= mid <= i.high:
             reg = i.name
             break
 
@@ -34,7 +34,7 @@ def pres(request):
         if field == 'name' or field == 'id' or field == 'income' or field == 'health': continue
         s = [(field,'Sveito')]
         for model in toPlot:
-            s.append((getattr(model,field),model.name))
+            s.append((getattr(model,field)/1000,model.name))
         spending.append(s)
 
     #sorting for consistency
