@@ -2,6 +2,8 @@ from django.shortcuts import render
 from django.http import HttpResponse
 from django.template import RequestContext, loader
 from population.models import Municipality, Population
+import functools
+import locale
 
 # Create your views here.
 
@@ -19,9 +21,21 @@ def plot(request, args):
         if not name in data:
             data[name] = []
         data[name].append((line.year,line.val))
+    lis = []
+    for key in data:
+        lis.append((key, data[key]))
+    locale.setlocale(locale.LC_ALL, 'is_IS.UTF-8')
+    lis.sort(key=lambda x: functools.cmp_to_key(locale.strcoll)(x[0]))
 
     template = loader.get_template("plot/logline_plot.html")
-    context = RequestContext(request, { 'data' : data }, processors = [])
+    context = RequestContext(request, { 
+                'title' : 'Population line plot',
+                'plotactive': True,
+                'lineplot' : lis,
+                'css' : [ "lib/nvd3/build/nv.d3.min.css" ],
+                'js': ["lib/d3/d3.min.js", "lib/nvd3/build/nv.d3.min.js" ],
+            },
+            processors = [])
     return HttpResponse(template.render(context))
 
 def preset(request, group):
