@@ -1,6 +1,7 @@
 from django.shortcuts import render
 from django.http import HttpResponse
 from django.template import RequestContext, loader
+from django.db.models import Sum, F, FloatField, Avg
 from population.models import Municipality, Population, GenderPop, Regions, SpendingPerCapita
 
 # Create your views here.
@@ -46,9 +47,11 @@ def sveito(request, mid):
 
 
     #Add the data for spending
+    reg_ind = -1
     for i in Regions.objects.all():
         if i.low <= int(mid) <= i.high:
             reg = i.name
+            reg_ind = i
             break
 
     names = ['Alls','good','bad',mun,reg]
@@ -77,6 +80,26 @@ def sveito(request, mid):
             s.append((getattr(model,field)/1000,namefix(model.name)))
         spending.append(s)
 
+    #print(GenderPop.objects.filter(municipality__mid=int(mid)).values('year').annotate(Sum('valm')))
+    def ratio(obj):
+        lis = []
+        res = obj.values('year').annotate(ratio=Sum(F('valm')))
+        for i,d in zip(range(len(res)), obj.values('year').annotate(total=Sum(F('valm')+F('valf')))):
+            if res[i]['year'] != d['year']:
+                print('Error: year are not the same')
+            lis.append((d['year'],res[i]['ratio'] / d['total']))
+        return lis
+
+    good = [1000,1400,8200,1300,1604,2000]
+    bad = [4200,7617,4604,6100,4911,4607,6706,5609,7000,8509,4902,6250,7613]
+    lineplot=[]
+    lineplot.append((namefix('Alls'),ratio(GenderPop.objects.filter(municipality__name='Alls'))))
+    lineplot.append((mun,ratio(GenderPop.objects.filter(municipality__mid=int(mid)))))
+    lineplot.append((reg,ratio(GenderPop.objects.filter(municipality__region_id=reg_ind))))
+    lineplot.append((namefix('good'),ratio(GenderPop.objects.filter(municipality__mid__in=good))))
+    lineplot.append((namefix('bad'),ratio(GenderPop.objects.filter(municipality__mid__in=bad))))
+    print(lineplot)
+
     #sorting for consistency 
     spending.sort(key= lambda x:x[1])
     spending = spending[::-1]
@@ -89,6 +112,7 @@ def sveito(request, mid):
     'region': reg, 
     'gpop' : gpop,
     'allgpop' : gpop_all,
-    'spending' : spending
+    'spending' : spending,
+    'lineplot' : lineplot,
     },processors=[])
     return HttpResponse(template.render(context))
