@@ -91,7 +91,8 @@ def sveito(request, mid):
         for i,d in zip(range(len(res)), obj.values('year').annotate(total=Sum(F('valm')+F('valf')))):
             if res[i]['year'] != d['year']:
                 print('Error: year are not the same')
-            lis.append((d['year'],res[i]['ratio'] / d['total']))
+            if d['total']:
+                lis.append((d['year'], res[i]['ratio'] / d['total']))
         return lis
 
     good = [1000,1400,8200,1300,1604,2000]
@@ -112,7 +113,8 @@ def sveito(request, mid):
     context = RequestContext(request, {
     'title' : mun,
     'sveitoactive' : True,
-    'js' : ['lib/d3/d3.min.js'],
+    'js' : ['lib/d3/d3.min.js', 'lib/nvd3/build/nv.d3.min.js'],
+    'css' : ['lib/nvd3/build/nv.d3.min.css'],
     'region': reg, 
     'gpop' : gpop,
     'allgpop' : gpop_all,
