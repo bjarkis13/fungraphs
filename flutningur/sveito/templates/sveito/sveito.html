@@ -3,22 +3,26 @@
 {% endblock %}
 {% block content %}
 
+<p> {{title}} is situated in {{region}} and has the population of {{munipop}}. </p>
+
 	<div id="agepyramid"> 
 	<h2> Age Pyramid </h2>
 	<p> An age pyramid for {% block title %}{{ title }}{% endblock %} compared to the mean of Iceland December 1, 2014. </p>
         <div class="pyramid"> </div>
         {% include 'sveito/pyramid.js' %}
+	<p> </p>
 	</div>
     <div id="gendercolumn">
         <h2> Population by age and gender </h2>
-        <p> Gender and age distribution for {{title}} December 1, 2014. Females are represented as COLOR1 and males as COLOR2. </p>
+        <p> Gender and age distribution for {{title}} December 1, 2014. </p>
 	<div class='gendercomp'> </div>
         {% include 'sveito/gender.js' %}
+	<p> </p>
     </div>
 
 	<div id="lineplot">
 		<h2> Population development by gender </h2>
-		<p> The following chart displays comparison of population development by gender between the mean of Iceland, Municipalities with persistent population growth, Municipalities with persistent depopulation, {{title}} and {{region}}. The line show the percentage of males in each category, the rest is females. </p>
+		<p> The following chart displays comparison of population development by gender between the mean of Iceland, Municipalities with persistent population growth, Municipalities with persistent depopulation, {{title}} and {{region}}. The line shows the percentage of males in each category, the rest is females. </p>
 	</div> 
 <!--
 	<div id="mergetimeline">
@@ -26,10 +30,12 @@
 	</div>
 -->
 	<div id="moneycolumn">
-		<h2> Spending per capita 2014 </h2>
-		<p> Comparison of government spending between the mean of Iceland, Municipalities with persistent population growth, Municipalities with persistent depopulation, {{title}} and {{region}}. The categories are, social service, sports and youth activities and culture. </p>
+		<h2> Spending per capita</h2>
+		<p> Comparison of government spending between the mean of Iceland, Municipalities with persistent population growth, Municipalities with persistent depopulation, {{title}} and {{region}} for 2014. The categories are, social service, sports and youth activities and culture. </p>
 		<span class="moneybar"> </span>
 		{% include "sveito/moneybar.js" %}
+		<p> <br> The following are explanations for each category in the graph above.</p> 
+		<p><b>Sport- and youth activities</b> covers expenses for playgrounds, youth programs, community centers, gymnasiums and swimming pools, grants and donations. <br> <b>Culture</b> covers expenses for libraries, museums, arts, celebrations, grants and donations. <br> <b>Social service</b> covers expenses for social assistance, service for children, youth, elderly and disabled, various social service, various statutory contributions, grants and donations. <br></p>
 	<div>
 
 {% endblock %}
