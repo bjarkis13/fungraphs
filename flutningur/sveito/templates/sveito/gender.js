@@ -7,7 +7,7 @@ svg {
     .axis path {
         shape-rendering: crispEdges;
         fill: transparent;
-              stroke: #555;
+              stroke: #000;
     }
 .axis text {
     font-size: 11px;
@@ -73,8 +73,7 @@ var y = d3.scale.linear()
     'sex' : 2,
     'year' : {{ i.3 }}
 },
-{% endfor %}
-    ];
+{% endfor %}];
 
 
     // Convert strings to numbers.

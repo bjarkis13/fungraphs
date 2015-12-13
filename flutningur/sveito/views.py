@@ -58,16 +58,27 @@ def sveito(request, mid):
  
     field_names = toPlot[0]._meta.get_all_field_names()
 
+    verbose_name = {
+        'culture' : 'culture',
+        'social' : 'social services',
+        'sports' : 'sports and youth activities'
+    }
+
+    def namefix(name):
+        if name == 'Alls': return 'Iceland'
+        if name == 'good': return 'Persistent growth'
+        if name == 'bad' : return 'Persistent depopulation'
+        return name
 
     for field in field_names:
         if field == 'name' or field == 'id' or field == 'income' or field == 'health': continue
-        s = [(field,'Sveito')]
+        s = [(verbose_name[field],'Sveito')]
         for model in toPlot:
-            s.append((getattr(model,field)/1000,model.name))
+            s.append((getattr(model,field)/1000,namefix(model.name)))
         spending.append(s)
 
-    #sorting for consistency
-    spending.sort()
+    #sorting for consistency 
+    spending.sort(key= lambda x:x[1])
     spending = spending[::-1]
  
     template = loader.get_template("sveito/sveito.html")

@@ -7,26 +7,20 @@
   shape-rendering: crispEdges;
 }
 
-.bar {
+.barbarbar {
   fill: steelblue;
 }
 
-.x.axis path {
+.x.axisbar path {
   display: none;
-}
-
-.titlegraph { 
-  font-size: 24px;
-  font-weight: bold;
-  text-anchor: middle;
 }
 
 </style>
 <script>
 
-var margin = {top: 40, right: 20, bottom: 30, left: 40},
+var margin = {top: 20, right: 20, bottom: 30, left: 40},
     width = 960 - margin.left - margin.right,
-    height = 520 - margin.top - margin.bottom;
+    height = 500 - margin.top - margin.bottom;
 
 var x0 = d3.scale.ordinal()
     .rangeRoundBands([0, width], .1);
@@ -37,7 +31,7 @@ var y = d3.scale.linear()
     .range([height, 0]);
 
 var color = d3.scale.ordinal()
-    .range(["#98abc5", "#8a89a6", "#7b6888", "#6b486b", "#a05d56", "#d0743c", "#ff8c00"]);
+    .range(['#66c2a5','#fc8d62','#8da0cb','#e78ac3','#a6d854']);
 
 var xAxis = d3.svg.axis()
     .scale(x0)
@@ -46,7 +40,7 @@ var xAxis = d3.svg.axis()
 var yAxis = d3.svg.axis()
     .scale(y)
     .orient("left")
-    //.tickFormat(d3.format(".2s"));
+  	//.tickFormat(d3.format(".2s"));
 
 var svg = d3.select("span.moneybar").append("svg")
     .attr("width", width + margin.left + margin.right)
@@ -77,7 +71,7 @@ var data = [
   y.domain([0, d3.max(data, function(d) { return d3.max(d.ages, function(d) { return d.value; }); })]);
 
   svg.append("g")
-      .attr("class", "x axis")
+      .attr("class", "x axisbar")
       .attr("transform", "translate(0," + height + ")")
       .call(xAxis);
 
@@ -86,16 +80,11 @@ var data = [
       .call(yAxis)
     .append("text")
       //.attr("transform", "rotate(-90)")
-      .attr("y", 22-margin.top)
+      .attr("y", 20-margin.top)
       .attr("x", -margin.left)
       .attr("dy", ".71em")
       .style("text-anchor", "start")
       .text("Thousands of ISK per capita");
-
-	svg.append("text").text("Spending 2014")
-	  .attr("class","titlegraph")
-	  .attr("x", width/2)
-	  .attr("y", 28-margin.top)
 
   var state = svg.selectAll(".state")
       .data(data)
@@ -113,7 +102,7 @@ var data = [
       .style("fill", function(d) { return color(d.name); });
 
   var legend = svg.selectAll(".legend")
-      .data(ageNames.slice().reverse())
+      .data(ageNames.slice())
     .enter().append("g")
       .attr("class", "legend")
       .attr("transform", function(d, i) { return "translate(0," + i * 20 + ")"; });
