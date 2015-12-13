@@ -15,12 +15,18 @@
   display: none;
 }
 
+.y.axisbar path {
+  stroke: black;
+  //stroke-width: 100;
+  fill: none;
+}
+
 </style>
 <script>
 
-var margin = {top: 20, right: 20, bottom: 30, left: 40},
+var margin = {top: 40, right: 20, bottom: 30, left: 40},
     width = 960 - margin.left - margin.right,
-    height = 500 - margin.top - margin.bottom;
+    height = 520 - margin.top - margin.bottom;
 
 var x0 = d3.scale.ordinal()
     .rangeRoundBands([0, width], .1);
@@ -76,7 +82,7 @@ var data = [
       .call(xAxis);
 
   svg.append("g")
-      .attr("class", "y axis")
+      .attr("class", "y axisbar")
       .call(yAxis)
     .append("text")
       //.attr("transform", "rotate(-90)")

@@ -18,10 +18,6 @@
             stroke-opacity: 1;
 }
 
-.title {
-    font: 300 78px Helvetica Neue;
-          fill: #666;
-}
 
 .gender {
 	font-size: 22px;
