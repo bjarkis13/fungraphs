@@ -18,13 +18,15 @@ svg {
     fill-opacity: 0.6;
 }
 .bar.left {
-    fill: #e377c2;
+    fill: #1f77b4;	
 }
 .bar.right {
     fill: #e377c2;
 }
 .bar.all {	
     fill: #1f77b4;	
+    fill-opacity: 0;
+    stroke: #000000;
 }
 </style>
 <script>
