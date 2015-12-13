@@ -67,7 +67,7 @@ def sveito(request, mid):
 
     #sorting for consistency
     spending.sort()
-	spending = spending[::-1]
+    spending = spending[::-1]
  
     template = loader.get_template("sveito/sveito.html")
     context = RequestContext(request, {
