@@ -27,6 +27,7 @@
 
 .lines .tick {
   stroke: #888;
+  stroke-width: 0.5;
   opacity: 0.5;
 }
 
@@ -37,9 +38,9 @@
 </style>
 <script>
 
-var margin = {top: 40, right: 20, bottom: 30, left: 40},
+var margin = {top: 20, right: 20, bottom: 30, left: 40},
     width = 960 - margin.left - margin.right,
-    height = 520 - margin.top - margin.bottom;
+    height = 500 - margin.top - margin.bottom;
 
 var x0 = d3.scale.ordinal()
     .rangeRoundBands([0, width], .1);
@@ -138,11 +139,12 @@ svg.append("g")
 
 
 
-//svg.append("rect")
-//    .attr("width", "100%")
-//    .attr("height", "100%")
-//    .attr("fill", "pink")
-//	.style("fill-opacity", 1);
+svg.append("rect")
+	.attr("x",width-170)
+    .attr("width", 170)
+    .attr("height", 95)
+    .attr("fill", "white")
+	.style("fill-opacity", 1);
 
 
   //All things legend
