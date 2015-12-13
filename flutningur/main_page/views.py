@@ -13,39 +13,11 @@ def index(request):
 def pres(request):
     template = loader.get_template("main_page/pres.html")
 
-    #Here we need to know what sveito it is for now let's choose one
-    mid = 8000
-    
-    mun = Municipality.objects.get(mid=mid).name
-    for i in Regions.objects.all():
-        if i.low <= mid <= i.high:
-            reg = i.name
-            break
-
-    names = ['Alls','good','bad',mun,reg]
-    indnames = [(i,i) for i in names] 
-    spending = []
-    toPlot = [SpendingPerCapita.objects.get(name=i) for i in names]
- 
-    field_names = toPlot[0]._meta.get_all_field_names()
-
-
-    for field in field_names:
-        if field == 'name' or field == 'id' or field == 'income' or field == 'health': continue
-        s = [(field,'Sveito')]
-        for model in toPlot:
-            s.append((getattr(model,field)/1000,model.name))
-        spending.append(s)
-
-    #sorting for consistency
-    spending.sort()
-
     context = RequestContext(request, { 
         'title' : 'Presentation',
         'presactive': True,
         'css' : [],
-        'js' : ['lib/d3/d3.min.js'],
-        'spending' : spending
+        #'js' : ['lib/d3/d3.min.js'],
         }, processors = [])
     return HttpResponse(template.render(context))
 

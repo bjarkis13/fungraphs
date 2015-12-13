@@ -76,6 +76,7 @@ var y = d3.scale.linear()
 {% endfor %}
     ];
 
+
     // Convert strings to numbers.
     data.forEach(function(d) {
         d.people = +d.people;
@@ -132,17 +133,26 @@ data = d3.nest()
     .attr("x", function(age) { return x(year - age); })
     .attr("y", height + 4)
     .attr("dy", ".71em")
-    .text(function(age) { return age; });
+	// Age made more readible for special needs peeps
+    .text(function(age) {
+	if(age < 100)
+	{ 
+		return age.toString()+"-"+(age+4).toString();
+	}else
+	{
+		return "100+"
+	}
+});
 
     // Allow the arrow keys to change the displayed year.
-    window.focus();
-    d3.select(window).on("keydown", function() {
-        switch (d3.event.keyCode) {
-            case 37: year = Math.max(year0, year - 10); break;
-            case 39: year = Math.min(year1, year + 10); break;
-        }
-        update();
-    });
+    //window.focus();
+    //d3.select(window).on("keydown", function() {
+    //    switch (d3.event.keyCode) {
+    //        case 37: year = Math.max(year0, year - 10); break;
+    //        case 39: year = Math.min(year1, year + 10); break;
+    //    }
+    //    update();
+    //});
 
 function update() {
     if (!(year in data)) return;
