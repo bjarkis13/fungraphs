@@ -1,50 +1,33 @@
 <style>
-#bargraph  {
-    font: 200px sans-serif;
+svg {
+    border: 1px solid #ccc;
 }
 
-.y.axis path {
-    display: none;
-}
-
-.y.axis line {
-    stroke: #fff;
-            stroke-opacity: .2;
-            shape-rendering: crispEdges;
-}
-
-.y.axis .zero line {
-    stroke: #000;
-            stroke-opacity: 1;
-}
-
-
-.gender {
-	font-size: 22px;
-	font-weight: bold;
-	text-anchor: middle;
-	fill: #666
-}
-
-
-.birthyear,
-    .age {
-        text-anchor: middle;
+.axis line,
+    .axis path {
+        shape-rendering: crispEdges;
+        fill: transparent;
+              stroke: #000;
     }
-
-.birthyear {
-    fill: #fff;
+.axis text {
+    font-size: 11px;
 }
 
-rect {
-    fill-opacity: .6;
+
+.bar {
+    fill-opacity: 0.6;
+}
+.bar.left {
+    fill: #1f77b4;	
+}
+.bar.right {
     fill: #e377c2;
 }
-
-rect:first-child {
-    fill: #1f77b4;
+.bar.all {	
+    fill: #1f77b4;	
+    fill-opacity: 0;
+    stroke: #000000;
 }
-
 </style>
 
 <script>

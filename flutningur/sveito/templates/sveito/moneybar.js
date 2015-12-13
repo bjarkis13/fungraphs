@@ -25,6 +25,15 @@
   fill: none;
 }
 
+.lines .tick {
+  stroke: #888;
+  opacity: 0.5;
+}
+
+.lines .path {
+  stroke-width: 0;
+}
+
 </style>
 <script>
 
@@ -90,7 +99,7 @@ var data = [
       .call(yAxis)
     .append("text")
       //.attr("transform", "rotate(-90)")
-      .attr("y", 20-margin.top)
+      .attr("y", -20)
       .attr("x", -margin.left)
       .attr("dy", ".71em")
       .style("text-anchor", "start")
@@ -111,21 +120,48 @@ var data = [
       .attr("height", function(d) { return height - y(d.value); })
       .style("fill", function(d) { return color(d.name); });
 
+
+//HERE!
+function make_y_axis() {        
+    return d3.svg.axis()
+        .scale(y)
+        .orient("left")
+        .ticks(10)
+}
+
+svg.append("g")         
+        .attr("class", "lines")
+        .call(make_y_axis()
+            .tickSize(-width, 0, 0)
+            .tickFormat("")
+        )
+
+
+
+//svg.append("rect")
+//    .attr("width", "100%")
+//    .attr("height", "100%")
+//    .attr("fill", "pink")
+//	.style("fill-opacity", 1);
+
+
+  //All things legend
   var legend = svg.selectAll(".legend")
       .data(ageNames.slice())
     .enter().append("g")
-      .attr("class", "legend")
+      .attr("class", "noneofyourbusiness")
       .attr("transform", function(d, i) { return "translate(0," + i * 20 + ")"; });
 
   legend.append("rect")
       .attr("x", width - 18)
+	  .attr("y", 10 - margin.top)
       .attr("width", 18)
       .attr("height", 18)
-      .style("fill", color);
+      .style("fill", color) 
 
   legend.append("text")
       .attr("x", width - 24)
-      .attr("y", 9)
+      .attr("y", 10 - margin.top + 9)
       .attr("dy", ".35em")
       .style("text-anchor", "end")
       .text(function(d) { return d; });
