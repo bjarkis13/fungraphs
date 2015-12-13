@@ -27,12 +27,16 @@ def index(request):
 
 def sveito(request, mid):
     try:
-        mun = Municipality.objects.get(mid=int(mid)).name
+        mun = Municipality.objects.get(mid=int(mid))
     except Municipality.DoesNotExist:
         raise Http404('Municipality does not exist')
 
     #Year is temporarily hardcoded
     year = 2014
+
+    munipop = Population.objects.get(municipality=mun,year=year).val
+
+    mun = mun.name
     #Create the data for population pyramids
     gpop = []
     gpop_obj = GenderPop.objects.filter(municipality__mid=int(mid),year=year)
@@ -114,5 +118,6 @@ def sveito(request, mid):
     'allgpop' : gpop_all,
     'spending' : spending,
     'lineplot' : lineplot,
+    'munipop' : munipop
     },processors=[])
     return HttpResponse(template.render(context))
