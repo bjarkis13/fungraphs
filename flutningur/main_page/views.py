@@ -18,7 +18,6 @@ def pres(request):
         'presactive': True,
         'css' : [],
         #'js' : ['lib/d3/d3.min.js'],
-        'spending' : spending
         }, processors = [])
     return HttpResponse(template.render(context))
 
