@@ -7,6 +7,10 @@
   shape-rendering: crispEdges;
 }
 
+.legend {
+	font-size: 16px;
+}
+
 .barbarbar {
   fill: steelblue;
 }

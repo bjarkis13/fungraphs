@@ -1,27 +1,4 @@
 {% extends 'base.html' %}
-{% block headercontent %}
-    <style>
-
-        text {
-            font-size: 8px;
-        }
-        svg {
-            display: block;
-        }
-        svg {
-            margin: 10px;
-            padding: 10px;
-            height: 1000px;
-            width: 100%;
-        }
-        path.nv-line {
-            stroke-opacity: 0.4;
-        }
-    </style>
-{% endblock %}
 {% block content %}
-<div style='height:900px' class='row'>
-    <svg id="chart1"></svg>
-</div>
-    {% include 'plot/lineplot.js' %}
+{% include 'plot/lineplot.html' %}
 {% endblock %}
