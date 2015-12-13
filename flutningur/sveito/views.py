@@ -18,6 +18,7 @@ def index(request):
             'sveitoactive': True,
             'css' : ["mystyle.css"],
             'regions' : data,
+            'regioncolor': True,
             'js':["jquery-1.10.2.min.js", "d3.v2.min.js"]
         }, processors = [])
     return HttpResponse(template.render(context))
@@ -85,6 +86,7 @@ def sveito(request, mid):
     'title' : mun,
     'sveitoactive' : True,
     'js' : ['lib/d3/d3.min.js'],
+    'region': reg, 
     'gpop' : gpop,
     'allgpop' : gpop_all,
     'spending' : spending
