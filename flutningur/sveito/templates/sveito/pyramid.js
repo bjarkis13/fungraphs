@@ -1,6 +1,6 @@
 <style>
 #bargraph  {
-    font: 10px sans-serif;
+    font: 200px sans-serif;
 }
 
 .y.axis path {
@@ -26,9 +26,6 @@
 	fill: #666
 }
 
-.legend {
-	font-size: 16px;
-}
 
 .birthyear,
     .age {
