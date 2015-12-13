@@ -36,7 +36,7 @@
     fill: #fff;
 }
 
-rect {
+rectbeni {
     fill-opacity: .6;
     fill: #e377c2;
 }
