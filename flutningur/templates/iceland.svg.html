@@ -56,6 +56,7 @@ $(function() {
         .attr("x",8)
         .attr("width", 8)
         .attr("height", 8)
+        .style("fill-opacity", 0.8)
         .style("fill", function(d, i) { return color[i]; });
     legend.append("text")
         .attr("x", 24)
@@ -90,14 +91,16 @@ $(function() {
         var region_data=$(this).data('region');
         $('<div class="info_panel">'+
             region_data.region_name + '<br>' +
-            //'Value: ' + region_data.population.toLocaleString("en-UK") +
+            {% if not regioncolor %}
+            'Population: ' + region_data.population.toLocaleString("en-UK") +
+            {% endif %}
             '</div>'
          )
         .appendTo('body');
     })
     .click(function (e) {
         var region_data=$(this).data('region');
-        window.open('/municipalities/' + region_data.region_code);
+        window.open('/municipalities/' + region_data.region_code,'_self');
     })
     .mouseleave(function () {
         $('.info_panel').remove();
@@ -116,7 +119,7 @@ $(function() {
 <div class="map" id="map-container">
 <svg version="1.1" id="Layer_2" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 472.3630676 316.0004578" style="enable-background:new 0 0 472.3630676 316.0004578;" xml:space="preserve">
+	 viewBox="0 0 382.3630676 270.0004578" style="enable-background:new 0 0 472.3630676 316.0004578;" xml:space="preserve">
 	<!-- viewBox="0 0 472.3630676 316.0004578" style="enable-background:new 0 0 472.3630676 316.0004578;" xml:space="preserve"> -->
 		<g id="iceland">
 			<g id="8614">
