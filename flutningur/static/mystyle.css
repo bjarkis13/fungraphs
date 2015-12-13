@@ -2,11 +2,7 @@
    fill:#DADADA;
    stroke:#787878;
    stroke-width:0.1;
-}
-.map #capital_area {
-   fill:#DADADA;
-   stroke:#787878;
-   stroke-width:0.5;
+   fill-opacity:0.8;
 }
 .map #glaciers {
     fill:#FEFEFE;
@@ -14,7 +10,9 @@
     stroke-width:0.0;
 }
 .map g g:hover {
-    fill:#ff0000 !important;
+    //fill:#ff0000 !important;
+    fill-opacity: 1;
+    stroke-width: 0.5;
     cursor: help;
 }
 #map-container {
