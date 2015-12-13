@@ -10,7 +10,7 @@
 	</div>
 
     <div id="gendercolumn">
-        <h2> Gender Comparison </h2>
+        <h2> Population by age and gender </h2>
         <div class='gendercomp'> </div>
         {% include 'sveito/gender.js' %}
     </div>
@@ -22,5 +22,11 @@
 	<div id="mergetimeline">
 		<h2> Municipality Merges </h2>
 	</div>
+
+	<div id="moneycolumn">
+		<h2> Spending per capita 2014 </h2>
+		<span class="moneybar"> </span>
+		{% include "sveito/moneybar.js" %}
+	<div>
 
 {% endblock %}
