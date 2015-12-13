@@ -157,8 +157,7 @@ svg.append("g")
 	  .attr("y", 10 - margin.top)
       .attr("width", 18)
       .attr("height", 18)
-      .style("fill", color)
-	  .style("fill-opacity", 1);
+      .style("fill", color) 
 
   legend.append("text")
       .attr("x", width - 24)
