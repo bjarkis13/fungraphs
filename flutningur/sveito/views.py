@@ -73,6 +73,7 @@ def sveito(request, mid):
     'title' : mun,
     'sveitoactive' : True,
     'js' : ['lib/d3/d3.min.js'],
+    'region': reg, 
     'gpop' : gpop,
     'allgpop' : gpop_all,
     'spending' : spending
