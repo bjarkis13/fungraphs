@@ -29,18 +29,27 @@ nv.addGraph(function() {
         .tickFormat(d3.format(''));
 
     chart.yAxis
-        .axisLabel('Students (in %)')
+        .axisLabel('Population')
         .tickValues([1,10,100,1000,10000,100000])
-        .tickFormat(d3.format(''))
+        .tickFormat(d3.format(''));
+
 
     d3.select('#chart1')
         .datum(histcatexplong)
         .transition().duration(500)
         .call(chart);
-    chart.rotateLabels(-45);
 
-    nv.utils.windowResize(chart.update);
-
+    function moveYaxis() {
+        d3.select(".nv-y").select("text.nv-axislabel")
+            .attr({"transform":null, x:0, y:"-3em"})
+            .style("text-anchor","end");
+    }
+    function my_update() {
+        chart.update();
+        moveYaxis();
+    }
+    moveYaxis();
+    nv.utils.windowResize(my_update);
     return chart;
 });
 </script>
