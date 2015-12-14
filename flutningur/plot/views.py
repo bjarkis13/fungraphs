@@ -2,8 +2,7 @@ from django.shortcuts import render
 from django.http import HttpResponse
 from django.template import RequestContext, loader
 from population.models import Municipality, Population
-import functools
-import locale
+from flutningur.utils import IS_sort
 
 # Create your views here.
 
@@ -24,8 +23,7 @@ def plot(request, args):
     lis = []
     for key in data:
         lis.append((key, data[key]))
-    locale.setlocale(locale.LC_ALL, 'is_IS.UTF-8')
-    lis.sort(key=lambda x: functools.cmp_to_key(locale.strcoll)(x[0]))
+    lis.sort(key=lambda x: IS_sort()(x[0]))
 
     template = loader.get_template("plot/logline_plot.html")
     context = RequestContext(request, { 
