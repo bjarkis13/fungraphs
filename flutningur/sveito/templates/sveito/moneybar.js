@@ -8,7 +8,7 @@
 }
 
 .legend {
-	font-size: 16px;
+	font-size: 100%;
 }
 
 .barbarbar {
@@ -153,7 +153,7 @@ svg.append("rect")
   var legend = svg.selectAll(".legend")
       .data(ageNames.slice())
     .enter().append("g")
-      .attr("class", "noneofyourbusiness")
+      .attr("class", "legend")
       .attr("transform", function(d, i) { return "translate(0," + i * 20 + ")"; });
 
   legend.append("rect")

@@ -10,7 +10,7 @@ svg {
               stroke: #000;
     }
 .axis text {
-    font-size: 11px;
+    font-size: 90%;
 }
 
 .y.axis path {
