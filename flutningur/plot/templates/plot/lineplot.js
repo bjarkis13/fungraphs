@@ -1,6 +1,6 @@
 <style>
 .nvd3 g.nv-groups path.nv-line {
-      stroke-width: 4px;
+      stroke-width: {{ lineplot.linewidth }};
 }
 .nvtooltip {
     font: inherit;

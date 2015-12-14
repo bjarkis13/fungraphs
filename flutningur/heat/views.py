@@ -53,7 +53,7 @@ def plot(request):
         'groups': groups,
         'subbanner' : True,
         'subbanner_data' : [("By population", "/maps/", True)],
-        'css' : ["mystyle.css"],
+        'css' : ["css/svgmap.css"],
         'js':["jquery-1.10.2.min.js", "d3.v2.min.js"]
         }, processors = [])
     return HttpResponse(template.render(context))

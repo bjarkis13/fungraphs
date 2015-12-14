@@ -29,6 +29,7 @@ def plot(request, args):
             "log": True,
             "height":500,
             "hidelegend":True,
+            "linewidth":"2px",
             "y" : {"name":"Population", "format": "" }
         }
 
