@@ -13,6 +13,13 @@ svg {
     font-size: 11px;
 }
 
+.y.axis path {
+	display: none;
+}
+
+.y.axis line {
+	display: none;
+}
 
 .bar {
     fill-opacity: 0.6;
@@ -29,6 +36,14 @@ svg {
     fill-opacity: 0;
     stroke: #000000;
 }
+
+.gender {
+	font-size 22px;
+	font-weight: bold;
+	text-anchor: middle;
+	fill: #666
+}
+
 </style>
 
 <script>
@@ -92,13 +107,24 @@ var svg = d3.select('div.pyramid').append('svg')
 // Sets some text
 svg.append("text").text("male")
 .attr("class","gender")
+.style("font-size", "22px")
 .attr("x", w/5)
 .attr("y", 20);
 
 svg.append("text").text("female")
 .attr("class","gender")
+.style("font-size", "22px")
 .attr("x", w-w/5)
 .attr("y", 20); //h+38
+
+//Sets unit
+svg.append("text").text("%")
+.attr("x", -5-(10))
+.attr("y", h+5)
+
+svg.append("text").text("%")
+.attr("x", 5+(w))
+.attr("y", h+5)
 
 
 // find the maximum data value on either side
@@ -146,14 +172,14 @@ var yScale = d3.scale.ordinal()
     var xAxisRight = d3.svg.axis()
 .scale(xScale)
     .orient('bottom')
-    .tickFormat(d3.format('%'));
+    .tickFormat(function(d){ return Math.round(d*100) });
 
 
 var xAxisLeft = d3.svg.axis()
     // REVERSE THE X-AXIS SCALE ON THE LEFT SIDE BY REVERSING THE RANGE
 .scale(xScale.copy().range([pointA, 0]))
     .orient('bottom')
-    .tickFormat(d3.format('%'));
+    .tickFormat(function(d){ return Math.round(d*100) });
 
     // MAKE GROUPS FOR EACH SIDE OF CHART
     // scale(-1,1) is used to reverse the left side so the bars grow left instead of right
