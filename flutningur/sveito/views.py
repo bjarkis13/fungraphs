@@ -4,6 +4,7 @@ from django.template import RequestContext, loader
 from django.db.models import Sum, F, FloatField, Avg
 from population.models import Municipality, Population, GenderPop, Regions, SpendingPerCapita
 from flutningur.utils import IS_sort
+from flutningur.constants import get_bad_mid, get_good_mid
 
 # Create your views here.
 regioncolor = ['#8dd3c7','#ffffb3','#bebada','#fb8072','#80b1d3','#fdb462','#b3de69','#fccde5']
@@ -21,10 +22,8 @@ def index(request):
     for d in data:
         data[d].sort(key=lambda x: IS_sort()(x[0]))
         region.append((d.name, regioncolor[d.id-1], data[d], d.id))
-    print(region)
     region.sort(key=lambda x: x[3])
     arst = [region[0:4],region[4:]]
-    print(arst)
 
 
     context = RequestContext(request, { 
@@ -107,9 +106,8 @@ def sveito(request, mid):
             if d['total']:
                 lis.append((d['year'], 100 * res[i]['ratio'] / d['total']))
         return lis
-
-    good = [1000,1400,8200,1300,1604,2000]
-    bad = [4200,7617,4604,6100,4911,4607,6706,5609,7000,8509,4902,6250,7613]
+    good = get_good_mid()
+    bad = get_bad_mid()
     lineplot=[]
     tmp = GenderPop.objects.filter(year__gte=2000)
     lineplot.append((namefix('Alls'),ratio(tmp.filter(municipality__name='Alls'))))
