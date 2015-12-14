@@ -2,31 +2,34 @@
 {% block title %} Municipalities of Iceland {% endblock %}
 {% block content %}
 <div class="row">
-<div class="three columns" >
-    <!-- <h4> List </h4> -->
-<ul>
-    {% for rname,val in regions.items %}
-        <li>
-            {{ rname }}
-        </li>
-        <ul>
-        {% for name,mid in val %}
-            <li style="margin-bottom:0rem">
-                <a href="{{ mid|stringformat:"04d" }}">
-                    {{ name }}
-                </a>
-            </li>
-        {% endfor %}
-        </ul>
-    {% endfor %}
-</ul>
+<div class="container" style='width:80%'>
+    {% include 'iceland.svg.html' %}
 </div>
-<div class="nine columns">
-    {% include 'iceland.svg.html'%}
     <h4> Info </h4>
     <p>
     Here you can access all municipalities that exist today and see local data. Such as how they have merged and split up for the since the 20th century. Population pyramids and simple line plot of normalized population changes.
     </p>
 </div>
+{% for regions in columns %}
+<div class="row">
+    {% for rname,color,val in regions %}
+<div class="three columns" >
+<ul>
+    <li style='font-size:200%; list-style:square; color:{{ color }}; margin-bottom:-2.4rem; margin-left:1em'>
+            <span style='font-size:50%; color:#222'>{{ rname }}</span>
+        </li>
+        <ul style="margin-bottom:0rem">
+        {% for name,mid in val %}
+            <li style="margin:0rem">
+                <a style='color:#333' href="{{ mid|stringformat:"04d" }}">
+                    {{ name }}
+                </a>
+            </li>
+        {% endfor %}
+        </ul>
+</ul>
 </div>
+    {% endfor %}
+</div>
+{% endfor %}
 {% endblock %}

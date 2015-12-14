@@ -3,23 +3,36 @@ from django.http import HttpResponse
 from django.template import RequestContext, loader
 from django.db.models import Sum, F, FloatField, Avg
 from population.models import Municipality, Population, GenderPop, Regions, SpendingPerCapita
+from flutningur.utils import IS_sort
 
 # Create your views here.
+regioncolor = ['#8dd3c7','#ffffb3','#bebada','#fb8072','#80b1d3','#fdb462','#b3de69','#fccde5']
+
 
 def index(request):
     template = loader.get_template("sveito/index.html")
     raw = Municipality.objects.filter(mid__isnull=False).order_by('region__name','name')
     data = {}
     for obj in raw:
-        if obj.region.name not in data:
-            data[obj.region.name] = []
-        data[obj.region.name].append((obj.name, obj.mid))
+        if obj.region not in data:
+            data[obj.region] = []
+        data[obj.region].append((obj.name, obj.mid))
+    region = []
+    for d in data:
+        data[d].sort(key=lambda x: IS_sort()(x[0]))
+        region.append((d.name, regioncolor[d.id-1], data[d], d.id))
+    print(region)
+    region.sort(key=lambda x: x[3])
+    arst = [region[0:4],region[4:]]
+    print(arst)
+
+
     context = RequestContext(request, { 
             'title' : 'Municipalities',
             'sveitoactive': True,
             'css' : ["mystyle.css"],
-            'regions' : data,
-            'regioncolor': True,
+            'columns' : arst,
+            'regioncolor': regioncolor,
             'js':["jquery-1.10.2.min.js", "d3.v2.min.js"]
         }, processors = [])
     return HttpResponse(template.render(context))

@@ -16,7 +16,9 @@
 }
 
 .x.axisbar path {
-  display: none;
+  //display: none;
+  stroke: black;
+  fill: none;
 }
 
 .y.axisbar path {
@@ -91,11 +93,6 @@ var data = [
   y.domain([0, d3.max(data, function(d) { return d3.max(d.ages, function(d) { return d.value; }); })]);
 
   svg.append("g")
-      .attr("class", "x axisbar")
-      .attr("transform", "translate(0," + height + ")")
-      .call(xAxis);
-
-  svg.append("g")
       .attr("class", "y axisbar")
       .call(yAxis)
     .append("text")
@@ -138,14 +135,19 @@ svg.append("g")
         )
 
 
-
+boxW = Math.max(ageNames[2].length,ageNames[3].length) * 7.4
 svg.append("rect")
-	.attr("x",width-170)
-    .attr("width", 170)
+	.attr("x",width-boxW)
+    .attr("width", boxW)
     .attr("height", 95)
     .attr("fill", "white")
 	.style("fill-opacity", 1);
 
+
+  svg.append("g")
+      .attr("class", "x axisbar")
+      .attr("transform", "translate(0," + height + ")")
+      .call(xAxis);
 
   //All things legend
   var legend = svg.selectAll(".legend")
@@ -167,7 +169,4 @@ svg.append("rect")
       .attr("dy", ".35em")
       .style("text-anchor", "end")
       .text(function(d) { return d; });
-
-
-
 </script>
