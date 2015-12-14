@@ -132,7 +132,7 @@ def sveito(request, mid):
     'gpop' : gpop,
     'allgpop' : gpop_all,
     'spending' : spending,
-    'lineplot' : {"values": lineplot, "height":500, "opacity":0.6,
+    'lineplot' : {"values": lineplot, "height":500, "opacity":0.6, "linewidth":"4px",
         "y" : {"name":"Percent of males", "format": "0.1f" }
         },
     'munipop' : munipop
