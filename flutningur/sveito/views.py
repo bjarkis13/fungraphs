@@ -30,7 +30,7 @@ def index(request):
     context = RequestContext(request, { 
             'title' : 'Municipalities',
             'sveitoactive': True,
-            'css' : ["mystyle.css"],
+            'css' : ["css/svgmap.css"],
             'columns' : arst,
             'regioncolor': regioncolor,
             'js':["jquery-1.10.2.min.js", "d3.v2.min.js"]

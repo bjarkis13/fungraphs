@@ -16,7 +16,7 @@ def index(request):
                 ("By population", "/maps/pop", False),
                 ("Population changes", "/maps/change", False),
                 ],
-        'css' : ["mystyle.css"],
+        'css' : ["css/svgmap.css"],
         'js':["jquery-1.10.2.min.js", "d3.v2.min.js"]
         }, processors = [])
     return HttpResponse(template.render(context))
