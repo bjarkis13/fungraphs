@@ -16,7 +16,9 @@
 }
 
 .x.axisbar path {
-  display: none;
+  //display: none;
+  stroke: black;
+  fill: none;
 }
 
 .y.axisbar path {
@@ -91,11 +93,6 @@ var data = [
   y.domain([0, d3.max(data, function(d) { return d3.max(d.ages, function(d) { return d.value; }); })]);
 
   svg.append("g")
-      .attr("class", "x axisbar")
-      .attr("transform", "translate(0," + height + ")")
-      .call(xAxis);
-
-  svg.append("g")
       .attr("class", "y axisbar")
       .call(yAxis)
     .append("text")
@@ -145,6 +142,12 @@ svg.append("rect")
     .attr("height", 95)
     .attr("fill", "white")
 	.style("fill-opacity", 1);
+
+
+  svg.append("g")
+      .attr("class", "x axisbar")
+      .attr("transform", "translate(0," + height + ")")
+      .call(xAxis);
 
   //All things legend
   var legend = svg.selectAll(".legend")
