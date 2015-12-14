@@ -1,7 +1,8 @@
 from django.shortcuts import render
 from django.http import HttpResponse
 from django.template import RequestContext, loader
-from population.models import Municipality, Population
+from django.db.models import Sum
+from population.models import Municipality, Population, Regions
 from flutningur.utils import IS_sort
 from django.shortcuts import redirect
 from flutningur.constants import get_bad_mid, get_good_mid
@@ -25,9 +26,14 @@ def preset(request, group, scale='linear'):
     args = ",".join(lis)
     return plot(request, args, scale=scale)
 
-def plot(request, args, scale='linear'):
-    islog = scale == 'log'
-    mun_lis = [int(s) for s in args.split(',')]
+def aggregate_regions():
+    raw = Population.objects.filter(municipality__mid__isnull=False).values_list('municipality__region__id','year').annotate(Sum('val'))
+    res=[(name[0],[]) for name in Regions.objects.all().order_by('id').values_list('name')]
+    for rid,y,v in raw:
+        res[rid-1][1].append((y,v))
+    return res
+
+def get_mid_data(mun_lis):
     raw = Population.objects.filter(municipality__mid__in=mun_lis).order_by('municipality__name', 'year')
     data = {}
     for line in raw:
@@ -39,11 +45,17 @@ def plot(request, args, scale='linear'):
     for key in data:
         lis.append((key, data[key]))
     lis.sort(key=lambda x: IS_sort()(x[0]))
+    return lis
+
+def plot(request, args, scale='linear'):
+    islog = scale == 'log'
+    mun_lis = [int(s) for s in args.split(',')]
+    lis = get_mid_data(mun_lis)
     lineplot_d = {
-            "values": lis,
+            "values": lis[1:],
             "log": islog,
             "height":500,
-            "hidelegend":True,
+            "hidelegend":len(lis) > 20,
             "linewidth":"2px",
             "y" : {"name":"Population", "format": "" }
         }
@@ -58,3 +70,4 @@ def plot(request, args, scale='linear'):
             },
             processors = [])
     return HttpResponse(template.render(context))
+
