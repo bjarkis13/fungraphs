@@ -27,7 +27,7 @@ def plot(request, args):
     lineplot_d = {
             "values": lis,
             "log": True,
-            "height":800,
+            "height":500,
             "hidelegend":True,
             "y" : {"name":"Population", "format": "" }
         }

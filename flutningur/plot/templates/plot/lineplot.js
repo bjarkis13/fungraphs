@@ -1,3 +1,20 @@
+<style>
+.nvd3 g.nv-groups path.nv-line {
+      stroke-width: 4px;
+}
+.nvtooltip {
+    font: inherit;
+}
+.nvd3 text {
+    font: inherit;
+}
+g.nv-y g.nv-axis g text.nv-axislabel {
+    //transform: translate(160px,34px) rotate(0deg) !important;
+    transform-origin: 0px 00px !important;
+    transform: translate(160px,34px) rotate(0deg) !important;
+    text-anchor: start !important;
+}
+</style>
 <script>
 
 var histcatexplong = [
@@ -49,17 +66,7 @@ nv.addGraph(function() {
         .transition().duration(500)
         .call(chart);
 
-    function moveYaxis() {
-        d3.select(".nv-y").select("text.nv-axislabel")
-            .attr({"transform":null, x:"-50px", y:"-1.3em"})
-            .style("text-anchor","start");
-    }
-    function my_update() {
-        chart.update();
-        moveYaxis();
-    }
-    moveYaxis();
-    nv.utils.windowResize(my_update);
+    nv.utils.windowResize(chart.update);
     return chart;
 });
 </script>
