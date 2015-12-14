@@ -47,7 +47,7 @@ def plot(request):
     template = loader.get_template("heat/heatmap.html")
     context = RequestContext(request, { 
         'mapsactive': True,
-        'title': "arst",
+        'title': "Population choropleth",
         'subtitle' : '{} choropleth'.format('Population'),
         'choroplethdata' : lis,
         'groups': groups,

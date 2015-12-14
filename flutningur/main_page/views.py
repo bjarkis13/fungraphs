@@ -7,7 +7,11 @@ from population.models import Municipality, Population, Regions, SpendingPerCapi
 
 def index(request):
     template = loader.get_template("main_page/home.html")
-    context = RequestContext(request, { 'title' : 'beni plz', 'homeactive': True, 'css' : [] }, processors = [])
+    context = RequestContext(request, {
+        'title' : 'Migration within Iceland',
+        'homeactive': True,
+        'css' : []
+        }, processors = [])
     return HttpResponse(template.render(context))
 
 def pres(request):

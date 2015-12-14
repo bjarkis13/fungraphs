@@ -1,13 +1,16 @@
 {% extends 'base.html' %}
-
+{% block title %} {{ title }} <span id="year"></span> {% endblock %}
 {% block content %}
 
-<h4>{{ subtitle }} <span id="year"></span></h4>
-
+<div class='container' style='width:80%'>
 {% include 'iceland.svg.html' %}
- <form>
+<form>
      <input style="width:100%" value="0" type="range" id="slider" min="0" max="{{ choroplethdata|length|add:"-1" }}">
 </form>
+</div>
+<p>
+Move the slider to change years. Hover over the municipality to see the actual value, note that categories are fixed through time.
+</p>
 
 
 
