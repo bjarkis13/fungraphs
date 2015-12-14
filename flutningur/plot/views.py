@@ -24,14 +24,19 @@ def plot(request, args):
     for key in data:
         lis.append((key, data[key]))
     lis.sort(key=lambda x: IS_sort()(x[0]))
+    lineplot_d = {
+            "values": lis,
+            "log": True,
+            "height":800,
+            "hidelegend":True,
+            "y" : {"name":"Population", "format": "" }
+        }
 
     template = loader.get_template("plot/logline_plot.html")
     context = RequestContext(request, { 
                 'title' : 'Population line plot',
                 'plotactive': True,
-                'lineplot' : {"values": lis, "log": True, "height":800,
-                        "y" : {"name":"Population", "format": "" }
-                    },
+                'lineplot' : lineplot_d,
                 'css' : [ "lib/nvd3/build/nv.d3.min.css" ],
                 'js': ["lib/d3/d3.min.js", "lib/nvd3/build/nv.d3.min.js" ],
             },

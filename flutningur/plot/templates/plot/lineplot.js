@@ -12,6 +12,7 @@ var histcatexplong = [
 
 nv.addGraph(function() {
     var chart = nv.models.lineChart()
+        .showLegend({% if lineplot.hidelegend %}false{% else %}true{% endif %})
         .x(function(d) { return d[0] })
     {% if lineplot.log %}
         .y(function(d) { return d[1] === 0 ? 1 : d[1] })
