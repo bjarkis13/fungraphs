@@ -138,14 +138,13 @@ svg.append("g")
         )
 
 
-
+boxW = Math.max(ageNames[2].length,ageNames[3].length) * 7.4
 svg.append("rect")
-	.attr("x",width-170)
-    .attr("width", 170)
+	.attr("x",width-boxW)
+    .attr("width", boxW)
     .attr("height", 95)
     .attr("fill", "white")
 	.style("fill-opacity", 1);
-
 
   //All things legend
   var legend = svg.selectAll(".legend")
@@ -167,7 +166,4 @@ svg.append("rect")
       .attr("dy", ".35em")
       .style("text-anchor", "end")
       .text(function(d) { return d; });
-
-
-
 </script>

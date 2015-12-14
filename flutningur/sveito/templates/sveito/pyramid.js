@@ -18,10 +18,11 @@ svg {
     fill-opacity: 0.6;
 }
 .bar.left {
-    fill: #1f77b4;	
+    fill: gray;//#1f77b4	
 }
+//Is actually never used
 .bar.right {
-    fill: #e377c2;
+    fill: #1f77b4;
 }
 .bar.all {	
     fill: #1f77b4;	
@@ -98,30 +99,6 @@ svg.append("text").text("female")
 .attr("class","gender")
 .attr("x", w-w/5)
 .attr("y", 20); //h+38
-
-// Set legend not done
-var legendRectSize = 18;
-var legendSpacing = 4;
-
-var legend = svg.selectAll('.legend')
-//.data(color.domain())
-//.enter()
-.append('g')
-.attr('class', 'legend')
-.attr('transform', function(d, i) {
-	var height = legendRectSize + legendSpacing;
-	var offset =  h / 2;
-	var horz = -2 * legendRectSize;
-	var vert = i * height - offset;
-	return 'translate(' + horz + ',' + vert + ')';
-});
-
-legend.append('rect')
-.attr('width', legendRectSize)
-.attr('height', legendRectSize)
-.style('fill', 'red')
-.style('stroke', 'red');
-
 
 
 // find the maximum data value on either side
@@ -239,7 +216,7 @@ var xAxisLeft = d3.svg.axis()
     rightBarGroup.selectAll('.bar.right')
 .data(muniData)
     .enter().append('rect')
-    .attr('class', 'bar right')
+    .attr('class', 'bar left')
     .attr('x', 0)
     .attr('y', function(d) { return yScale(d.group); })
     .attr('width', function(d) { return xScale(percentageMuni(d.female)); })
@@ -254,6 +231,35 @@ var xAxisLeft = d3.svg.axis()
     .attr('y', function(d) { return yScale(d.group); })
     .attr('width', function(d) { return xScale(percentageAll(d.female)); })
     .attr('height', yScale.rangeBand());
+
+	var ageNames = ["{{ title }}","Iceland"]
+	var color = d3.scale.ordinal()
+		.range(['gray','white'])
+
+	//alert(ageNames)
+	//All things legend
+  var legend = svg.selectAll(".legend")
+      .data(ageNames.slice())
+    .enter().append("g")
+      .attr("class", "noneofyourbusiness")
+      .attr("transform", function(d, i) { return "translate(0," + i * 20 + ")"; });
+
+  legend.append("rect")
+      .attr("x", w - 18)//width - 18)
+	  .attr("y", 30)//10 - margin.top)
+      .attr("width", 18)
+      .attr("height", 18)
+      .style("fill", color) 
+	  .style("fill-opacity", 0.6)
+	  .style("stroke", "black")
+  legend.append("text")
+      .attr("x", w - 18 - 6)//width - 24)
+      .attr("y", 30 + 9)//10 - margin.top + 9)
+      .attr("dy", ".35em")
+      .style("text-anchor", "end")
+      .text(function(d) { return d; });
+	//.text("sadjasdasdasd");
+
 
     // so sick of string concatenation for translations
     function translation(x,y) {
