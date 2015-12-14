@@ -25,7 +25,9 @@ svg {
     fill-opacity: 0.6;
 }
 .bar.left {
-    fill: gray;//#1f77b4	
+    fill: gray;//#1f77b4
+	stroke: gray;
+	stroke-width: 2;
 }
 //Is actually never used
 .bar.right {
@@ -233,9 +235,9 @@ var xAxisLeft = d3.svg.axis()
 .data(allData)
     .enter().append('rect')
     .attr('class', 'bar all')
-    .attr('x', 0)
+    .attr('x', function(d) { return xScale(percentageAll(d.male)); })
     .attr('y', function(d) { return yScale(d.group); })
-    .attr('width', function(d) { return xScale(percentageAll(d.male)); })
+    .attr('width', 0.5)
     .attr('height', yScale.rangeBand());
 
 
@@ -253,16 +255,23 @@ var xAxisLeft = d3.svg.axis()
 .data(allData)
     .enter().append('rect')
     .attr('class', 'bar all')
-    .attr('x', 0)
+    .attr('x', function(d) { return xScale(percentageAll(d.female)); })
     .attr('y', function(d) { return yScale(d.group); })
-    .attr('width', function(d) { return xScale(percentageAll(d.female)); })
+    .attr('width', 0.5)
     .attr('height', yScale.rangeBand());
 
+	//lots of fun variables used for legend settings
+	//apologies for hardcoding
 	var ageNames = ["{{ title }}","Iceland"]
 	var color = d3.scale.ordinal()
 		.range(['gray','white'])
+	var strokeC = d3.scale.ordinal()
+		.range(['gray','black'])
+	var lwidth = d3.scale.ordinal()
+		.range([14,0.5])
+	var lxoffset = d3.scale.ordinal()
+		.range([w-16,w-18+8.75])
 
-	//alert(ageNames)
 	//All things legend
   var legend = svg.selectAll(".legend")
       .data(ageNames.slice())
@@ -271,13 +280,13 @@ var xAxisLeft = d3.svg.axis()
       .attr("transform", function(d, i) { return "translate(0," + i * 20 + ")"; });
 
   legend.append("rect")
-      .attr("x", w - 18)//width - 18)
-	  .attr("y", 30)//10 - margin.top)
-      .attr("width", 18)
-      .attr("height", 18)
+      .attr("x", lxoffset)//width - 18)
+	  .attr("y", 32)//10 - margin.top)
+      .attr("width", lwidth)
+      .attr("height", 14)
       .style("fill", color) 
 	  .style("fill-opacity", 0.6)
-	  .style("stroke", "black")
+	  .style("stroke", strokeC)
   legend.append("text")
       .attr("x", w - 18 - 6)//width - 24)
       .attr("y", 30 + 9)//10 - margin.top + 9)
