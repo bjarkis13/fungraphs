@@ -8,3 +8,37 @@ Eystra:4, Suðurland:1, Suðurnes:0, Austurland:3, Norðurland Vestra:2, Höfuð
 Social service, culture, sports and youth activities, health servies, age distribution, tax revenues, population
 development by sex.
 
+POPULATION DEVELOPMENT BY GENDER
+Smaller municipalities have big gaps in their age pyramid for both genders. Municipalities with persistent depopulation have higher precentage of males than females, avg 51.14 percent compared to avg 50.09 percent for municiplaities with persistent population growth. The difference is 1.05 percentage points.
+Regarding the percentage of males in Iceland we noticed an inflation in male population around 2005, this could be foreign labor. 
+When looking at the age pyramid for different municipalities we can see that the pyramid get closer to the mean when the population gets higher.
+*MORE !!!!
+
+SPENDING PER CAPITA
+The lagest column in social service is Iceland, except when we look at Reykjavík. Reykjavík is by far the largest provider of social service. Social service includes social assistance, service for children, youth, elderly and disabled, various social service, various statutory contributions, grants and donations.
+Municipalitiest with persistent population growth spend close to double the amount municipalities with persistent depopulation spend per capita. We see this more as a symptom rather than a cause for depopulation.
+Municipalities with persistent depopulation spend more on sports and youth activities and culture than municipalities with presistent population growth. This can have multiple explanations. We believe that the starting cost of sport activities might be causing this and also we believe that maintaining this service for municipalitites with low population could be a factor. Many of the major sport clubs are situated in the capital region and are sponsored, this might not be the case in smaller municipalities. Smaller municipalities sometimes have an agreement with larger ones regarding social service.
+
+EXAMPLES OF MUNICIPALITIES WHICH WE BELIEVE ARE IN DANGER
+Breiðdalshreppur in austurland. Spends well below avg in all categories compared to it's region. Males are 53.23 percent of the population (2015) and the age pyramid has huge gaps in it as well (population of 188).
+Borgarfjarðarhreppur in austurland has the population of 136. Has more males (??.??percent ) than females. Spens lowest in all categories compared to Iceland, Persistnet growth, Persistent depopulation, and its region.
+Kaldrananeshreppur in vestfirðir has the population of 109. The age pyramid has huge caps in it. People in the age group 55-69 are the largest, we believe that this is a symptom for a municipality in danger. Unlike other municipalities with persistent depopulation Kaldrananes has the same number of males and females (differs by 1). Spends little on social service but more on sports and youth activities and culture. 
+Árneshreppur in vestfirðir has the population of only 54. Unlike other municipalities there are more females than males (46.3 percent). 
+Kjósahreppur in höfuðborgarsvæðið has huge gaps in its pyramid, 55 percent males, and spends little on social service.
+Ásahreppur in suðurland, gaps in pyramid, spend litle on all categories.
+Fjallabyggð in norðurland eystra, older people.
+Þingeyjarsveit in norðlurland eystra.
+
+
+Vestfirðir seem to be in danger as a whole.
+
+Look at Fjarðabyggð, Fljótsdalshreppur, and Fljótsdalshérað regarding Kárahnjúkar and Reyðarfjörður.
+
+EXAMPLES OF MUNICIPALITIES WHICH ARE DOING WELL
+Fjarðabyggð in austurland, Fljótdalshérað in austurland, every municipality in suðurnes region, Grindavík especially. Akranes is vesturland. Akureyri in norðurland eystra, sveitarfélagið skagafjörður, 
+
+PLOT
+====
+Vesturbyggð was created in 1994 when Barðastrandarhreppur, Rauðasandshreppur, Bíldudalshreppur and Patrekshreppur were merged together. In 1994 the population of these municipalities was 1390, by the end of 2014 it was down to 997.
+Ísafjarðarkaupstaður was created in 1996 when it merged with Flateyrarhreppur, Mosvallahreppur, Mýrahreppur, Suðureyrarhreppur and Þingeyrarhreppur. In 1996 the population of these municipalities was 4519, by the end of 2014 it was down to 3623. 
+Bolungarvík has never been merged with any other municipality. The population 2000 was 958, by the end of 2014 it was 927.
