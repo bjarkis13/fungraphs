@@ -31,7 +31,9 @@ def plot(request, args):
     context = RequestContext(request, { 
                 'title' : 'Population line plot',
                 'plotactive': True,
-                'lineplot' : lis,
+                'lineplot' : {"values": lis, "log": True, "height":800,
+                        "y" : {"name":"Population", "format": "" }
+                    },
                 'css' : [ "lib/nvd3/build/nv.d3.min.css" ],
                 'js': ["lib/d3/d3.min.js", "lib/nvd3/build/nv.d3.min.js" ],
             },

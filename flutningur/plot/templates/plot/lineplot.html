@@ -13,11 +13,11 @@
             width: 100%;
         }
         path.nv-line {
-            stroke-opacity: 0.3;
+            stroke-opacity: {{ lineplot.opacity|default:"0.3"}};
         }
     </style>
 {% endblock %}
-<div style='height:900px' class='row'>
+<div style='height:{{ lineplot.height }}px' class='row'>
     <svg id="chart1"></svg>
 </div>
 {% include 'plot/lineplot.js' %}

@@ -92,20 +92,20 @@ def sveito(request, mid):
             if res[i]['year'] != d['year']:
                 print('Error: year are not the same')
             if d['total']:
-                lis.append((d['year'], res[i]['ratio'] / d['total']))
+                lis.append((d['year'], 100 * res[i]['ratio'] / d['total']))
         return lis
 
     good = [1000,1400,8200,1300,1604,2000]
     bad = [4200,7617,4604,6100,4911,4607,6706,5609,7000,8509,4902,6250,7613]
     lineplot=[]
-    lineplot.append((namefix('Alls'),ratio(GenderPop.objects.filter(municipality__name='Alls'))))
-    lineplot.append((mun,ratio(GenderPop.objects.filter(municipality__mid=int(mid)))))
-    lineplot.append((reg,ratio(GenderPop.objects.filter(municipality__region_id=reg_ind))))
-    lineplot.append((namefix('good'),ratio(GenderPop.objects.filter(municipality__mid__in=good))))
-    lineplot.append((namefix('bad'),ratio(GenderPop.objects.filter(municipality__mid__in=bad))))
-    print(lineplot)
+    tmp = GenderPop.objects.filter(year__gte=2000)
+    lineplot.append((namefix('Alls'),ratio(tmp.filter(municipality__name='Alls'))))
+    lineplot.append((namefix('good'),ratio(tmp.filter(municipality__mid__in=good))))
+    lineplot.append((namefix('bad'),ratio(tmp.filter(municipality__mid__in=bad))))
+    lineplot.append((mun,ratio(tmp.filter(municipality__mid=int(mid)))))
+    lineplot.append((reg,ratio(tmp.filter(municipality__region_id=reg_ind))))
 
-    #sorting for consistency 
+    #sorting for consistency
     spending.sort(key= lambda x:x[1])
     spending = spending[::-1]
  
@@ -119,7 +119,9 @@ def sveito(request, mid):
     'gpop' : gpop,
     'allgpop' : gpop_all,
     'spending' : spending,
-    'lineplot' : lineplot,
+    'lineplot' : {"values": lineplot, "height":500, "opacity":0.6,
+        "y" : {"name":"Percent of males", "format": "0.2f", "range":[45, 55] }
+        },
     'munipop' : munipop
     },processors=[])
     return HttpResponse(template.render(context))
