@@ -17,3 +17,5 @@ Regarding the percentage of males in Iceland we noticed an inflation in male pop
 When looking at the age pyramid for different municipalities we can see that the pyramid get closer to the mean when the population gets higher.
 When looking at municipalities with persistent depopulation we noticed that they spend much less on social service than municipalities with persistent population growth, but they spend more on sports- and youth activities and culture then municipalitites with persistent population growth. We do not believe that this is the cause of depopulation. We see this more as a symptom. 
 On average the percentage of males in municipalities with persistent population growth is higer than females, 51.03 / 48.97. The national average is 50.19 percent males and 49.81 percent females. On average the percentage of males in municipalities with persistent population growth is lower than females, 49.99 / 50.01. Again, we see this as a symptom rather than a cause for depopulation / popualation growth.
+
+Vestfirðir contains about 40 percent of the munipalities which fall under IRDIs definition.
