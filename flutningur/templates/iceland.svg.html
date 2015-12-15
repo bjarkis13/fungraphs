@@ -1,3 +1,4 @@
+{% load humanize %}
 <script>
 var regions=[
 {% for year,data in choroplethdata %}
@@ -33,7 +34,7 @@ var ranges = [
 {{ g }},
 {% endfor %}
 ]
-var str_ranges = ['0{% for g in groups %}-{{g|add:"-1"}}','{{g}}{% endfor%}+'];
+var str_ranges = ['0{% for g in groups %}-{{g|add:"0"|intcomma}}','{{g|intcomma}}{% endfor%}+'];
 
 {% if regioncolor %}
 var color = {{ regioncolor }};
@@ -46,20 +47,18 @@ var color = ['#ffffd4','#fed98e','#fe9929','#d95f0e','#993404'];
 $(function() {
     {% if not regioncolor %}
     var svg = d3.select("svg");
-    var height = parseFloat(d3.select("#map-container").style("height"));
     var legend = svg.selectAll(".legend")
         .data(str_ranges)
         .enter().append("g")
         .attr("class", "legend")
-        .attr("transform", function(d, i) { return "translate(0," + (height*0.28 + i * 15) + ")"; });
+        .attr("transform", function(d, i) { return "translate(0," + (260 - i * 15) + ")"; });
     legend.append("rect")
         .attr("x",8)
-        .attr("width", 8)
-        .attr("height", 8)
-        .style("fill-opacity", 0.8)
+        .attr("width", 10)
+        .attr("height", 10)
         .style("fill", function(d, i) { return color[i]; });
     legend.append("text")
-        .attr("x", 24)
+        .attr("x", 20)
         .attr("y", 6)
         .attr("dy", ".15em")
         .style("text-anchor", "start")
