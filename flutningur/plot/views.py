@@ -56,7 +56,7 @@ def plot(request, args, scale='linear'):
             "log": islog,
             "height":500,
             "hidelegend":len(lis) > 20,
-            "linewidth":"2px",
+            "linewidth":"4px",
             "y" : {"name":"Population", "format": "" }
         }
 
