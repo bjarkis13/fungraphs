@@ -46,4 +46,25 @@
 			covers expenses for social assistance, service for children, youth, elderly and disabled, various social service, various statutory contributions, grants and donations. <br>
 	</p>
 </div>
+<div id="changes" class='docs-section'>
+<h2>Merges, splits and name changes</h2>
+<table class="u-full-width">
+  <thead>
+    <tr>
+      <th>Year</th>
+      <th>From</th>
+      <th>To</th>
+    </tr>
+  </thead>
+  <tbody>
+      {% for y,f,t in changes %}
+    <tr>
+        <td>{{y}}</td>
+        <td>{{f}}</td>
+        <td>{{t}}</td>
+    </tr>
+      {% endfor %}
+  </tbody>
+</table>
+</div>
 {% endblock %}
