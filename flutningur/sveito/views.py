@@ -48,15 +48,30 @@ def sveito(request, mid):
     def getChanges(mun):
         changes = [] 
         for i in Changes.objects.filter(new=mun):
-            #from, to, year
+            #If it is not 100% then there was a split
+            if i.percent != 100:
+                total = False
+                for split in Changes.objects.filter(old=i.old,year=i.year).exclude(new=i.new):
+                    changes.append((split.old.name,split.new.name,split.year))
+                if not total: changes.append((i.old.name,i.old.name,i.year))
+
             changes.append((i.old.name,i.new.name,i.year))
-            if i.old.name != i.new.name: changes += getChanges(i.old) 
-        return changes
+            if i.old.name != i.new.name: changes += getChanges(i.old)
+
+        #Handle the cases where something splits from our muni
+        changes = sorted(changes, key=lambda x:x[2])[::-1]
+
+        splits = []
+        for i in changes:
+            for split in Changes.objects.filter(old=Municipality.objects.get(name=i[0])):
+                splits.append((split.old.name,split.new.name,split.year))
+
+        return changes+splits
 
     #Double loops are in P
     def niceChanges(mun):
         changes = getChanges(mun)
-        #y : [from, to]
+        changes.sort(key=lambda x:x[1])
         dic = {}    
         for change in changes:
             f, t, y = change
@@ -66,7 +81,7 @@ def sveito(request, mid):
 
         changes = []
         for y in dic:
-            changes.append((y, ",".join(list(set(dic[y][0]))), list(set(dic[y][1]))))
+            changes.append((y, ", ".join(list(set(dic[y][0]))), ", ".join(list(set(dic[y][1])))))
         changes.sort(key=lambda x:x[0])
         return changes[::-1]
 
