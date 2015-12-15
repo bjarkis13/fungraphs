@@ -64,10 +64,18 @@ var yAxis = d3.svg.axis()
     .orient("left")
   	//.tickFormat(d3.format(".2s"));
 
-var svg = d3.select("div.moneybar").append("svg")
-    .attr("width", width + margin.left + margin.right)
-    .attr("height", height + margin.top + margin.bottom)
-  .append("g")
+var svg = d3.select("div.moneybar")
+    .append("div")
+    .classed("svg-container", true) //container class to make it responsive
+    .append("svg")
+    //responsive SVG needs these 2 attributes and no width and height attr
+    .attr("preserveAspectRatio", "xMinYMin meet")
+    .attr("viewBox", "0 0 960 500")
+    //class to make it responsive
+    .classed("svg-content-responsive", true)
+    //.attr("width", width + margin.left + margin.right)
+    //.attr("height", height + margin.top + margin.bottom)
+    .append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
 
