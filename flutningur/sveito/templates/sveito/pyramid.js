@@ -1,6 +1,6 @@
 <style>
 svg {
-    border: 1px solid #ccc;
+//    border: 1px solid #ccc;
 }
 
 .axis line,
@@ -102,13 +102,13 @@ var svg = d3.select('div.pyramid')
    .append("div")
    .classed("svg-container", true) //container class to make it responsive
 .append('svg')
+   //.attr('width', margin.left + w + margin.right)
+   //.attr('height', margin.top + h + margin.bottom)
    //responsive SVG needs these 2 attributes and no width and height attr
    .attr("preserveAspectRatio", "xMinYMin meet")
-   .attr("viewBox", "0 0 600 500")
+   .attr("viewBox", "0 0 568 344")
    //class to make it responsive
    .classed("svg-content-responsive", true)
-   // .attr('width', margin.left + w + margin.right)
-   // .attr('height', margin.top + h + margin.bottom)
     // ADD A GROUP FOR THE SPACE WITHIN THE MARGINS
     .append('g')
     .attr('transform', translation(margin.left, margin.top));

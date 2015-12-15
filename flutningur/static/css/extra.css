@@ -50,11 +50,12 @@
 }
 .svg-container {
     display: inline-block;
-    position: relative;
     width: 100%;
+    position: relative;
     padding-bottom: 62.5%; /* aspect ratio */
     vertical-align: top;
-    overflow: hidden;
+    //overflow: hidden;
+    //margin: 20px auto;
 }
 .svg-content-responsive {
     display: inline-block;
