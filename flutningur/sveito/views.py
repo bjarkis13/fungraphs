@@ -181,7 +181,8 @@ def sveito(request, mid):
         "valformat": "0.2f",
         "y" : {
             "name":"Percent of males",
-            "format": "d"
+            "format": "d",
+            "force": "49,51,50,",
             }
         },
     'munipop' : munipop,

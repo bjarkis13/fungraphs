@@ -35,12 +35,12 @@ nv.addGraph(function() {
     var chart = nv.models.lineChart()
         .showLegend({% if lineplot.hidelegend %}false{% else %}true{% endif %})
         .x(function(d) { return d[0] })
+        .forceY([{{lineplot.y.force}}])
     {% if lineplot.log %}
         .y(function(d) { return d[1] === 0 ? 1 : d[1] })
         .yScale(d3.scale.log())
-        .forceY([1])
     {% else %}
-        //.forceY([0,35000])
+        .yScale(d3.scale.linear())
         .y(function(d) { return d[1] })
     {% endif %}
     {% if lineplot.y.range %}
@@ -63,7 +63,7 @@ nv.addGraph(function() {
     chart.yAxis
         .axisLabel('{{ lineplot.y.name }}')
     {% if lineplot.log %}
-        .tickValues([1,10,100,1000,10000,100000])
+        .tickValues([1,10,100,1000,10000])
     {% endif %}
         .tickFormat(d3.format('{{ lineplot.y.format }}'));
 
