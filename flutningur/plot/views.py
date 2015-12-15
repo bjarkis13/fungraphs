@@ -52,12 +52,12 @@ def plot(request, args, scale='linear'):
     mun_lis = [int(s) for s in args.split(',')]
     lis = get_mid_data(mun_lis)
     lineplot_d = {
-            "values": lis[1:],
+            "values": lis,
             "log": islog,
             "height":500,
             "hidelegend":len(lis) > 20,
             "linewidth":"4px",
-            "y" : {"name":"Population", "format": "" }
+            "y" : {"name":"Population", "format": "," }
         }
 
     template = loader.get_template("plot/index.html")
