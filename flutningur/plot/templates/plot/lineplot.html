@@ -1,18 +1,10 @@
 {% block headercontent %}
     <style>
 
-        text {
-            font-size: 12px;
+        #chart1 * text {
+            font-size: 1em;
         }
-        svg {
-            display: block;
-        }
-        svg {
-            margin: 10px;
-            padding: 10px;
-            width: 100%;
-        }
-        path.nv-line {
+        #chart1 * path.nv-line {
             stroke-opacity: {{ lineplot.opacity|default:"0.3" }};
         }
     </style>

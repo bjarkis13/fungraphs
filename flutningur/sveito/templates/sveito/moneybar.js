@@ -7,8 +7,8 @@
   shape-rendering: crispEdges;
 }
 
-.legend {
-	font-size: 100%;
+.axisbar text, g.tick text, g.legend text {
+	font-size: 120%;
 }
 
 .barbarbar {
@@ -66,15 +66,10 @@ var yAxis = d3.svg.axis()
 
 var svg = d3.select("div.moneybar")
     .append("div")
-    .classed("svg-container", true) //container class to make it responsive
     .append("svg")
     //responsive SVG needs these 2 attributes and no width and height attr
-    .attr("preserveAspectRatio", "xMinYMin meet")
+    .attr("preserveAspectRatio", "xMinyMin meet")
     .attr("viewBox", "0 0 960 500")
-    //class to make it responsive
-    .classed("svg-content-responsive", true)
-    //.attr("width", width + margin.left + margin.right)
-    //.attr("height", height + margin.top + margin.bottom)
     .append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
@@ -143,7 +138,7 @@ svg.append("g")
         )
 
 
-boxW = Math.max(ageNames[2].length,ageNames[3].length) * 7.4
+boxW = Math.max(ageNames[2].length,ageNames[3].length) * 10
 svg.append("rect")
 	.attr("x",width-boxW)
     .attr("width", boxW)

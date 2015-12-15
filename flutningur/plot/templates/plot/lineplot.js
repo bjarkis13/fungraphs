@@ -5,7 +5,7 @@
 .nvtooltip {
     font: inherit;
 }
-.nvd3 text {
+.nvd3 * text {
     font: inherit;
 }
 g.nv-y g.nv-axis g text.nv-axislabel {
@@ -49,6 +49,7 @@ nv.addGraph(function() {
         d3.select(chart.container).select('g.nv-group.nv-series-' + e.seriesIndex).select('path.nv-line').style('stroke-opacity', '{{ lineplot.opacity|default:"0.3" }}')
 
     })
+    chart.legend.margin({top: 2, right:25, left:50, bottom: 0});
     chart.xAxis
         .axisLabel('Year')
         .tickFormat(d3.format(''));

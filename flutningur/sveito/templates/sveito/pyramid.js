@@ -9,7 +9,8 @@ svg {
         fill: transparent;
               stroke: #000;
     }
-.axis text {
+.pyramid * text,
+.pyramid * .axis text {
     font-size: 90%;
 }
 
@@ -50,7 +51,7 @@ svg {
 
 <script>
 // SET UP DIMENSIONS
-var w = 500,
+var w = 600,
     h = 300;
 
 // margin.middle is distance from center line to each y-axis
@@ -99,17 +100,10 @@ percentageAll = function(d) { return d / totalAll; };
 
 // CREATE SVG
 var svg = d3.select('div.pyramid')
-   .append("div")
-   .classed("svg-container", true) //container class to make it responsive
-.append('svg')
-   //.attr('width', margin.left + w + margin.right)
-   //.attr('height', margin.top + h + margin.bottom)
-   //responsive SVG needs these 2 attributes and no width and height attr
-   .attr("preserveAspectRatio", "xMinYMin meet")
-   .attr("viewBox", "0 0 568 344")
-   //class to make it responsive
-   .classed("svg-content-responsive", true)
-    // ADD A GROUP FOR THE SPACE WITHIN THE MARGINS
+    .append("div")
+    .append('svg')
+    .attr("preserveAspectRatio", "xMidYMid meet")
+    .attr("viewBox", "0 0 668 344")
     .append('g')
     .attr('transform', translation(margin.left, margin.top));
 
