@@ -5,6 +5,10 @@
 .nvtooltip {
     font: inherit;
 }
+.nvd3 .nv-axis .nv-axisMaxMin text {
+    font-weight: 400;
+
+}
 .nvd3 * text {
     font: inherit;
 }
@@ -36,6 +40,7 @@ nv.addGraph(function() {
         .yScale(d3.scale.log())
         .forceY([1])
     {% else %}
+        //.forceY([0,35000])
         .y(function(d) { return d[1] })
     {% endif %}
     {% if lineplot.y.range %}
@@ -49,6 +54,7 @@ nv.addGraph(function() {
         d3.select(chart.container).select('g.nv-group.nv-series-' + e.seriesIndex).select('path.nv-line').style('stroke-opacity', '{{ lineplot.opacity|default:"0.3" }}')
 
     })
+    chart.tooltip.valueFormatter(d3.format("{{ lineplot.valformat|default:","}}"));
     chart.legend.margin({top: 2, right:25, left:50, bottom: 0});
     chart.xAxis
         .axisLabel('Year')
@@ -60,7 +66,6 @@ nv.addGraph(function() {
         .tickValues([1,10,100,1000,10000,100000])
     {% endif %}
         .tickFormat(d3.format('{{ lineplot.y.format }}'));
-
 
     d3.select('#chart1')
         .datum(histcatexplong)
