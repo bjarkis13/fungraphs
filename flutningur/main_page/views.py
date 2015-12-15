@@ -28,7 +28,7 @@ def pres(request):
 def about(request):
     template = loader.get_template("main_page/about.html")
     context = RequestContext(request, { 
-        'title' : 'About us',
+        'title' : 'About',
         'aboutactive': True,
         'css' : []
         }, processors = [])
@@ -37,7 +37,7 @@ def about(request):
 def queries(request):
     template = loader.get_template("main_page/queries.html")
     context = RequestContext(request, { 
-        'title' : 'Navigation',
+        'title' : 'Queries',
         'queryactive': True,
         'css' : []
         }, processors = [])

@@ -1,25 +1,18 @@
 {% extends 'base.html' %}
-{% block title %} kaffi? {% endblock %}
 {% block content %} 
     <div class="row">
-      <div class="nine columns" style="margin-top: 0%">
-        <h4>Basic Page</h4>
-      </div>
+      
+        <h4>Population Lineplot</h4>
+		<p>
+			It is possible to select which municipalities show up on the population lineplot by using a simple regex based query. The query is written at after the website path. For example <a href="/plot/linear/0000">/plot/linear/0000</a> shows only Reykjavík. <br><br>
 
-      <div class="three columns" style="margin-top: 0%">
-        <h4>Helo</h4>
-        <p>Lists are coool</p>
-        <ul>
-          <li>Item 1</li>
-          <li>
-            Item 2
-            <ul>
-              <li>Item 2.1</li>
-              <li>Item 2.2</li>
-            </ul>
-          </li>
-          <li>Item 3</li>
-        </ul>
-      </div>
-    </div>
+			The first thing that can be chosen is wether the scale is logarithmic or linear. This is done by writing <a href="/plot/log">/plot/log</a> or <a href="/plot/linear">/plot/linear</a> <br><br>
+
+			There are two ways of choosing which municipalities are shown. The first is to choose a preset. An example of this would be <a href="/plot/log/preset/1">/plot/log/preset/1</a> which selects the capital region. The regions are numbered from 1 to 8 clockwise starting with the capital region. Numbers 0 and 9 are for municipalities with persistent growth and municipalities with persistent depopulation respectively. <br><br>
+
+			The second way of choosing which municipalities are shown is to write them out comma seperated. An example where we choose Reykjavík and Kópavogur is as follows <a href="/plot/log/0000,1000">/plot/log/0000,1000</a>. <br><br>
+
+			Finally it is possible to view aggregated data of regions. This is done with <a href="/plot/log/region/1,2">/plot/log/region/1,2</a> where the regions are labeled 1 to 8 and can be selected comma seperated.
+		</p>
+    
 {% endblock %}
