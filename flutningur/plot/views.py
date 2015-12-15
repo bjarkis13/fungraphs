@@ -57,7 +57,11 @@ def plot(request, args, scale='linear'):
             "height":500,
             "hidelegend":len(lis) > 20,
             "linewidth":"4px",
-            "y" : {"name":"Population", "format": "," }
+            "y" : {
+                "name":"Population",
+                "format": ",",
+                "force": "1,1000" if islog else "0,1000",
+                }
         }
 
     template = loader.get_template("plot/index.html")
