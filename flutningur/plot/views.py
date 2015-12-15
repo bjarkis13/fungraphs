@@ -33,7 +33,11 @@ def aggregate_regions():
         res[rid-1][1].append((y,v))
     return res
 
-def get_mid_data(mun_lis):
+def plot_regions(request,scale='linear'):
+    return response(request, aggregate_regions(), scale)
+
+def plot(request, args, scale='linear'):
+    mun_lis = [int(s) for s in args.split(',')]
     raw = Population.objects.filter(municipality__mid__in=mun_lis).order_by('municipality__name', 'year')
     data = {}
     for line in raw:
@@ -45,18 +49,17 @@ def get_mid_data(mun_lis):
     for key in data:
         lis.append((key, data[key]))
     lis.sort(key=lambda x: IS_sort()(x[0]))
-    return lis
+    return response(request, lis, scale)
 
-def plot(request, args, scale='linear'):
+def response(request, lis, scale):
     islog = scale == 'log'
-    mun_lis = [int(s) for s in args.split(',')]
-    lis = get_mid_data(mun_lis)
     lineplot_d = {
             "values": lis,
             "log": islog,
             "height":500,
             "hidelegend":len(lis) > 20,
             "linewidth":"4px",
+            "opacity": 0.14 if len(lis) > 20 else 0.6,
             "y" : {
                 "name":"Population",
                 "format": ",",

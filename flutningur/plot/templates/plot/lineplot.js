@@ -46,7 +46,12 @@ nv.addGraph(function() {
     {% if lineplot.y.range %}
         .yDomain([{{ lineplot.y.range.0 }},{{ lineplot.y.range.1 }}])
     {% endif %}
+    {% if not lineplot.hidelegend %}
         .color(['#66c2a5','#fc8d62','#8da0cb','#e78ac3','#a6d854','#ffd92f','#e5c494','#b3b3b3']);
+    {% else %}
+        .color(['#1f78b4'])
+    {% endif %}
+        //.color(['#1f78b4','#33a02c','#e31a1c','#ff7f00','#6a3d9a','#b15928','#a6cee3','#b2df8a','#fb9a99','#fdbf6f','#cab2d6']);
     chart.lines.dispatch.on('elementMouseover.recolor', function(e){
         d3.select(chart.container).select('g.nv-group.nv-series-' + e.seriesIndex).select('path.nv-line').style('stroke-opacity', '1')
     })
@@ -55,7 +60,7 @@ nv.addGraph(function() {
 
     })
     chart.tooltip.valueFormatter(d3.format("{{ lineplot.valformat|default:","}}"));
-    chart.legend.margin({top: 2, right:25, left:50, bottom: 0});
+    chart.legend.margin({top: 2, right:25, left:50, bottom: 3});
     chart.xAxis
         .axisLabel('Year')
         .tickFormat(d3.format(''));
