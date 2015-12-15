@@ -3,9 +3,11 @@
 {% block content %} 
     <div class="row">
       <div class="nine columns" style='margin-top: 0%'>
+<div class='docs-section'>
         <h4>Data Acquisition and Visualisation, T-416-VIFG</h4>
 	<p> The Icelandic Regional Development Institute defines municipalities which have 15 percent or more depopulation over the last 15 years as municipalities with persistent depopulation. We want to examine these municipalities on how they differ from others in population, expenses and age distribution.
 	The municipalities which fall under IRDIs definition of municipalitites with presistent depopulation are, </p>
+    </div>
 	<ul style='width:50%; float:left;'>
 	<li> Vestfirðir </li>
 	  <ul style='list-style-type:none'>
@@ -42,51 +44,51 @@
             <li> Skaftárhreppur </li>
           </ul>
 	</ul>
+</div>
 
-	<p> 
-		<h5> Municipalities of special interest </h5>
-		<a href="/municipalities/4200">Ísafjarðarbær</a><br>
+<div class='docs-section'>
+    <ul>
+		<li> Municipalities of special interest </li>
+        <ul>
+            <li><a href="/municipalities/4200">Ísafjarðarbær</a></li>
+            <li><a href="/municipalities/7613">Breiðdalshreppur</a></li>
+            <li><a href="/municipalities/6100">Norðurþing</a></li>
+            <li><a href="/municipalities/8509">Skaftárhreppur</a></li>
+            <li><a href="/municipalities/1000">Kópavogur</a></li>
+        </ul>
+    </ul>
+</div>
+<div class='docs-section'>
 
-		<a href="/municipalities/7613">Breiðdalshreppur</a><br>
-
-		<a href="/municipalities/6100">Norðurþing</a><br>
-		
-		<a href="/municipalities/8509">Skaftárhreppur</a><br>		
-
-		<a href="/municipalities/1000">Kópavogur</a><br>
-	</p>
-
-	<p>
 		<h5> Population comparisons </h5>
 
-		<h6> Population influx during Kárahnjúkar </h6>
-
-		<a href="/plot/log/preset/7">Austurland</a><br>
-		<a href="/municipalities/7505">Fljótsdalshreppur</a><br><br>
-
-		<h6> Municipalities </h6>
-
-		<a href="/plot/log/preset/0">Persistent growth</a><br>
-
-		<a href="/plot/log/preset/9">Persistent depopulation</a><br><br>
-
-		<h5> Line plots </h5>
-		<a href="/plot/linear/4200,4100,4607">Merges in Vestfirðir</a><br>
-		<a href="/maps">Population choropleth, 1900-2014</a><br><br>
-		<a href="/plot/log/region">Population changs by region</a>
-
-	</p>
+        <ul>
+        <li> Population influx during Kárahnjúkar </li>
+            <ul>
+                <li><a href="/plot/log/preset/7">Austurland</a></li>
+                <li><a href="/municipalities/7505">Fljótsdalshreppur</a></li>
+            </ul>
+        <li> Municipalities </li>
+            <ul>
+                <li><a href="/plot/log/preset/0">Persistent growth</a></li>
+                <li><a href="/plot/log/preset/9">Persistent depopulation</a></li>
+            </ul>
+        <li> Line plots </li>
+        <ul>
+            <li><a href="/plot/linear/4200,4100,4607">Merges in Vestfirðir</a></li>
+            <li><a href="/maps">Population choropleth, 1900-2014</a></li>
+            <li><a href="/plot/log/region">Population changs by region</a></li>
+        </ul>
+        </ul>
+</div>
       </div>
-      
-    <p>  </p>
 
-      <div class="three columns" style="margin-top: 0%">
+  <div class="three columns" style="margin-top: 0%">
         <h4>Authors</h4>
         <ul>
-	<li> Benedikt Geir Jóhannesson </li>
-	<li> Bjarki Stefánsson </li>
-	<li> Karl Þorláksson </li>
+            <li> Benedikt Geir Jóhannesson </li>
+            <li> Bjarki Stefánsson </li>
+            <li> Karl Þorláksson </li>
         </ul>
-      </div>
     </div>
 {% endblock %}
