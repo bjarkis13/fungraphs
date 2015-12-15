@@ -50,7 +50,7 @@ def sveito(request, mid):
         for i in Changes.objects.filter(new=mun):
             #from, to, year
             changes.append((i.old.name,i.new.name,i.year))
-            changes += getChanges(i.old) 
+            if i.old.name != i.new.name: changes += getChanges(i.old) 
         return changes
 
     #Double loops are in P
@@ -66,7 +66,7 @@ def sveito(request, mid):
 
         changes = []
         for y in dic:
-            changes.append((y, list(set(dic[y][0])), list(set(dic[y][1]))))
+            changes.append((y, ",".join(list(set(dic[y][0]))), list(set(dic[y][1]))))
         changes.sort(key=lambda x:x[0])
         return changes[::-1]
 
