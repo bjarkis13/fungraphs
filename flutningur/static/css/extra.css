@@ -42,3 +42,8 @@
 #bannernav li a:hover:not(.active) {
     background-color: #ddd;
 }
+
+.docs-section {
+    border-top: 1px solid #eee;
+    padding: 4rem 0;
+margin-bottom: 0;}
