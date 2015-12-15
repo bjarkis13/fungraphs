@@ -2,7 +2,7 @@ from django.shortcuts import render
 from django.http import HttpResponse
 from django.template import RequestContext, loader
 from django.db.models import Sum, F, FloatField, Avg
-from population.models import Municipality, Population, GenderPop, Regions, SpendingPerCapita
+from population.models import Municipality, Changes, Population, GenderPop, Regions, SpendingPerCapita
 from flutningur.utils import IS_sort
 from flutningur.constants import get_bad_mid, get_good_mid
 
@@ -43,6 +43,38 @@ def sveito(request, mid):
     except Municipality.DoesNotExist:
         raise Http404('Municipality does not exist')
 
+    #gets change table for a specific municipality
+    #recursion ho!
+    def getChanges(mun):
+        changes = [] 
+        for i in Changes.objects.filter(new=mun):
+            #from, to, year
+            changes.append((i.old.name,i.new.name,i.year))
+            changes += getChanges(i.old) 
+        return changes
+
+    #Double loops are in P
+    def niceChanges(mun):
+        changes = getChanges(mun)
+        #y : [from, to]
+        dic = {}    
+        for change in changes:
+            f, t, y = change
+            if y not in dic: dic[y] = [[],[]]
+            dic[y][0].append(f)
+            dic[y][1].append(t)
+
+        changes = []
+        for y in dic:
+            changes.append((y, list(set(dic[y][0])), list(set(dic[y][1]))))
+        changes.sort(key=lambda x:x[0])
+        return changes[::-1]
+
+    #    changes = getChanges(mun)
+    #    years = set(map(lambda x:x[2], changes))
+    #    return [[y for y in changes if y[2]==x] for x in years] 
+
+    changes = niceChanges(mun)
     #Year is temporarily hardcoded
     year = 2014
 
@@ -137,6 +169,7 @@ def sveito(request, mid):
             "format": "d"
             }
         },
-    'munipop' : munipop
+    'munipop' : munipop,
+    'changes' : changes
     },processors=[])
     return HttpResponse(template.render(context))
