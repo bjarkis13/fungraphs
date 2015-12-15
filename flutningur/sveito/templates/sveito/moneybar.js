@@ -68,7 +68,7 @@ var svg = d3.select("div.moneybar")
     .append("div")
     .append("svg")
     //responsive SVG needs these 2 attributes and no width and height attr
-    .attr("preserveAspectRatio", "xMinyMin meet")
+    .attr("preserveAspectRatio", "xMinYMin meet")
     .attr("viewBox", "0 0 960 500")
     .append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
@@ -100,7 +100,7 @@ var data = [
       .call(yAxis)
     .append("text")
       //.attr("transform", "rotate(-90)")
-      .attr("y", -20)
+      .attr("y", -19)
       .attr("x", -margin.left)
       .attr("dy", ".71em")
       .style("text-anchor", "start")

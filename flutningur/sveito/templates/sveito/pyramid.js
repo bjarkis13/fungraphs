@@ -102,7 +102,7 @@ percentageAll = function(d) { return d / totalAll; };
 var svg = d3.select('div.pyramid')
     .append("div")
     .append('svg')
-    .attr("preserveAspectRatio", "xMidYMid meet")
+    .attr("preserveAspectRatio", "xMinYMin meet")
     .attr("viewBox", "0 0 668 344")
     .append('g')
     .attr('transform', translation(margin.left, margin.top));
