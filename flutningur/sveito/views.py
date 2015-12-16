@@ -62,10 +62,13 @@ def sveito(request, mid):
         #Handle the cases where something splits from our muni
         changes = sorted(changes, key=lambda x:x[2])[::-1]
 
+
+        #This might be a bit dirty but the set conversion fixes it
         splits = []
         for i in changes:
             for split in Changes.objects.filter(old=Municipality.objects.get(name=i[0])):
                 splits.append((split.old.name,split.new.name,split.year))
+                splits.append((split.new.name,split.new.name,split.year))
 
         return changes+splits
 
@@ -91,7 +94,7 @@ def sveito(request, mid):
     #    return [[y for y in changes if y[2]==x] for x in years] 
 
     changes = niceChanges(mun)
-    #Year is temporarily hardcoded
+    #Year is permanently hardcoded
     year = 2014
 
     munipop = Population.objects.get(municipality=mun,year=year).val
