@@ -67,8 +67,7 @@ def sveito(request, mid):
         splits = []
         for i in changes:
             for split in Changes.objects.filter(old=Municipality.objects.get(name=i[0])):
-                splits.append((split.old.name,split.new.name,split.year))
-                splits.append((split.new.name,split.new.name,split.year))
+                splits.append((split.old.name,split.new.name,split.year)) 
 
         return changes+splits
 
