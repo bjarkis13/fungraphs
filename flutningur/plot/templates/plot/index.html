@@ -2,5 +2,5 @@
 {% block title %}{{ title }}{% endblock %}
 {% block content %}
 {% include 'plot/lineplot.html' %}
-<p>A line chart for estimated population in each of the current municipalities through time, note that if you hover a line the value and name are displayed and the line will stick out from the others. </p>
+<p>A line chart for estimated population in each {{ lineplot.what|default:"chosen municipality"}} through time, note that if you hover a line the value and name are displayed and the line will stick out from the others. </p>
 {% endblock %}
