@@ -163,7 +163,6 @@ Hálsahreppur,Borgarfjarðarsveit,1998
 Hjaltastaðarhreppur,Austur- Hérað,1998
 Hofshreppur Skaftafellssýslu,Sveitarfélagið Hornafjörður,1998
 Hofshreppur Skagafjarðarsýslu,Sveitarfélagið Skagafjörður,1998
-Hofshreppur Skagafjarðarsýslu,Sveitarfélagið Skagafjörður,1998
 Hólahreppur,Sveitarfélagið Skagafjörður,1998
 Hornafjarðarbær,Sveitarfélagið Hornafjörður,1998
 Hvammstangahreppur,Húnaþing vestra,1998

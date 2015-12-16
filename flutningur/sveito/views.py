@@ -45,9 +45,10 @@ def sveito(request, mid):
 
     #gets change table for a specific municipality
     #recursion ho!
-    def getChanges(mun):
+    def getChanges(mun, fromYear=2015):
         changes = [] 
         for i in Changes.objects.filter(new=mun):
+            if i.year > fromYear: continue
             #If it is not 100% then there was a split
             if i.percent != 100:
                 total = False
@@ -56,7 +57,7 @@ def sveito(request, mid):
                 if not total: changes.append((i.old.name,i.old.name,i.year))
 
             changes.append((i.old.name,i.new.name,i.year))
-            if i.old.name != i.new.name: changes += getChanges(i.old)
+            if i.old.name != i.new.name: changes += getChanges(i.old,i.year)
 
         #Handle the cases where something splits from our muni
         changes = sorted(changes, key=lambda x:x[2])[::-1]
