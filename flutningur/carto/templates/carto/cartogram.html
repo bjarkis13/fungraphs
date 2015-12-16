@@ -5,7 +5,7 @@
     <title>Cartograms with d3 &amp; TopoJSON</title>
     <meta charset="utf-8">
     <meta property="og:image" content="placeholder.png">
-    <script src="http://d3js.org/d3.v3.min.js"></script>
+    <script src="http://d3js.org/d3.v2.min.js"></script>
     <script src="{% static "lib/colorbrewer.js" %}"></script>
     <script src="{% static "lib/topojson.js" %}"></script>
     <script src="{% static "cartogram.js" %}"></script>
@@ -194,18 +194,10 @@
 
       var map = d3.select("#map");
       
-
-      var proj = d3.geo.conicConformal()
-            .parallels([64 + 15/60, 64 + 45/60])
-            .center([0, 65])
-            .rotate([18, 0])
-            .scale(6000)
-            .translate([400, 250])
-            .precision(.01);
-      //var proj = d3.geo.albers()
-      //    .origin([-18, 65])
-      //    .scale(6000)
-      //    .translate([400, 250]);
+      var proj = d3.geo.albers()
+          .origin([-18, 65])
+          .scale(6000)
+          .translate([400, 250]);
       var path = d3.geo.path().projection(proj);
 
       var layer = map.append("g")
