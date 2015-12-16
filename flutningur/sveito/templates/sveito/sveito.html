@@ -47,7 +47,8 @@
 	</p>
 </div>
 <div id="changes" class='docs-section'>
-<h2>Merges, splits and name changes</h2>
+<h2>Merges, splits and name changes since 1900</h2>
+{% if changes %}
 <table class="u-full-width">
   <thead>
     <tr>
@@ -66,5 +67,8 @@
       {% endfor %}
   </tbody>
 </table>
+{% else %}
+    <p>There have been no merges, splits nor name changes since 1900.</p>
+{% endif %}
 </div>
 {% endblock %}
