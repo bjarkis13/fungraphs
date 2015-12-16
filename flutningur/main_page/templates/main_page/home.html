@@ -1,19 +1,14 @@
 {% extends 'base.html' %}
+{% block title %} 
+{{ title }}
+{% endblock %}
 {% block content %} 
     <div class="row">
-      <div class="nine columns" style="margin-top: 0%">
-        <h4> Migrations in Iceland </h4>
 	<p> For some years there has been talk of the depopulation of smaller municipalities in Iceland. <br> This site was created in order to examine the causes of these migrations and their symptoms. Furthermore the extent of these migration can be seen on an interactive map.
 	</p>
-      </div>
-
-      <div class="three columns" style="margin-top: 0%">
-        <h4>Authors</h4>
-        <ul>
-          <li>Benedikt Geir Jóhannesson</li>
-          <li>Bjarki Stefánsson</li>
-          <li>Karl Þorláksson</li>
-        </ul>
-      </div>
+    <p> All population data is normalized such that we map census numbers to the current municipality that those people would dwell in today.
+    Some estimations had to be made prior to 1948 since municipalities were still dissolvind. When for example an old municipality lies within two or more municipalities today.
+    Since then only mergers have occurred so all data from 1950s onward should be correct.
+    </p>
     </div>
 {% endblock %}

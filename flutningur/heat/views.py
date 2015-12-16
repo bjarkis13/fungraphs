@@ -51,8 +51,8 @@ def plot(request):
         'subtitle' : '{} choropleth'.format('Population'),
         'choroplethdata' : lis,
         'groups': groups,
-        'subbanner' : True,
-        'subbanner_data' : [("By population", "/maps/", True)],
+#        'subbanner' : True,
+#        'subbanner_data' : [("By population", "/maps/", True)],
         'css' : ["css/svgmap.css"],
         'js':["jquery-1.10.2.min.js", "d3.v2.min.js"]
         }, processors = [])

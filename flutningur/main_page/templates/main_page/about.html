@@ -1,15 +1,25 @@
 {% extends 'base.html' %}
+{% block title %} 
+About this page
+{% endblock %}
 {% block content %} 
     <div class="row">
       <div class="nine columns" style="margin-top: 0%">
-        <h4> Data Acqusition and Visualisation </h4>
+        <h5> Data Acqusition and Visualisation </h5>
 		<p>
 			This site was created as part of a project in the course "Data Acqusition and Visualisation" at Reykjavík University.
+            <a href="https://www.djangoproject.com/">Django 1.8.7</a> was used as a framework,
+            <a href="http://getskeleton.com/">skeleton</a> was the basis for the stylesheet,
+            jquery for the interactive map,
+            <a href="https://en.wikipedia.org/wiki/Seltjarnarnes#/media/File:Seltjarnarneskaupstadur_map.svg">based on this svg</a>
+            modified by hand and with <a href="https://inkscape.org/en/">inkscape</a> for missing municipalities
+            <a href="http://nvd3.org/">nvd3</a> for line charts and
+            <a href="http://d3js.org/">d3</a> for graphs.
 		</p>
       </div>
 
       <div class="three columns" style="margin-top: 0%">
-        <h4>Authors</h4>
+        <h5>Authors</h5>
         <ul>
           <li>Benedikt Geir Jóhannesson</li>
           <li>Bjarki Stefánsson</li>
