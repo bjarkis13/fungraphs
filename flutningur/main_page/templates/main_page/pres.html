@@ -1,5 +1,16 @@
 {% extends 'base.html' %}
+{% load staticfiles %}
 {% block title %} Presentation {% endblock %}
+{% block headercontent %}
+<style>
+li a {
+    color: #333;
+}
+div.row {
+    padding-bottom:20rem;
+}
+</style>
+{% endblock %}
 {% block content %} 
 <div class='row'>
     <div class="nine columns">
@@ -58,10 +69,19 @@
 	</ul>
     </div>
 </div>
+<div class='row'>
+		<h5> Course view on migration </h5>
+    <ul>
+        <ul>
+            <li><a href="/plot/linear/regions">Population changes by region</a></li>
+            <li><a href="/maps">Population choropleth, 1900-2014</a></li>
+        </ul>
+    </ul>
+</div>
 
 <div class='row'>
+		<h5> Municipalities of special interest </h5>
     <ul>
-		<li> Municipalities of special interest </li>
         <ul>
             <li><a href="/municipalities/4200">Ísafjarðarbær</a></li>
             <li><a href="/municipalities/7613">Breiðdalshreppur</a></li>
@@ -71,6 +91,7 @@
         </ul>
     </ul>
 </div>
+
 
 <div class='row'>
 		<h5> Population comparisons </h5>
@@ -87,11 +108,14 @@
             </ul>
         <li> Line plots </li>
         <ul>
-            <li><a href="/plot/linear/4200,4100,4607">Merges in Vestfirðir</a></li>
-            <li><a href="/maps">Population choropleth, 1900-2014</a></li>
-            <li><a href="/plot/log/region">Population changs by region</a></li>
+            <li><a href="/plot/linear/4200,4100,4607,4604">Merges in Vestfirðir</a></li>
         </ul>
     </ul>
+</div>
+<div class='row'>
+		<h5> Growth class comparison 2014</h5>
+<img src="{% static 'images/growth.png' %}" width="650px"> <img>
+<img src="{% static 'images/depop.png' %}" width="650px"> <img>
 </div>
 
 {% endblock %}
